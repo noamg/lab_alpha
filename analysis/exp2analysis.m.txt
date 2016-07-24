@@ -1,0 +1,89 @@
+folder = 'C:\Users\Dan Wexler\Documents\school\year 3\lab3\alpha decay\exp2\';
+files = dir([folder,'*.Spe']);
+
+p = [[108;206;316;526;588;49.5;418;630;662;729;0]...
+    ,[118;220;319;530;590;49.9;412;630;662;731;0]];
+[p_mean,sortInd] = sort(mean(p,2));
+
+for ind = 1:length(files)
+    exp2.time(ind,1:2) = dlmread([folder,files(sortInd(ind)).name],' ',[9,0,9,1]);
+    exp2.data(ind,1:2048) = dlmread([folder,files(sortInd(ind)).name],'\t',[12,0,12+2047,0]);
+    exp2.data(ind,1:100) = 0;
+end
+
+exp2.countMax = max(exp2.data,[],2);
+
+exp2.data_normCount = bsxfun(@rdivide,exp2.data,exp2.countMax);
+exp2.data_normTime = bsxfun(@rdivide,exp2.data,exp2.time(:,1));
+
+%linear approx for peak center fit
+p_f = 730;
+peak_center1 = @(x) 1310 - x*(1310 - 1012)/p_f;
+peak_center2 = @(x) 1011 - x*(1011 - 637)/p_f;
+peak_center3 = @(x) 938 - x*(938 - 531)/p_f;
+peak_center4 = @(x) 910 - x*(910- 482)/p_f;
+peak_center5 = @(x) 903 - x*(903 - 482)/p_f;
+peak_center6 = @(x) 850 - x*(850 - 395)/p_f;
+peak_center7 = @(x) 811 - x*(811 - 330)/p_f;
+peak_center8 = @(x) 797 - x*(797 - 302)/p_f;
+sqr_correction = @(x) -4*19*(x/730 - 1)*x/730;
+peak_center = @(x) [peak_center8(x),peak_center7(x),peak_center6(x),peak_center5(x),...
+    peak_center4(x),peak_center3(x),peak_center2(x),peak_center1(x)]...
+    + sqr_correction(x)*ones(1,8);
+
+% % intermediate plotting
+% for ind = 1:length(files)
+%     [fitVec{ind},gof{ind}] = skewGaussFit(exp2.data_normTime(ind,:)*5e2,peak_center(p_mean(ind)));
+% end
+% 
+% for ind = 1:11
+%     figure(100+ind)
+%     plot(fitVec{ind},0:2047,exp2.data_normTime(ind,:)*5e2)
+% end
+% 
+% figure
+% hold on
+% for ind = 1:11
+% plot3(p_mean(ind)*ones(2048,1),0:2047,exp2.data_normTime(ind,:))
+% end
+% fplot(peak_center,[0,730])
+
+fittedPeakCenters_pre = [fitVec{1}.b1,fitVec{1}.b2,fitVec{1}.b3,fitVec{1}.b4,...
+    fitVec{1}.b5,fitVec{1}.b6,fitVec{1}.b7,fitVec{1}.b8];
+count = 1;
+for ind = [2:8,11]
+    fittedPeakCenters_post = [fitVec{ind}.b1,fitVec{ind}.b2,fitVec{ind}.b3,fitVec{ind}.b4,...
+        fitVec{ind}.b5,fitVec{ind}.b6,fitVec{ind}.b7,fitVec{ind}.b8];
+    deltaE(count,:) = fittedPeakCenters_post-fittedPeakCenters_pre;
+    meanE(count,:) = (fittedPeakCenters_post+fittedPeakCenters_pre)/2;
+    count = count+1;
+    fittedPeakCenters_pre = fittedPeakCenters_post;
+end
+deltaP = -(p_mean(1:8) - p_mean([2:8,11]));
+
+bin2E = @(x) 6.729*x-40;
+%plot dE/dx (dp)
+figure
+hold on
+for ind = 1:8
+    plot(bin2E(meanE(:,ind)),bin2E(deltaE(:,ind))./deltaP,'.-')
+end
+
+torr2barye = 1333.22;
+mN2 = 28;
+N_A = 6.022e23;
+K_B = 1.38e-16;
+l = 3;
+T = 300;
+p2x = N_A*K_B*T/(l*mN2*torr2barye);
+
+figure
+hold on
+for ind = 1:8
+    plot(bin2E(meanE(:,ind)),p2x*bin2E(deltaE(:,ind))./deltaP,'.-')
+end
+% figure
+% hold on
+% for ind = 1:8
+%     plot(p_mean,[fitVec{ind}.b1,fitVec{ind}.b2,fitVec{ind}.b3,fitVec{ind}.b4,...
+%         fitVec{ind}.b5,fitVec{ind}.b6,fitVec{ind}.b7,fitVec{ind}.b8],'.-')

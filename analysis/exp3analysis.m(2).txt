@@ -1,0 +1,13 @@
+folder = 'C:\Users\Dan Wexler\Documents\school\year 3\lab3\alpha decay\exp3\';
+files = dir([folder,'*.Spe']);
+
+for ind = 1:length(files)
+    unsortInd(ind) = str2num(files(ind).name(1:end-4));
+end
+[~,sortInd] = sort(unsortInd);
+
+for ind = 1:length(files)
+    exp3.time(ind,1:2) = dlmread([folder,files(sortInd(ind)).name],' ',[9,0,9,1]);
+    exp3.data(ind,1:2048) = dlmread([folder,files(sortInd(ind)).name],'\t',[12,0,12+2047,0]);
+    exp3.data(ind,1:100) = 0;
+end
