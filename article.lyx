@@ -1,0 +1,1471 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 2cm
+\rightmargin 3cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+כוח עצירה של חלקיקי אלפא בגז חנקן
+\end_layout
+
+\begin_layout Author
+דן וקסלר ונועם גביש, בהנחיית פרופ' מיכאל פאול וד"ר גיא רון
+\end_layout
+
+\begin_layout Abstract
+תקציר.
+ משחר ההיסטוריה רדיואקטיביות.
+ טוסטר.
+ תחרות בהרמת משקולות.
+ צ'רנוביל.
+\end_layout
+
+\begin_layout Abstract
+מדידת כוח עצירה של חלקיקי אלפא בגז מימן.
+ 
+\end_layout
+
+\begin_layout Abstract
+*** השוואה למידע אמריקאים
+\end_layout
+
+\begin_layout Abstract
+*** השוואה למודל 
+\begin_inset Formula $bethe$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+ניתוח הטווח בעזרת אינטרציה *** השוואה לטווחים ידועים מהספרות.
+ 
+\end_layout
+
+\begin_layout Abstract
+זיהוי מקור לא ידוע בעזרת ספקטרוסקופיה
+\end_layout
+
+\begin_layout Abstract
+שימוש בגלאי מוליך למחצה.
+\end_layout
+
+\begin_layout Subsection*
+stodo
+\end_layout
+
+\begin_layout Standard
+ניתוחים:
+\end_layout
+
+\begin_layout Standard
+זיהוי מקור.
+\end_layout
+
+\begin_layout Standard
+אנחנו צריכים לשבת היום על זיהוי המקור.
+ אם אנחנו לא מצליחים, צריך להתייעץ עם מיכאל או גיא., או דניאל, או דו"ח קודם.
+ או להיות יצירתי יותר מזה.
+\end_layout
+
+\begin_layout Standard
+דגרפים: אסתטיקה ושגיאות
+\end_layout
+
+\begin_layout Standard
+דו"ח:
+\end_layout
+
+\begin_layout Standard
+להיסגר על כוח הזיווג
+\end_layout
+
+\begin_layout Standard
+רקע תאורטי
+\end_layout
+
+\begin_layout Standard
+נועם: אולי מבנה של: רקע, מערכת ניסוי, מהלך-תוצאות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+פעמים, דיון
+\end_layout
+
+\begin_layout Standard
+לסלק פיגומים מהניסוי הקודם.
+\end_layout
+
+\begin_layout Standard
+מערכת הניסוי: כל הפרטים מהמחברת.
+ תרשים.
+\end_layout
+
+\begin_layout Subsubsection*
+אי וודאויות
+\end_layout
+
+\begin_layout Standard
+אי וודאויות: ספקטרומים: ציר אנרגיה: אי וודאות היא רוחב תא.
+ אי וודאות בציר מנייה הוא 
+\begin_inset Formula $\sqrt{N(E)}$
+\end_inset
+
+.
+ אם זה יותר מדי עמוס בגרף, לשאול את סתו על פונקציה של מטלב שיוצרת בצבע תחומי
+ שגיאה
+\end_layout
+
+\begin_layout Standard
+ניסוי שלישי: חישוב הפליטות פר מקטע זמן נעשה ע"י חיסור שמגדיל את השגיאה ב-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לכל היותר.
+ הסיבה היא שיש תלות בין המדידות, ואנחנו יודעים אותה!! לא ב"ת.
+ לאחר מכן שוב 
+\begin_inset Formula $\sqrt{N(E)}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+פיטים של גאוסיאנים לא סימטריים.
+ אי וודאות במרכז מתוך הפיט.
+ אי וודאות בספירה הכוללת )משתמשים בזה אח"כ בשביל יחסים בין זמנים אני חושב(.
+\end_layout
+
+\begin_layout Standard
+לרגרסיה הלינארית: בין של מרכז פיק + אי וודאות מול אנרגיה ידועה + אי וודאות.
+ התאמה אופטימלית )ואי הוודאויות שלה(
+\end_layout
+
+\begin_layout Standard
+דעיכה תלוית זמן: אי וודאות בזמן לפי רוחב מקטע זמן.
+ אי וודאות בספירה לפי ספירה כוללת של הפיק.
+\end_layout
+
+\begin_layout Standard
+ספקטרום של מקור לא ידוע: בעיקרון אנחנו צריכים לקחת את חוסר הוודאויות של
+ הבינים, וגם את חוסר הוודאות של ההמרה בין בין לבין אנרגיה.
+\end_layout
+
+\begin_layout Standard
+כוח עצירה: המרה בין לחץ לבין מרחק: גרירת אי וודאויות קלאסית.
+\end_layout
+
+\begin_layout Standard
+בגרף של 
+\begin_inset Formula $\frac{dE}{dx}(E)$
+\end_inset
+
+ נקודות אנרגיה לפי אמצע של שתי אנרגיות סמוכות, אי וודאויות לפי האנרגיות
+ האלה, אי וודאות בלחץ, אי וודאות בשיפוע.
+\end_layout
+
+\begin_layout Standard
+אי וודאות בטווח: לוקחים את ההופכי של 
+\begin_inset Formula $\frac{dE}{dx}(E)$
+\end_inset
+
+ כולל אי הוודאות, האינטרגציה תבוא מיד עם אי וודאות.
+ רק שהסכימה של האי וודאויות היא בסכימה אוקלידית.
+\end_layout
+
+\begin_layout Standard
+נראה לי שזהו.
+\end_layout
+
+\begin_layout Part*
+רקע תיאורטי
+\end_layout
+
+\begin_layout Subsubsection*
+מושגים לוודא שישנם
+\end_layout
+
+\begin_layout Standard
+חלקיק אלפא
+\end_layout
+
+\begin_layout Standard
+מינהור דרך מחסום פוטנציאל קולומבי
+\end_layout
+
+\begin_layout Standard
+קבוע הדעיכה + קשר לאנרגית מעבר
+\end_layout
+
+\begin_layout Standard
+זמן חיים
+\end_layout
+
+\begin_layout Standard
+? כלל הזהב של פרמי, פליטה לרצף
+\end_layout
+
+\begin_layout Standard
+השפעת תנע זוויתי
+\end_layout
+
+\begin_layout Standard
+אינטרקצית חלקיק טעון עם חומר, כוח העצירה
+\end_layout
+
+\begin_layout Standard
+גלאים שרשרת טבעית ספקטרוסקופיה.
+ כוח עצירה, תיאורית Beth.
+ 
+\end_layout
+
+\begin_layout Subsection*
+מושגים בסיסיים בנוגע לחומר הגרעיני
+\end_layout
+
+\begin_layout Standard
+החומר הגרעיני.
+\end_layout
+
+\begin_layout Standard
+תיאור קוונטי.
+ תיאור פשוט יותר.
+ קליפות
+\end_layout
+
+\begin_layout Standard
+צפיפות
+\end_layout
+
+\begin_layout Standard
+התפלגות המטען
+\end_layout
+
+\begin_layout Standard
+רדיוס בערך.
+ חשמלי, חומרי
+\end_layout
+
+\begin_layout Standard
+אנרגית קשר גרעינית.
+ הכוח הגרעיני.
+\end_layout
+
+\begin_layout Standard
+מסה גרעינית.
+ מסות מנוחה ואנרגית קשר.
+\end_layout
+
+\begin_layout Standard
+נוסחת מסה סמי-אמפירית ***
+\end_layout
+
+\begin_layout Standard
+גרף של אנרגית קשר ממוצעת לנוקליאון.
+ מקסימום גלובלי.
+\end_layout
+
+\begin_layout Standard
+כוח הזיווג? שיקולי תנ"ז.
+ זוגיות נוקליאונים?
+\end_layout
+
+\begin_layout Subsubsection*
+רדיואקטיביות
+\end_layout
+
+\begin_layout Standard
+פליטה ספנוטנית, יתרון אנרגתי
+\end_layout
+
+\begin_layout Standard
+אמפירי: קבוע דעיכה, סטטיסטי.
+\end_layout
+
+\begin_layout Standard
+אלפא, בתא, גאמא, ביקוע ספונטני
+\end_layout
+
+\begin_layout Standard
+שיווי משקל סקולרי
+\end_layout
+
+\begin_layout Standard
+שרשראות התפרקויות.
+ 
+\end_layout
+
+\begin_layout Standard
+יצירה של יסודות רדיואקטיביים
+\end_layout
+
+\begin_layout Standard
+ניתוח קוונטי: כלל הזהב של פרמי.
+\end_layout
+
+\begin_layout Subsection*
+קריאת אלפא, מודל .....
+\end_layout
+
+\begin_layout Standard
+ניתוח אנרגתי.
+ הסיבה לפליטת אלפא.
+ קומפקטי.
+\end_layout
+
+\begin_layout Standard
+חוקי שימור בהתפרקויות.
+ אנרגיה + מסה, תנע, תנ"ז, זוגיות
+\end_layout
+
+\begin_layout Standard
+אנרגית רתע במערכת מרכז המסה, במערכת המעבדה.
+\end_layout
+
+\begin_layout Standard
+התנהגות שונה לזוגיות של Z,N.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+8.4
+\numeric off
+: מודל שמן שמנסה לנתח את ההסתברות למנהר? זמן מחצית חיים.
+ לפחות להזכיר אותו.
+ המודל לא נותן תוצאות טובות כמותית, כן מבהיר משהו לגבי הסקאלות השונות במערכת.
+ רגישות לאנרגיה.
+\end_layout
+
+\begin_layout Standard
+* ספקטרוסקופיה
+\end_layout
+
+\begin_layout Subsubsection*
+חלקיקי אלפא בחומר
+\end_layout
+
+\begin_layout Standard
+כבדים, טעונים.
+ אינטרציה של פיזור אלסטי עם אלקטרונים.
+ תנועה בערך בקו ישר.
+ האלקטרונים שניתזו יכולים לגרור אלקטרונים נוספים.
+ קרינה מיננת.
+ מדידת האלקטרונים.
+\end_layout
+
+\begin_layout Standard
+ברוב המוצקים חודרים עד
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+100
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מיקרון.
+\end_layout
+
+\begin_layout Standard
+אובדן אנרגיה רציף.
+ דיפוזיה של אנרגיה.
+ סטטיסטי.
+ טווח~
+\end_layout
+
+\begin_layout Standard
+כוח עצירה.
+\end_layout
+
+\begin_layout Standard
+מודל 
+\begin_inset Formula $bethe$
+\end_inset
+
+.
+ לא טוב לתחום של מהירויות נמוכות.
+ *** האם אנחנו משווים למודל זה מתישהו???? *** השוואה בין חלקיקים באותו חומר.
+\end_layout
+
+\begin_layout Subsubsection*
+אופן פעולת גלאי מסוג מוליך למחצה
+\end_layout
+
+\begin_layout Standard
+במעבר בין מל"מ מסוג n לסוג p אפשר ליצור אזור נטול מטענים חופשיים (אלקטרונים
+ או חורים) תחת שדה חשמלי חזק.
+ חלקיק שיוצר אינטראקציה משחרר מטען שינוע תחת השדה וייספר כבמונה ממולא גז.
+ 
+\end_layout
+
+\begin_layout Standard
+כלומר: אמפרמטר.
+\end_layout
+
+\begin_layout Part*
+מערכת הניסוי
+\end_layout
+
+\begin_layout Standard
+מטרת מערכת הניסוי: ספירה של חלקיקי אלפא באנרגיות שונות בגלאי.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+סכימה של מערכת הניסוי: ניתן לראות .....
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+רכיבים במערכת הניסוי:
+\end_layout
+
+\begin_layout Standard
+גלאי.
+ מצב מוצק, טרנזיסטור, מתח אחורי.
+ הגלאי מחובר למחשב, ספירת תאים.
+ תוכנה *** בזמן העיבוד לא פנוי לקליטות נוספות.
+ זמן ברוטו.
+ זמן אפקטיבי.
+\end_layout
+
+\begin_layout Standard
+מקור חלקיקי אלפא
+\end_layout
+
+\begin_layout Standard
+משאבה מכנית רגילה
+\end_layout
+
+\begin_layout Standard
+משאבת דיפוזיה
+\end_layout
+
+\begin_layout Standard
+מיכל חנקן
+\end_layout
+
+\begin_layout Standard
+מד לחץ
+\end_layout
+
+\begin_layout Standard
+צנרת, שסתומים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $cold-trapping$
+\end_inset
+
+ עם חנקן נוזלי.
+\end_layout
+
+\begin_layout Subsubsection*
+על מה יש להקפיד כדי לא להזיק למערכת:
+\end_layout
+
+\begin_layout Standard
+שלא ייכנס שמן לתוך??
+\end_layout
+
+\begin_layout Standard
+מיעוט חמצן במערכת מדוע??
+\end_layout
+
+\begin_layout Standard
+הורדה הדרגתית של המתח האחורי.
+ השראות פרזיטית? האם יש שם מעגל גזירה כלשהו?
+\end_layout
+
+\begin_layout Subsubsection*
+ניסוי ראשון: מדידת ספקטרום אנרגיות של מקור ידוע, וכיול הגלאי
+\end_layout
+
+\begin_layout Standard
+סדר פעולות ליצירת וואקום ברמה של.
+\end_layout
+
+\begin_layout Standard
+הפעלת משאבה רגילה כדי לרדת עד לחץ של ____, הפעלה במקביל של משאבת הדיפוזיה,
+ תוספת של חנקן נוזלי, הגעה ללחץ של ____
+\end_layout
+
+\begin_layout Standard
+מרחק בין הגלאי למקור
+\end_layout
+
+\begin_layout Subsubsection*
+ניסוי שני: מדידת כוח העצירה של חלקיקי אלפא בגז חנקן
+\end_layout
+
+\begin_layout Standard
+* כוח העצירה הוגדר ברקע התיאורטי
+\end_layout
+
+\begin_layout Standard
+במקרה זה, מודדים את ספקטרום הפליטה שמגיע לגלאי לא במרחקים שונים, אלא בלחצים
+ שונים של גז חנקן.
+ ניתן להמיר כי בעצם השאלה היא כמה חומר עוברים בדרך.
+ מאבדים אנרגיה פר אינטרקציה.
+\end_layout
+
+\begin_layout Standard
+המרה בין לחץ למרחק.
+\end_layout
+
+\begin_layout Subsubsection*
+ניסוי שלישי: מדידת ספקטרום אנרגיות של מקור לא ידוע, בזמנים שונים
+\end_layout
+
+\begin_layout Standard
+מקור לא ידוע.
+\end_layout
+
+\begin_layout Standard
+מדידת ספקטרומים בזמנים שונים.
+ דעיכה.
+ זיהוי הפיקים.
+\end_layout
+
+\begin_layout Standard
+זיהוי המקור.
+\end_layout
+
+\begin_layout Subsection*
+מגבלות מערכת המדידה
+\end_layout
+
+\begin_layout Section*
+תוצאות
+\end_layout
+
+\begin_layout Subsection*
+תוצאות ניסוי כיול המערכת
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+ספקטרום פליטה - היסטוגרמה.
+ ליד כל פיק מצוינת ההתפרקות לה שייך.
+ הערה לגבי רעשים מסוגים שונים רעש אנרגיות נמוכות
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+האם ההערות הללו צריכות להיות בדיון??
+\end_layout
+
+\begin_layout Standard
+הערה: ההתפלגות ליד כל פיק היא לא סימטרית.
+ יש ערך והסטה לנמוך.
+ ברחנו שרירותית פונ' כזאת שהיא נפוצה....
+ ורואים התאמה טובה *בעין *ערך שקרים
+\end_layout
+
+\begin_layout Standard
+הערה: רעשים מסוגים שונים שיש בספטקטרום.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+ספקטרום פליטה: עם התאמה לגאוסיאנים לא סימטריים, מרכזי פיקים...
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+התאמה ליניארית של אנרגיות לבינים - כיול סקאלת אנרגיה
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+דיון
+\end_layout
+
+\begin_layout Subsection*
+מדידת כח עצירה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+ספקטרומים בלחצים שונים בפיגר אחד עם סאבלפוט
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כמו שניתן לראות: ירידה באנרגיה וכן ירידה בספירה (מנורמל ליח' זמן)...
+\end_layout
+
+\begin_layout Standard
+הסבר על שימת הנקודות על הגרף: השינוי באנרגיה של אותו אינדקס פיק בין שני
+ לחצים שונים, מול השינוי בלחצים הללו.
+ אינדיקציה ל....
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+כח עצירה כפונ' של אנרגיה יחד עם נתונים של אמריקאיים
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+* הטווח של כל פיק ראשוני: ע"י אינטרגציה ואובדן האנרגיה.
+ צריך להוסיף ניתוח של חלקיק שמאבד אנרגיה באופן הדרגתי ולקבל את הטווח.
+ האם מצליחים להרוג את הפיק הנמוך? אנחנו קיבלנו שלא.
+\end_layout
+
+\begin_layout Standard
+* האם להכניס השוואה למודל 
+\begin_inset Formula $bethe$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+* האם בעקבות חישוב כוח העצירה בחנקן, אנחנו יכולים להגיד משהו בנוגע לכוח
+ העצירה באוויר רגיל בלחץ נמוך, כדי לתת תיקוף שירדנו מספיק נמוך בניסוי הראשוני.
+ הערכה גסה בטוח אפשר לקבל בגלל שרוב האוויר חנקן.
+ ואז אפשר לעשות אינטגרציה ולקבל הערכה של כמה אנרגיה הלכה לאיבוד בדרך )שהיא
+ די קצרה כי יש לחץ נמוך(.
+\end_layout
+
+\begin_layout Subsection*
+זיהוי מקור לא ידוע ומציאת זמן מחצית חיים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+ספקטרומים מייצגים אחד על גבי השני
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0col%
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+ספקטרום מייצג עם התאמה לגאוסיאנים לא סימטריים.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+דעיכות פעילות בזמן
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מה אנחנו יכולים להגיד על הסדר של ההתפרקויות.
+ אילו דעכו, יותר.
+ אילו ללא שינוי.
+ האם ש"מ סקולרי? מאיפה לאיפה עברנו.
+\end_layout
+
+\begin_layout Standard
+זיהוי המקור.
+\end_layout
+
+\begin_layout Part*
+הפניות
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://en.wikipedia.org/wiki/Quantum_vortex
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+INTRODUCTION TO SUPERCONDUCTIVITY - Second Edition, Michael Tinkham, McGraw-Hill
+ Inc., 1996
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+Lecture Note on Solid State Physics - Ginzburg-Landau Theory for Superconductivi
+ty, Masatsugu Suzuki and Itsuko S.
+ Suzuki, 2007 - p.11-12
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+Bismuth-Based High-Temperature Superconductors, Hiroshi Maeda, CRC Press,
+ 1996 - p.68
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+מקורות תמונות
+\end_layout
+
+\begin_layout Itemize
+איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+figure.boundless-cdn.com/11749/large/figure-21-03-02a
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+Tinkham p.12
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+img.tfd.com/ggse/6a/gsed_0001_0023_0_img6948
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+Tinkham p.121
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+upload.wikimedia.org/wikipedia/en/5/57/Flux_lines_in_a_superconductor01
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+נספח
+\end_layout
+
+\begin_layout Subsection*
+קוד מטלב מערכת הניסוי
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:matlab_control"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/noamg/sc/tree/master/matlabio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+קוד מטלב ופייתון ניתוח נתונים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/noamg/sc/tree/master/analysis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+מחברת מעבדה מצורפת 
+\end_layout
+
+\end_body
+\end_document
