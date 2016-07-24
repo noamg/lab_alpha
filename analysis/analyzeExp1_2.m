@@ -2,11 +2,14 @@
 
 data_dC= data; %de-cluttered
 data_dC(1:100) = 0;
-data_dC = data_dC - median(data_dC);
+% data_dC = data_dC - median(data_dC);
+data_err = sqrt(data_dC);
 
 gaussian = @(x) (1/sqrt((2*pi))*exp(-x.^2/2));
 skewedgaussian = @(x,alpha) 2*gaussian(x).*normcdf(alpha*x);
 fitSkewGauss = @(x,a,b,c,d) a*skewedgaussian((x-b)/c,d);
+weights = 1./data_err;
+weights(data_err == 0) = 0;
 % std = 4;
 % alpha = -4;
 sumOfFSG = @(a1,a2,a3,a4,a5,a6,a7,a8,b1,b2,b3,b4,b5,b6,b7,b8,...
@@ -22,13 +25,17 @@ sumOfFSG = @(a1,a2,a3,a4,a5,a6,a7,a8,b1,b2,b3,b4,b5,b6,b7,b8,...
     fitSkewGauss(x,a8,b8,std,alpha);
 
 [fitResult,gof] = fit([0:2047]', data_dC', sumOfFSG,...
-    'StartPoint',[1e3*ones(1,8),[800,810,850,900,910,940,1010,1310],4,-4]...
+    'StartPoint',[1e3*ones(1,8),[800,810,850,900,910,940,1010,1310],7,-7]...
     ,'Lower',[10*ones(1,8),zeros(1,8),0.5,-10]...
     ,'Upper',[1e4*ones(1,8),2e3*ones(1,8),10,-0.1]...
-    ,'MaxFunEvals',2e3,'MaxIter',1e4);
+    ,'MaxFunEvals',2e3,'MaxIter',1e4,'weights',weights);
 
 figure
-plot(fitResult,0:2047,data_dC)
+hold on
+h = plot(fitResult,0:2047,data_dC);
+set(h(2),'linewidth',2)
+plot(0:2047,data_dC-data_err,':b')
+plot(0:2047,data_dC+data_err,':b')
 
 energy_dataByChannel = [fitResult.b1,fitResult.b2,fitResult.b3,...
     fitResult.b4,fitResult.b5,fitResult.b6,fitResult.b7,fitResult.b8];
