@@ -139,7 +139,7 @@ stodo
 \end_layout
 
 \begin_layout Standard
-דגרפים: אסתטיקה ושגיאות
+דגרפים: אסתטיקה ושגיאות )דן, שני צהריים(
 \end_layout
 
 \begin_layout Standard
@@ -151,7 +151,7 @@ stodo
 \end_layout
 
 \begin_layout Standard
-רקע תאורטי
+רקע תאורטי )נועם שני בוקר(
 \end_layout
 
 \begin_layout Standard
@@ -215,6 +215,11 @@ stodo
 \begin_layout Standard
 מערכת הניסוי: כל הפרטים מהמחברת.
  תרשים.
+ )ראשון ערב ביחד, נועם שני צהריים(
+\end_layout
+
+\begin_layout Standard
+סגירה )נועם ודן, שני אחה"צ(
 \end_layout
 
 \begin_layout Subsubsection*
@@ -383,6 +388,64 @@ stodo
 
 \begin_layout Subsection*
 מושגים בסיסיים בנוגע לחומר הגרעיני
+\end_layout
+
+\begin_layout Standard
+גרעין של אטום מורכב מ- 
+\begin_inset Formula $A$
+\end_inset
+
+ נוקליאונים: 
+\begin_inset Formula $Z$
+\end_inset
+
+ פרוטונים 
+\begin_inset Formula $N$
+\end_inset
+
+ וניוטרונים )
+\begin_inset Formula $A=N+Z$
+\end_inset
+
+(.
+ ביניהם פועלים כוח המשיכה )זניח(, כוח קולון, הכוח הגרעיני החזק והחלש, ואינטרקציו
+ת ספין.
+ תיאור מדויק של גרעין הוא תיאור קוונטי המתייחס למיקום ולספין של כל נוקליאון
+ והוא מסובך מאוד.
+ מודל קוונטי אך פשוט יותר הוא מודל הקליפות 
+\begin_inset Formula $shell-structure$
+\end_inset
+
+ )בדומה למודל הקליפות של אלקטרונים סביב גרעין( והוא מאפשר להתייחס לרמות
+ האנרגיה של הגרעין בתור מערכת קוונטית.
+ לצורך ניתוחים רבים מספיק תיאור פשוט בהרבה של הגרעין:
+\end_layout
+
+\begin_layout Standard
+הגרעין מורכב מצביר של נוקליאונים מאורגנים בכדור, בצפיפות רבה של 
+\begin_inset Formula $\rho_{0}\approx10^{15}[\frac{gr}{cm^{3}}]$
+\end_inset
+
+.
+ התפלגות המטען והתפלגות המסה של הגרעין הן בערך קבועות עד רדיוס של 
+\begin_inset Formula $R=R_{0}A^{\frac{1}{3}}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $R_{0}=1.2[fm]$
+\end_inset
+
+, ומחוץ לרדיוס זה אין חומר.
+ כמו כן, הגרעין מאופיין בספין כולל.
+\end_layout
+
+\begin_layout Standard
+אנרגיית הקשר הגרעיני, היא האנרגיה שנוצרת מכך שהנוקליאונים מקובצים יחד, והיא
+ מורכבת מהאנרגיה הקולומבית והגרעינית החזקה )מה קרה לחלש, לספין???(.
+\end_layout
+
+\begin_layout Standard
+*** נוסחא אנרגית קשר מסות.
 \end_layout
 
 \begin_layout Standard
@@ -642,7 +705,21 @@ status open
 
 \begin_layout Standard
 גלאי.
- מצב מוצק, טרנזיסטור, מתח אחורי.
+ מצב מוצק, טרנזיסטור, כניסות.
+ מתח אחורי 
+\begin_inset Formula $V=50[VDC]$
+\end_inset
+
+.
+ מודדים מתח.
+ 
+\begin_inset Formula $HPF$
+\end_inset
+
+ נותן את התפרצויות הזעם האלקטרוניות.
+ מגבר.
+ מחשב.
+ .
  הגלאי מחובר למחשב, ספירת תאים.
  תוכנה *** בזמן העיבוד לא פנוי לקליטות נוספות.
  זמן ברוטו.
@@ -654,15 +731,23 @@ status open
 \end_layout
 
 \begin_layout Standard
-משאבה מכנית רגילה
+משאבה מכנית רגילה.
+\begin_inset Formula $rough$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-משאבת דיפוזיה
+משאבת דיפוזיה: דרך פעולה וויקיפדיה בקצרה
 \end_layout
 
 \begin_layout Standard
-מיכל חנקן
+מיכל חנקן: 
+\begin_inset Formula $cold-trapping$
+\end_inset
+
+ עם חנקן נוזלי.
 \end_layout
 
 \begin_layout Standard
@@ -671,13 +756,6 @@ status open
 
 \begin_layout Standard
 צנרת, שסתומים
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $cold-trapping$
-\end_inset
-
- עם חנקן נוזלי.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -697,12 +775,99 @@ status open
  השראות פרזיטית? האם יש שם מעגל גזירה כלשהו?
 \end_layout
 
+\begin_layout Standard
+לא בונים מתח אחורי לגלאי במילי תור.
+ פריצה.
+ זרם גדול הורס גלאי.
+ מספיק חומר, מספיק וואקום.
+\end_layout
+
+\begin_layout Standard
+*** ספק ראשון לא יציב...
+\end_layout
+
 \begin_layout Subsubsection*
 ניסוי ראשון: מדידת ספקטרום אנרגיות של מקור ידוע, וכיול הגלאי
 \end_layout
 
 \begin_layout Standard
-סדר פעולות ליצירת וואקום ברמה של.
+סדר פעולות ליצירת וואקום ברמה של.:
+\end_layout
+
+\begin_layout Standard
+להפעיל משאבה רגילה על כל המערכת
+\end_layout
+
+\begin_layout Standard
+הגענו ל-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מילי תור
+\end_layout
+
+\begin_layout Standard
+חימום השמן הפעלת משאבת דיפוזיה, פתיחת שסתום שמעל טנק דיפוזיה, סגירת שסתום
+ צינור מטרה צינור משאבה רגילה.
+\end_layout
+
+\begin_layout Standard
+** יש וואקום
+\end_layout
+
+\begin_layout Standard
+מתח אחורי.
+ מעלים לאט.
+\end_layout
+
+\begin_layout Standard
+מוכנים לקריאות.
 \end_layout
 
 \begin_layout Standard
@@ -936,6 +1101,12 @@ status open
  די קצרה כי יש לחץ נמוך(.
 \end_layout
 
+\begin_layout Standard
+* ניתוח שגיא הציע: השינוי ברוחב ההתפלגות של הפיקים, אמור להיות קשור גם בהתפלגות
+ הבסיס, וגם בהתרחבות כתוצאה מתנודות סטטיסטיות.
+ שורש הלחץ.???
+\end_layout
+
 \begin_layout Subsection*
 זיהוי מקור לא ידוע ומציאת זמן מחצית חיים
 \end_layout
@@ -970,10 +1141,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -985,16 +1152,8 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
