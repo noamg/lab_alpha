@@ -772,7 +772,11 @@ N=\frac{1}{\lambda}R
 \end_layout
 
 \begin_layout Subsection*
-קריאת אלפא, מודל .....
+קריאת אלפא
+\end_layout
+
+\begin_layout Subsubsection*
+שיקולים אנרגתיים בפליטת אלפא, וחוקי שימור
 \end_layout
 
 \begin_layout Standard
@@ -830,8 +834,92 @@ status open
 \end_layout
 
 \begin_layout Standard
-במהלך ההתפרקות נשמר גם תנע קווי, כך שחלקיק האלפא מקבל את רוב האנרגיה הקינטית
- )בהתאם ליחס המסות(, וכן התנע הזוויתי, והזוגיות.
+במהלך ההתפרקות נשמר תנע קווי, כך שחלקיק האלפא מקבל את רוב האנרגיה הקינטית
+ )בהתאם ליחס המסות(
+\end_layout
+
+\begin_layout Standard
+נשמר התנע הזוויתי: התנ"ז של חלקיק אלפא הוא כולו אורביטלי )כיוון שהספין של
+ הנוקליאונים שלו מסתכם ל-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+(.
+ הוא צריך להתאים לחיבור תנ"ז של הספין של חלקיק האם ושל חלקיק הבת.
+ עבור פליטות של חלקיק אלפא עם תנ"ז לא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+, נוסף פוטנציאל צנטרפוגלי )במערכת מרכז המסה, כלומר, במערכת המסה המצומצמת(
+ שמקטין את הסיכוי לפליטה.
+\end_layout
+
+\begin_layout Standard
+שימור זוגיות של המצב הקוונטי: כיוון שהזוגיות של מצבי תנ"ז אורביטלי תלויה
+ במספר הקוונטי 
+\begin_inset Formula $l$
+\end_inset
+
+ של ה- 
+\begin_inset Formula $Y_{l}^{m}$
+\end_inset
+
+, מותרת פליטה במצבי תנ"ז זוגי או אי זוגי, כדי לשמור על הזוגיות המקורית.
+\end_layout
+
+\begin_layout Standard
+בעקבות האילוצים של שימור תנ"ז וזוגיות, הסבירות להתפרקות משמעותית גבוהה יותר
+ עבור איזוטופים עם 
+\begin_inset Formula $N,Z$
+\end_inset
+
+ זוגיים.
 \end_layout
 
 \begin_layout Standard
@@ -972,12 +1060,21 @@ status open
 \end_layout
 
 \begin_layout Subsubsection*
-ספקטרוגרפיה
+ספקטרוסקופיה
 \end_layout
 
 \begin_layout Standard
 בהינתן דוגמא של חומר רדיואקטיבי, ניתן למדוד את האנרגיות של חלקיקי האלפא
- הנפלטים )וגם של התפרקויות אחרות(
+ הנפלטים )וגם של התפרקויות אחרות(.
+ לכל איזוטופ ישנו ספקטרום אלפא אופייני: אנרגיות אופייניות לחלקיקי אלפא,
+ וכן שכיחויות יחסיות אופיניות.
+ אנרגיות חלקיקי האלפא מלמדת על רמות האנרגיה של הגרעין )במודל 
+\begin_inset Formula $shell-structure$
+\end_inset
+
+ (.
+ כמו כן, בעזרת מדידת ספקטרום הפליטה של מקור לא ידוע, ניתן לאפיין אותו ע"י
+ התאמה לספקטרום מוכר.
 \end_layout
 
 \begin_layout Standard
@@ -1026,8 +1123,110 @@ status open
  שרשראות אלפא
 \end_layout
 
+\begin_layout Standard
+===================
+\end_layout
+
 \begin_layout Subsubsection*
 חלקיקי אלפא בחומר
+\end_layout
+
+\begin_layout Standard
+תיאור איכותי: חלקיקי אלפא שנפלטו מקיימים אינטרקציה חשמלית עם הסביבה.
+ הנפח האפקטיבי של האלקטרונים בחומר רב משמעותית משל הגרעינים, כלומר, חלקיקי
+ אלפא מקיימים אינטרקציה עם האלקטרונים.
+ חלקיקי האלפא כבדים יחסית לאלקטרון, ולכן הדינמיקה היא שחלקיק האלפא ינוע
+ בערך בקו ישר, ויבצע התנגשויות אלסטיות עם אלקטרונים.
+ האינטרקציה החשמלית היא ארוכת טווח, ולכן חלקיק האלפא מאבד את האנרגיה שלו
+ בהדרגה, והיא עושה "דיפוזיה" דרך האלקטרונים שהוא משחרר מהאטומים.
+ ככל שחלקיק האלפא אנרגתי מהר יותר, הוא נע מהר יותר, ומושפע פחות מכל אלקטרון
+ בדרך, ולכן מאבד פחות אנרגיה.
+ כלומר 
+\begin_inset Formula $|\frac{dE}{dx}|$
+\end_inset
+
+ יורד עם 
+\begin_inset Formula $E$
+\end_inset
+
+.
+ כתוצאה מכך, תנועת החלקיק היא תנועה בקו ישר, בערך באותה מהירות, עד שבתחום
+ צר הוא מאבד את כל האנרגיה שלו.
+ הניתוח הנ"ל הינו סטטיסטי, וחלקיקי אלפא שונים יעברו מסלולים שונים, ויעצרו
+ בטווחים שונים, אך בתחום צר.
+ ברוב המוצקים חלקיקי אלפא חודרים לטווח של כ 
+\begin_inset Formula $100[\mu m]$
+\end_inset
+
+.
+ האלקטרונים שניתזו מהאינרקציה עם חלקיק האלפא, לעיתים פוגעים באלקטרונים נוספים
+ ומשחררים אותם מהאטומים שלהם.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+כמות חלקיקי אלפא כתלות במרחק
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מודל 
+\begin_inset Formula $bethe$
+\end_inset
+
+ נותן תיאור כמותי של התיאור הנ"ל, ומגיע לנוסחא עבור 
+\begin_inset Formula $\frac{dE}{dx}$
+\end_inset
+
+ שהוא כוח העצירה הפועל על החלקיקים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dE}{dx}=***
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר: *** הסבר הקבועים ***
+\end_layout
+
+\begin_layout Standard
+המודל כולל הנחה *** שלא תקפה בתחום של מהירויות נמוכות *** מתחת ל???
+\end_layout
+
+\begin_layout Standard
+==========
 \end_layout
 
 \begin_layout Standard
@@ -1114,8 +1313,32 @@ status open
  *** האם אנחנו משווים למודל זה מתישהו???? *** השוואה בין חלקיקים באותו חומר.
 \end_layout
 
+\begin_layout Standard
+=====
+\end_layout
+
 \begin_layout Subsubsection*
 אופן פעולת גלאי מסוג מוליך למחצה
+\end_layout
+
+\begin_layout Standard
+נעשה שימוש בהתקן הבא: ממשק בין מוליך למחצה עשיר באלקטרונים 
+\begin_inset Formula $n$
+\end_inset
+
+ ומוליך למחצה עשיר בחורים 
+\begin_inset Formula $p$
+\end_inset
+
+ הוא למעשה נטול מטענים חופשיים.
+ בעזרת מתח על ההתקן, מושרה שדה חשמלי חזק.
+ חלקיק אלפא הפוגע בממשק משחרר אלקטרונים מהאטומים הקושרים אותם.
+ האלקטרונים הללו מואצים בהשפעת השדה, ונמדדים בעזרת אמפרמטר, או ע"י התנודות
+ שהם יוצרים במתח על ההתקן )בהשוואה למתח המקורי(.
+\end_layout
+
+\begin_layout Standard
+=======
 \end_layout
 
 \begin_layout Standard
@@ -1127,6 +1350,10 @@ status open
 
 \begin_layout Standard
 כלומר: אמפרמטר.
+\end_layout
+
+\begin_layout Standard
+=========
 \end_layout
 
 \begin_layout Part*
