@@ -222,6 +222,10 @@ stodo
 סגירה )נועם ודן, שני אחה"צ(
 \end_layout
 
+\begin_layout Standard
+לעבור על מחברת המעבדה ולהעביר לדוח מה שצריך.
+\end_layout
+
 \begin_layout Subsubsection*
 אי וודאויות
 \end_layout
@@ -523,10 +527,20 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/Binding_energy_curve_-_common_isotopes.svg
+	scale 70
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-מסה ממוצעת לנוקליאון עבור יסודות שונים )איזוטופים נפוצים ***(.
+\begin_inset Formula $|\frac{B}{A}|$
+\end_inset
+
+:אנרגית קשר ממוצעת לנוקליאון עבור יסודות שונים )איזוטופים נפוצים ***(.
  ניתן לראות שיא בברזל 
 \begin_inset Formula $A=60$
 \end_inset
@@ -817,6 +831,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/energy_emitted_heavy_particle_decay_232U_page_247.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -1174,6 +1196,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/alpha_absorption_by_distance.gif
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -1192,6 +1220,20 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.ilocis.org/documents/chpt48e.htm
+\end_layout
+
+\end_inset
+
+מקור התמונה לעיל ***
 \end_layout
 
 \begin_layout Standard
@@ -1374,7 +1416,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-סכימה של מערכת הניסוי: ניתן לראות .....
+סכימה של מערכת הניסוי: רכיבים במלבנים כחולים, צינורות בכתום, שסתומים בסגול.
+ ניתן לראות .....
 \end_layout
 
 \end_inset
@@ -1391,15 +1434,108 @@ status open
 רכיבים במערכת הניסוי:
 \end_layout
 
-\begin_layout Standard
-גלאי.
- מצב מוצק, טרנזיסטור, כניסות.
- מתח אחורי 
+\begin_layout Enumerate
+מקור חלקיקי אלפא: נמצא במרחק קבוע 
+\begin_inset Formula $d=3.0[cm]$
+\end_inset
+
+ מהגלאי.
+\end_layout
+
+\begin_layout Enumerate
+גלאי מסוג מצב מוצק: לגלאי יש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כניסות, אחת מכל צד של הממשק בין אזורי 
+\begin_inset Formula $n$
+\end_inset
+
+ו- 
+\begin_inset Formula $p$
+\end_inset
+
+.
+ נמדד המתח 
+\begin_inset Formula $V$
+\end_inset
+
+ בין הכניסות, ובאותו זמן מוזן בהן מתח אחורי 
 \begin_inset Formula $V=50[VDC]$
 \end_inset
 
 .
- מודדים מתח.
+ פגיעה של חלקיקי אלפא יוצרת פרצי זרם שמשנים את המתח הנמדד.
+ מעגל 
+\begin_inset Formula $high-pass-filter$
+\end_inset
+
+ משאיר סיגנל מתח שמייצג רק את פרצי האלקטרונים )המעגל מתקבל ע"י מדידת המתח
+ על הנגד במעגל 
+\begin_inset Formula $RC$
+\end_inset
+
+( ***.
+ אז: הופך כל פולס לפולס מרובע ****
+\end_layout
+
+\begin_layout Enumerate
+מחשב: המחשב מקבל את הסיגנל המסונן מהגלאי ורושם )בעזרת התוכנה 
+\begin_inset Formula $Maestro$
+\end_inset
+
+( היסטוגרמה של כמות חלקיקי אלפא לערוץ אנרגיה.
+\end_layout
+
+\begin_layout Enumerate
+.
+ *** תוספות גלאי *** מודדים מתח.
  
 \begin_inset Formula $HPF$
 \end_inset
@@ -1414,63 +1550,77 @@ status open
  זמן אפקטיבי.
 \end_layout
 
-\begin_layout Standard
-מקור חלקיקי אלפא
-\end_layout
+\begin_layout Enumerate
+משאבה מכנית: 
+\begin_inset Formula $rough-pump$
+\end_inset
 
-\begin_layout Standard
-משאבה מכנית רגילה.
-\begin_inset Formula $rough$
+: שואבת אוויר בצורה מכנית, ומגיעה עד לחץ של 
+\begin_inset Formula $\sim1[mThorr]$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-משאבת דיפוזיה: דרך פעולה וויקיפדיה בקצרה
+\begin_layout Enumerate
+משאבת דיפוזיה: אדי שמן חמים פוגעים במולקולות האוויר ומכוונים אותן לכיוון
+ היציאה של המשאבה.
+ מגיעה עד לחץ של ***
 \end_layout
 
-\begin_layout Standard
-מיכל חנקן: 
+\begin_layout Enumerate
+מיכל 
 \begin_inset Formula $cold-trapping$
 \end_inset
 
- עם חנקן נוזלי.
+: בדופן כפולה סביב מיכל המכיל את האוויר מוזגים חנקן נוזלי, המקרר את דפנות
+ התא וע"י כך סופח מולקולות אוויר )מנזיל אותן(.
 \end_layout
 
-\begin_layout Standard
-מד לחץ
+\begin_layout Enumerate
+מד לחץ: ברגישות של ***
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 צנרת, שסתומים
+\end_layout
+
+\begin_layout Enumerate
+מיכל חנקן 
+\begin_inset Formula $N_{2}$
+\end_inset
+
+ לצורך מדידת כוח עצירה בחנקן.
 \end_layout
 
 \begin_layout Subsubsection*
 על מה יש להקפיד כדי לא להזיק למערכת:
 \end_layout
 
-\begin_layout Standard
-שלא ייכנס שמן לתוך??
+\begin_layout Enumerate
+חשוב להפעיל את משאבת הדיפוזיה רק כאשר מגיעים ללחץ של *** ולא לפני, כדי שהשמן
+ לא ישרף.
+ *** אולי גם שלא ייכנס שמן לתוך משהו?
 \end_layout
 
-\begin_layout Standard
-מיעוט חמצן במערכת מדוע??
+\begin_layout Enumerate
+מיעוט חמצן במערכת מדוע?? ***
 \end_layout
 
-\begin_layout Standard
-הורדה הדרגתית של המתח האחורי.
- השראות פרזיטית? האם יש שם מעגל גזירה כלשהו?
+\begin_layout Enumerate
+את המתח בספק יש להעלות הדרגתית כדי להימנע מתופעות קפיצת מתח בעקבות השראות
+ פרזיטית.
 \end_layout
 
-\begin_layout Standard
-לא בונים מתח אחורי לגלאי במילי תור.
- פריצה.
- זרם גדול הורס גלאי.
- מספיק חומר, מספיק וואקום.
+\begin_layout Enumerate
+אסור לבנות את המתח על הספק בתחום הביניים של הלחצים.
+ בעיקרון, חלקיקי האלפא משחררים אלקטרונים גם מהחומר שנותר בצינור בדרך לגלאי.
+ בוואקום של *** יש מספיק חומר לשחרור כמות משמעותית של אלקטרונים, אבל לא
+ מספיק חומר כדי לפזר את האנרגיה שלהם על פני אלקטרונים אחרים, וכך פוגעים
+ בגלאי אלקטרונים מהירים ומזיקים לו.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 *** ספק ראשון לא יציב...
 \end_layout
 
@@ -1478,15 +1628,215 @@ status open
 ניסוי ראשון: מדידת ספקטרום אנרגיות של מקור ידוע, וכיול הגלאי
 \end_layout
 
-\begin_layout Standard
-סדר פעולות ליצירת וואקום ברמה של.:
+\begin_layout Subsubsection*
+סדר פעולות ליצירת וואקום ברמה של ***:
 \end_layout
 
-\begin_layout Standard
-להפעיל משאבה רגילה על כל המערכת
+\begin_layout Enumerate
+לסגור את כל השסתומים.
+ לפתוח את שסתומים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2,3,4,5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+***דן, האם יש בעיה עם
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+?***ולהפעיל את המשאבה המכנית עד הגעה ללחץ של ***.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
+תוך כדי לחמם את השמן של משאבת הדיפוזיה.
+\end_layout
+
+\begin_layout Enumerate
+לסגור שסתום
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ולהפעיל את משאבת הדיפוזיה.
+ למזוג חנקן נוזלי לתא המתאים.
+ עד הגעה ללחץ של ***
+\end_layout
+
+\begin_layout Enumerate
+לסגור את שסתום
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ואחריו את כל האחרים, להפסיק את השאיבה.
+\end_layout
+
+\begin_layout Enumerate
+======
+\end_layout
+
+\begin_layout Enumerate
+לפתוח את שסתומים הפעיל משאבה רגילה על כל המערכת
+\end_layout
+
+\begin_layout Enumerate
 הגענו ל-
 \family roman
 \series medium
@@ -1540,31 +1890,21 @@ status open
 מילי תור
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 חימום השמן הפעלת משאבת דיפוזיה, פתיחת שסתום שמעל טנק דיפוזיה, סגירת שסתום
  צינור מטרה צינור משאבה רגילה.
 \end_layout
 
-\begin_layout Standard
-** יש וואקום
+\begin_layout Enumerate
+=========
 \end_layout
 
 \begin_layout Standard
-מתח אחורי.
- מעלים לאט.
-\end_layout
+אחרי בניית הוואקום, מעלים בהדרגה את המתח האחורי על הגלאי עד 
+\begin_inset Formula $V=50[VDC]$
+\end_inset
 
-\begin_layout Standard
-מוכנים לקריאות.
-\end_layout
-
-\begin_layout Standard
-הפעלת משאבה רגילה כדי לרדת עד לחץ של ____, הפעלה במקביל של משאבת הדיפוזיה,
- תוספת של חנקן נוזלי, הגעה ללחץ של ____
-\end_layout
-
-\begin_layout Standard
-מרחק בין הגלאי למקור
+, ואז אוספים את הספקטרום של חלקיקי האלפא.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1572,18 +1912,90 @@ status open
 \end_layout
 
 \begin_layout Standard
-* כוח העצירה הוגדר ברקע התיאורטי
+חלקיקי האלפא למעשה מאבדים אנרגיה לכל אינטרקציה שלהם עם אלקטרון, ולכן ניתן
+ להמיר בין האנרגיה שחלקיק אלפא מאבד בלחץ קבוע ליחידת מרחק, לאנרגיה שהוא
+ מאבד על מרחק קבוע ליחידת לחץ לפי:
 \end_layout
 
 \begin_layout Standard
-במקרה זה, מודדים את ספקטרום הפליטה שמגיע לגלאי לא במרחקים שונים, אלא בלחצים
- שונים של גז חנקן.
- ניתן להמיר כי בעצם השאלה היא כמה חומר עוברים בדרך.
- מאבדים אנרגיה פר אינטרקציה.
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-המרה בין לחץ למרחק.
+הגעה לוואקום נעשית כמו בניסוי הכיול.
+\end_layout
+
+\begin_layout Standard
+שליטה בלחץ הגז 
+\begin_inset Formula $N_{2}$
+\end_inset
+
+ נעשית ע"י פתיחת שסתום
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לזמן קצר )כיוון שלוקח למד הלחץ זמן להגיב, בפועל יש לפתוח ומיד לסגור, ואם
+ הלחץ לא עלה מספיק לחזור על הפעולה(.
+\end_layout
+
+\begin_layout Standard
+בניסוי זה מדדנו את ספקטרום האלפא שמגיע לגלאי מבעד ללחצים שונים של גז 
+\begin_inset Formula $N_{2}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1591,7 +2003,68 @@ status open
 \end_layout
 
 \begin_layout Standard
-מקור לא ידוע.
+בניסוי זה, מדדנו את ספטקטרום האלפא שנפלט ע"י מקור לא ידוע, בזמנים שונים.
+\end_layout
+
+\begin_layout Standard
+לצורך נוחות, במרווחים קבועים של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דקות, שמרנו ע"י תוכנת איסוף הספקטרומים את הספקטרום הכולל מתחילת הניסוי ועד
+ אותו הזמן.
+ הספקטרומים לכל מקטע זמן נתונים ע"י ההפרש בין המנייה בזמן הסוף שלו לזמן
+ ההתחלה.
+\end_layout
+
+\begin_layout Standard
+===========
 \end_layout
 
 \begin_layout Standard
@@ -1604,8 +2077,12 @@ status open
 זיהוי המקור.
 \end_layout
 
+\begin_layout Standard
+===========
+\end_layout
+
 \begin_layout Subsection*
-מגבלות מערכת המדידה
+מגבלות מערכת המדידה *** להסיר, אין לי רעיון מה לשים פה.
 \end_layout
 
 \begin_layout Section*
@@ -2549,6 +3026,57 @@ status open
  ייתכן שרק ההתפרקות השלישית איטית, והיא מגנה על הרביעית מדעיכה.
  אם כך, יודעים מהו הזוג הראשון ומהו הזוג השני.
  לא יודעים סדר בתוך הזוגות.
+ ראשון
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+30
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ד' שני מהיר, שלישי איטי, רביעי לא יודעים
 \end_layout
 
 \begin_layout Standard
@@ -2697,6 +3225,78 @@ status open
 \end_layout
 
 \begin_layout Standard
+*** שופוני אפשרי: להראות את הקורלציה בין הערכים של שני אלה שדועכים בקבוע
+ כ-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+30
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דקות.
+ למשל ע"י מנה ביניהם, או ע"י התפלגות 
+\begin_inset Formula $XY$
+\end_inset
+
+ )אני בדקתי בעין בגרף ובברור יש קורלציה כזאת(.
+ זה אומר שאחד מהם באמת עוקב אחרי השני.
+ אם הקורלציה מספיק טובה, ניתן אולי להיעזר במידע הנוסף כדי לטייב את זמן מחצית
+ החיים.
+ אה: בעצם זה בנאלי.
+ שתי הסדרות נותנות ערכים נוספים של 
+\begin_inset Formula $\ln(\frac{N}{N_{0}})$
+\end_inset
+
+להעלות על הגרף.
+ בגלל חוסר וודאות בכמות הבסיסית, ייתכן שנקבל שני קווים לינארים באותה הסטה,
+ אבל באופן עקרוני עם אותו שיפוע.
+ אני חושב שבתנאים האלה רגרסיה לינארית אמורה לתת שיפוע נכון.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Flex URL
 status open
 
@@ -2707,7 +3307,7 @@ http://www.nndc.bnl.gov/nudat2/indx_dec.jsp
 
 \end_inset
 
-
+מאגר חיפוש התפק'ויות
 \end_layout
 
 \begin_layout Standard
@@ -2721,7 +3321,36 @@ https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html
 
 \end_inset
 
+ טבלת נוקלאידים
+\end_layout
 
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://202.141.40.218/wiki/index.php/File:Akjain25.png
+\end_layout
+
+\end_inset
+
+תמונת מנהור אלפא
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://en.wikipedia.org/wiki/Nuclear_binding_energy#/media/File:Binding_energy_cu
+rve_-_common_isotopes.svg
+\end_layout
+
+\end_inset
+
+אנרגיית קשר לחלקיק
 \end_layout
 
 \begin_layout Part*
