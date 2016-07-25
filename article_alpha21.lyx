@@ -437,15 +437,135 @@ stodo
 
 , ומחוץ לרדיוס זה אין חומר.
  כמו כן, הגרעין מאופיין בספין כולל.
+ המסה של הגרעין נתונה לפי מסות הנוקליאונים ואנרגית הקשר הגרעיני.
 \end_layout
 
 \begin_layout Standard
-אנרגיית הקשר הגרעיני, היא האנרגיה שנוצרת מכך שהנוקליאונים מקובצים יחד, והיא
- מורכבת מהאנרגיה הקולומבית והגרעינית החזקה )מה קרה לחלש, לספין???(.
+\begin_inset Formula 
+\[
+m=***
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-*** נוסחא אנרגית קשר מסות.
+אנרגיית הקשר הגרעיני, היא האנרגיה שנוצרת מכך שהנוקליאונים מקובצים יחד ומרכיביה:
+ האנרגיה הקולומבית והגרעינית החזקה )מה קרה לחלש, לספין??? ***(.
+\end_layout
+
+\begin_layout Standard
+אנרגיית הקשר נתונה בקירוב ע"י הנוסחא הסמי אמפירית:
+\begin_inset Formula 
+\[
+B=a_{\nu}A-a_{s}A^{\frac{2}{3}}+a_{c}Z(Z-1)A^{-\frac{1}{3}}-a_{sym}\frac{(A-2Z)^{2}}{A}+\delta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\delta=a_{p}\cdot A^{-\frac{3}{4}}\cdot\begin{cases}
+A-odd & 0\\
+N,Z-even & 1\\
+N,Z-odd & -1
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+האיבר הראשון נובע מכך שאנרגיית הכוח החזק נתונה לפי מספר שכנים, ולכן כמעט
+ קבועה.
+ האיבר השני הוא תיקון עבור נוקליאונים בשפה.
+ האיבר השלישי הוא האנרגיה החשמלית של דחיית הפרוטונים, האיבר הרביעי מבטא
+ עדיפות אנרגתית לשיוויון מספרי בין 
+\begin_inset Formula $N$
+\end_inset
+
+ ו- 
+\begin_inset Formula $Z$
+\end_inset
+
+ לגרעינים לא גדולים מדי.
+ האיבר החמישי מבטא, עבור אטומים עם 
+\begin_inset Formula $A$
+\end_inset
+
+ זוגי, יתרון אנרגתי להיות עם 
+\begin_inset Formula $N$
+\end_inset
+
+, 
+\begin_inset Formula $Z$
+\end_inset
+
+ זוגיים.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+מסה ממוצעת לנוקליאון עבור יסודות שונים )איזוטופים נפוצים ***(.
+ ניתן לראות שיא בברזל 
+\begin_inset Formula $A=60$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+השאיפה של המערכת למינימום אנרגיה, מתבטא בשאיפה למסה מקסימלית לנוקליאון,
+ היות ואנרגית הקשר היא שלילית.
+ כלומר, לגרעין ישנו רווח אנרגתי להתפצל או להתחבר עם גרעינים אחרים ולהתקרב
+ ל- 
+\begin_inset Formula $A=60$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כוח הזיווג? שיקולי תנ"ז.
+ זוגיות נוקליאונים?
+\end_layout
+
+\begin_layout Standard
+=======
 \end_layout
 
 \begin_layout Standard
@@ -490,12 +610,132 @@ stodo
 \end_layout
 
 \begin_layout Standard
-כוח הזיווג? שיקולי תנ"ז.
- זוגיות נוקליאונים?
+=================
 \end_layout
 
 \begin_layout Subsubsection*
 רדיואקטיביות
+\end_layout
+
+\begin_layout Standard
+באופן אמפירי, אכן ישנם יסודות שמבצעים שינוי ספונטני של מבנה הגרעין: יסודות
+ רדיואקטיביים.
+ הגרעין לפני ההתפרקות מכונה גרעין אם, ואחרי ההתפרקות מכונה גרעין בת.
+ סוגי ההתפרקויות הספונטניות: 
+\begin_inset Formula $\beta^{+}$
+\end_inset
+
+: פליטת פוזיטרון, 
+\begin_inset Formula $\beta^{-}$
+\end_inset
+
+פליטת אלקטרון, 
+\begin_inset Formula $\gamma$
+\end_inset
+
+: פליטת פוטון, ביקוע ספונטני של האטום לשני אטומים בגודל דומה, 
+\begin_inset Formula $\alpha$
+\end_inset
+
+: פליטה של גרעין הליום.
+ לא ניתן לבצע חיזוי ברמת האטום הבודד, אבל סטטיסטית ניתן לתאר סוג אטום לפי
+ צפיפות ההסתברות להתפרקות ליחידת זמן למספר אטומים: קבוע הדעיכה 
+\begin_inset Formula $\lambda$
+\end_inset
+
+.
+ נהוג להתיחס גם לפרמטרים של זמן חיים אופייני 
+\begin_inset Formula $\tau=\frac{1}{\lambda}$
+\end_inset
+
+ )שהוא גם זמן החיים הממוצע(, וזמן מחצית חיים: 
+\begin_inset Formula $t_{\frac{1}{2}}=\frac{\ln(2)}{\lambda}$
+\end_inset
+
+ שבמהלכו משלימים את תהליך הפירוק מחצית מהכמות ההתחלתית.עבור דוגמא מבודדת
+ מספר גרעיני האם יתפתח בזמן לפי:
+\begin_inset Formula 
+\[
+N=N(t=0)\cdot\exp(-\lambda t)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור דוגמא שבה נוצרים גרעיני אם בקצב מסוים 
+\begin_inset Formula $R$
+\end_inset
+
+, המערכת תתקרב למצב סטציונרי שבו:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+N=\frac{1}{\lambda}R
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כך שגרעיני אם נוצרים ומתפרקים באותו קצב.
+\end_layout
+
+\begin_layout Subsubsection*
+ניתוח קוונטי של קבוע הדעיכה: כלל הזהב של פרמי
+\end_layout
+
+\begin_layout Standard
+בהינתן מערכת עם המילטוניאן 
+\begin_inset Formula $H$
+\end_inset
+
+ מסוים, ופוטנציאל הפרעה חלש 
+\begin_inset Formula $V$
+\end_inset
+
+: במסגרת תורת ההפרעות התלויה בזמן, מעריכים את צפיפות ההסתברות למעבר ממצב
+ עצמי התחלתי למצב עצמי סופי של 
+\begin_inset Formula $H$
+\end_inset
+
+.
+ צפיפות ההסברות נתונה ע"י:
+\begin_inset Formula $\lambda=\frac{2\pi}{\hbar}|<i|V|f>|^{2}\rho(E_{f})$
+\end_inset
+
+כאשר הצפיפות היא צפיפות המצבים הסופיים באנרגיה הסופית.
+ *** מה פה ההפרעה??? ***
+\end_layout
+
+\begin_layout Subsubsection*
+שרשראות של התפרקויות
+\end_layout
+
+\begin_layout Standard
+גרעין הבת יכול להיות רדיואקטיבי בעצמו, וכן הבנות שלו, וכך תיווצר שרשרת של
+ התפרקויות, שסופה ביסוד יציב.
+\end_layout
+
+\begin_layout Standard
+שיווי משקל סקולרי: הוא כאשר זמן מחצית החיים של האם ארוך משמעותית משל כל
+ היסודות האחרים בשרשרת.
+ כלומר, בקבועי זמן קצרים: כמות האם כמעט לא משתנה, גרעין הבת הראשון נוצר
+ בקצב יצירה קבוע 
+\begin_inset Formula $R$
+\end_inset
+
+ ולכן כמותו יציבה, וכן הלאה לבנות שלו.
+\end_layout
+
+\begin_layout Standard
+=============
 \end_layout
 
 \begin_layout Standard
@@ -527,8 +767,221 @@ stodo
 ניתוח קוונטי: כלל הזהב של פרמי.
 \end_layout
 
+\begin_layout Standard
+==============
+\end_layout
+
 \begin_layout Subsection*
 קריאת אלפא, מודל .....
+\end_layout
+
+\begin_layout Standard
+כאמור, יש לגרעינים יתרון אנרגתי להתקרב ל- 
+\begin_inset Formula $A=60$
+\end_inset
+
+.
+ דרך אחת סבירה היא ע"י פליטת נוקליאון או כמה נוקליאונים.
+ במקרה זה, האנרגיה הסופית נתונה ע"י מסת גרעין הבת, מסת החלקיק הנפלט, ואנרגיה
+ קינטית.
+ משימור אנרגיה מתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q=c^{2}\cdot(m_{mother}-m_{dauther}-m_{particle})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אילוץ אנרגתי זה לא מאפשר סוגים רבים של פליטת נוקליאונים.
+ חלקיק אלפא, הוא מאוד "דחוס" כלומר, יש לו אנרגית קשר גדולה )שלילית כמובן(.
+ ועבורו נותרת אנרגיה פנויה לאנרגיה קינטית.
+ ייתכנו גם פליטות של חלקיקים אחרים )למשל, גרעיני פחמן(, אך השכיחות של התפרקות
+ זו נמוכה מאוד.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+טבלה לדוגמא אנרגיות עבור פליטת חלקיקים שונים מתוך הספר
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+במהלך ההתפרקות נשמר גם תנע קווי, כך שחלקיק האלפא מקבל את רוב האנרגיה הקינטית
+ )בהתאם ליחס המסות(, וכן התנע הזוויתי, והזוגיות.
+\end_layout
+
+\begin_layout Standard
+במהלך שרשרת של התפרקויות רדיואקטיביות )שאינן כוללת ביקוע ספונטני(, רק התפרקות
+ אלפא משנה את מספר הנוקליאונים, ותמיד ב-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+, ולכן יש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שרשראות נפרדות לגמרי של התפרקויות רדיואקטיביות.
+\end_layout
+
+\begin_layout Subsubsection*
+מודל גס לחישוב הסתברות פליטה של חלקיק אלפא
+\end_layout
+
+\begin_layout Standard
+הנחת המודל: חלקיק האלפא קיים בתוך גרעין האם, ונע הלוך ושוב בהשפעת הפוטנציאל
+ החשמלי והגרעיני החזק.
+ הוא מתנגש במחסום בתדירות 
+\begin_inset Formula $f$
+\end_inset
+
+ )התלויה במהירות החלקיק 
+\begin_inset Formula $v$
+\end_inset
+
+ ורוחב הבור 
+\begin_inset Formula $a$
+\end_inset
+
+ ( וממנהר דרכו בסיכוי 
+\begin_inset Formula $P$
+\end_inset
+
+.
+ הסיכוי 
+\begin_inset Formula $P$
+\end_inset
+
+ מוערך עפ"י קירוב של מחסום הפוטנציאל למחסום מרובע, והסיכוי למינהור נתון
+ לפי יחס העצמה של פונקצית הגל בשני צידי המחסום.
+ הערכה טובה קצת יותר מתקבלת ע"י התייחסות למחסום הפוטנציאל בתור שרשרת מחסומים
+ צרים והתייחסות לסיכוי למנהר דרך כולם.
+ מהמודל הזה מתקבלת הערכה לזמן מחצית החיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+***
+\]
+
+\end_inset
+
+הנוסחא סוטה מהמידע האמפירי ליסודות רדיואקטיביים שונים בערך בשני סדרי גודל.
+ אולם, הסטייה הזו עקבית, וגם מסבירה שתי תופעות אמפיריות: זמן מחצית החיים
+ תלוי באופן חזק מאוד באנרגית ההתפרקות )אנרגיה גבוהה במעט, משפרת מאוד את
+ הסיכוי למנהר, וכך מקטינה משמעותית את 
+\begin_inset Formula $t_{\frac{1}{2}}$
+\end_inset
+
+(.
+ בנוסף, הסיכוי של החלקיק למנהר קטן משמעותית עם המסה שלו, ולכן כמעט אין מינהורים
+ של חלקיקים כבדים יותר מחלקיק אלפא.
+\end_layout
+
+\begin_layout Subsubsection*
+ספקטרוגרפיה
+\end_layout
+
+\begin_layout Standard
+בהינתן דוגמא של חומר רדיואקטיבי, ניתן למדוד את האנרגיות של חלקיקי האלפא
+ הנפלטים )וגם של התפרקויות אחרות(
+\end_layout
+
+\begin_layout Standard
+===================
 \end_layout
 
 \begin_layout Standard
@@ -563,6 +1016,14 @@ stodo
 
 \begin_layout Standard
 * ספקטרוסקופיה
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+4
+\numeric off
+ שרשראות אלפא
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1013,6 +1474,11 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+** האם אנחנו רוצים לנסות לנתח את גובה הפיקים, לוודא יחסים בין קבועי דעיכה
+ בהתפרקויות השונות?
 \end_layout
 
 \begin_layout Subsubsection*
