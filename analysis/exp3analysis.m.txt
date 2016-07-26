@@ -1,4 +1,4 @@
-folder = 'H:\Physics Lab 3\alpha\data\exp3\';
+folder = 'C:\Users\Dan Wexler\Documents\school\year 3\lab3\alpha decay\alpha.git\exp3\';
 files = dir([folder,'*.Spe']);
 
 for ind = 1:length(files)
@@ -37,7 +37,7 @@ figure
 v = areas(:,3);
 plot(t_means, log(v))
 
-foo = @(tau, x) exp(-x./tau);
+foo = @(a,tau, x) a*exp(-x./tau);
 
 fit(t_means, v, foo)
 

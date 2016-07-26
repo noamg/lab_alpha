@@ -37,21 +37,28 @@ set(h(2),'linewidth',2)
 plot(0:2047,data_dC-data_err,':b')
 plot(0:2047,data_dC+data_err,':b')
 
+errors = diff(confint (fitResult));
+
 energy_dataByChannel = [fitResult.b1,fitResult.b2,fitResult.b3,...
     fitResult.b4,fitResult.b5,fitResult.b6,fitResult.b7,fitResult.b8];
 [energy_fromLit,energyIX] = sort([5423,5340,5685,6288,6778,6051,6090,8784]); % keV
 
+energy_dataError = errors(9:end-2); 
+
 eFrequency_dataByChannel = [fitResult.a1,fitResult.a2,fitResult.a3,...
     fitResult.a4,fitResult.a5,fitResult.a6,fitResult.a7,fitResult.a8];
-eFrequency_dataByChannel = eFrequency_dataByChannel/max(eFrequency_dataByChannel);
+eFrequency_dataError = errors(1:8)/sum(eFrequency_dataByChannel(1:2));
+eFrequency_dataByChannel = eFrequency_dataByChannel/sum(eFrequency_dataByChannel(1:2));
 eFrequency_fromLit = 1e-2*[71,28,95,100,100,25,10,64];
 eFrequency_fromLit = eFrequency_fromLit(energyIX);
 
-[fitEnergyChannel,gofEnCh] = fit(energy_dataByChannel',energy_fromLit','poly1');
-[fitEnergyChannelLin,gofEnChLin] = fit(energy_dataByChannel',energy_fromLit','poly1','Upper',[inf,0],'Lower',[-inf,0]);
+weightEBin = energy_dataByChannel./energy_dataError;
+[fitEnergyChannel,gofEnCh] = fit(energy_dataByChannel',energy_fromLit','poly1','weights',weightEBin);
+% [fitEnergyChannelLin,gofEnChLin] = fit(energy_dataByChannel',energy_fromLit','poly1','Upper',[inf,0],'Lower',[-inf,0]);
 
 
 figure
 hold on
 plot(eFrequency_fromLit,'o')
+errorbar(eFrequency_dataByChannel,eFrequency_dataError,'.')
 plot(eFrequency_dataByChannel,'x')
