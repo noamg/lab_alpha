@@ -55,7 +55,13 @@ eFrequency_fromLit = eFrequency_fromLit(energyIX);
 weightEBin = energy_dataByChannel./energy_dataError;
 [fitEnergyChannel,gofEnCh] = fit(energy_dataByChannel',energy_fromLit','poly1','weights',weightEBin);
 % [fitEnergyChannelLin,gofEnChLin] = fit(energy_dataByChannel',energy_fromLit','poly1','Upper',[inf,0],'Lower',[-inf,0]);
-
+figure
+subplot(2,1,1)
+hold on
+plot(fitEnergyChannel,energy_dataByChannel,energy_fromLit)
+subplot(2,1,2)
+title('residuals')
+plot(energy_dataByChannel,feval(fitEnergyChannel,energy_dataByChannel) - energy_fromLit','.')
 
 figure
 hold on
