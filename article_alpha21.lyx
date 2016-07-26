@@ -2442,6 +2442,401 @@ status open
 
 \end_layout
 
+\begin_layout Subsubsection*
+נתונים עיקריים לצורך זיהוי המקור
+\end_layout
+
+\begin_layout Standard
+אנרגיות מדודות: 
+\begin_inset Formula $6050\pm...$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+סקאלות דעיכה שרואים במערכת:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+30
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דקות, אינסוף עד כדי ???.
+\end_layout
+
+\begin_layout Subsubsection*
+ניתוח
+\end_layout
+
+\begin_layout Enumerate
+כאשר לגרעין אם זמן חיים ארוך משמעותית מזה של גרעין הבת, הכמות )וגם הפעילות(
+ של גרעין הבת "עוקב" אחרי האם.
+\end_layout
+
+\begin_layout Enumerate
+כאשר ישנו גרעין עם זמן חיים ארוך ביחס לזמן המדידה, לא מודדים שינויים בכל
+ הכמויות של הצאצאים שלו לדורותיהם )שיווי משקל סקולרי(.
+\end_layout
+
+\begin_layout Enumerate
+במחסן ישנו גרעין אם ארוך חיים )סקאלה של שנים(, וגרעיני הבת נאספים על אלקטרודה,
+ שעליה נערכת המדידה.
+\end_layout
+
+\begin_layout Enumerate
+מסקנה: אנחנו מחפשים גרעין אם ארוך שנים, שמתחיל שרשרת התפרקויות )אולי עם
+ פיצולים(.
+ אחריו יש רצף של גרעינים עם 
+\begin_inset Formula $t_{\frac{1}{2}}\ll T$
+\end_inset
+
+ )והם מתפרקים עוד לפני תחילת הניסוי(.
+ אחריהם שתי אפשרויות: גרעין עם 
+\begin_inset Formula $t_{\frac{1}{2}}\gg T$
+\end_inset
+
+ שאחריו רצף התפרקויות עד יסוד יציב )שלא משתנה בזמן המדידה(, או גרעין עם
+ 
+\begin_inset Formula $t_{\frac{1}{2}}=T$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Enumerate
+כמו כן 
+\begin_inset Formula $\#E_{3}>\#E_{2}$
+\end_inset
+
+ולכן לא ייתכן שהתפרקות 
+\begin_inset Formula $E_{3}$
+\end_inset
+
+ מתרחשת מאוחר יותר בשרשרת.
+\end_layout
+
+\begin_layout Enumerate
+כלומר, יש למצוא התפרקות אלפא עם 
+\begin_inset Formula $E_{3}$
+\end_inset
+
+ ו- 
+\begin_inset Formula $t_{\frac{1}{2}}=T$
+\end_inset
+
+, או התפרקות אלפא עם 
+\begin_inset Formula $t_{\frac{1}{2}}\ll T$
+\end_inset
+
+ שנוצרת ע"י התפרקות אחרת עם 
+\begin_inset Formula $t_{\frac{1}{2}}=T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+פסילת אפשרויות
+\end_layout
+
+\begin_layout Standard
+אנרגיה 
+\begin_inset Formula $E_{3}$
+\end_inset
+
+ עם 
+\begin_inset Formula $t_{\frac{1}{2}}=T$
+\end_inset
+
+ אפשרי רק 
+\begin_inset Formula $Po232$
+\end_inset
+
+ והוא יוצר שרשרת לא מתאימה לשאר האנרגיות.
+\end_layout
+
+\begin_layout Standard
+אנרגיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בזמן קצר )כדי להגיע אחרי בתא(:
+\end_layout
+
+\begin_layout Standard
+ל: 
+\begin_inset Formula $Ra213,Ra209,At212,Fr220$
+\end_inset
+
+ יש התפרקות אלפא באנרגיה מתאימה וזמן מחצית חיים קצר מ-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דקות, אבל אין התפרקות בתא שיוצרת אותם עם זמן מחצית חיים מתאים.
+\end_layout
+
+\begin_layout Standard
+האופציה שנראית סבירה יותר היא:
+\end_layout
+
+\begin_layout Standard
+התהליך הבא יכול להסביר את האנרגיות 
+\begin_inset Formula $e1,e2***$
+\end_inset
+
+: 
+\begin_inset Formula $Bi211\Rightarrow Tl207\Rightarrow Pb207$
+\end_inset
+
+ וגם את יחסי המופעים הנמדדים: 
+\begin_inset Formula $\frac{\#(E_{3})}{\#(E_{2})}=5.4\pm1.4$
+\end_inset
+
+ כאשר לפי הנתונים צפוי 
+\begin_inset Formula $6$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+עם יצירת של ראש השרשרת ע"י 
+\begin_inset Formula $Pb211\Rightarrow Bi211$
+\end_inset
+
+ עם זמן מחצית חיים של ***
+\numeric on
+30
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דקות כמה שמדדנו.
+\end_layout
+
+\begin_layout Standard
+מה שעדיין לא כ"כ ברור: לא מצאנו שרשרת של התפרקויות מהירות שמובילה ל 
+\begin_inset Formula $Pb211$
+\end_inset
+
+ ומקורה ביסוד עם זמן חיים של שנים.
+\end_layout
+
+\begin_layout Standard
+****
+\end_layout
+
+\begin_layout Standard
+האנרגיות ***,*** מוכרות לנו מניסוי הכיול, ומוסברות ע"י תהליך ההתפרקות הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Bi212\Rightarrow\begin{cases}
+PO212\Rightarrow Pb208\\
+Tl208\Rightarrow Pb208
+\end{cases}$
+\end_inset
+
+ וגם את יחסי המופעים הנמדדים בין 
+\begin_inset Formula $\frac{\#(E_{4})}{\#(E_{1})}=2.45\pm0.35$
+\end_inset
+
+ כאשר לפי הנתונים צפוי 
+\begin_inset Formula $2.6$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יצירת ראש השרשרת אפשרית ע"י 
+\begin_inset Formula $Pb212\Rightarrow Bi212$
+\end_inset
+
+ עם זמן מחצית חיים של 
+\begin_inset Formula $10.64[hour]$
+\end_inset
+
+ מספיק כך שלא תימדד דעיכה במהלך הניסוי.
+\end_layout
+
+\begin_layout Standard
+ייתכן כי 
+\begin_inset Formula $Pb212$
+\end_inset
+
+ וכן 
+\begin_inset Formula $Po216,Rn220$
+\end_inset
+
+ הצטברו על האלקטרודה שאספה ****, עד תחילת המדידה, הפולוניום והרניום התפרקו
+ לעופרת.
+\end_layout
+
+\begin_layout Standard
+*****************
+\end_layout
+
+\begin_layout Standard
+================
+\end_layout
+
 \begin_layout Standard
 מה אנחנו יכולים להגיד על הסדר של ההתפרקויות.
  אילו דעכו, יותר.
@@ -3317,6 +3712,102 @@ status open
 \end_layout
 
 \begin_layout Standard
+*** אפשרויות שונות: תרחישים
+\end_layout
+
+\begin_layout Standard
+יש שרשרת אחת שמכילה את כל האלפות
+\end_layout
+
+\begin_layout Standard
+יש אבא ארוך טווח שעובר גם אלפא וגם בתא.
+ מייצר שני ראשי שרשרת.
+ כ"א מהם מתפתח לבד.
+ יכולים לסיים באותו מקום אבל לא חייבים.
+\end_layout
+
+\begin_layout Standard
+יש שני אבות ארוכי טווח.
+ למשל, יכול להיווצר ע"י ערבוב של המקורות.
+\end_layout
+
+\begin_layout Standard
+אבא ארוך ורחוק.
+ דברים מהירים.
+\end_layout
+
+\begin_layout Standard
+==
+\end_layout
+
+\begin_layout Standard
+ייתכנו דעיכות מהירות בדרך מהמחסן למעבדה.
+ .
+\end_layout
+
+\begin_layout Standard
+יש בקופסא אב ארוך חיים.
+ הבנות שלו נאספות על אלקטרודה.
+ אחריו צריכים להיות דברים מהירים, בכל מיני התפצלויות, ואז להגיע ליסוד עם
+ זמן מחצית חיים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+30
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)ואחריו מהירים בלבד, עד המון( ד' או המון ואחריו אין אילוץ.
+ התדיר יותר לא יכול להיות שני ברצף
+\end_layout
+
+\begin_layout Standard
+==
+\end_layout
+
+\begin_layout Standard
 *** שופוני אפשרי: להראות את הקורלציה בין הערכים של שני אלה שדועכים בקבוע
  כ-
 \family roman
@@ -3385,7 +3876,9 @@ status open
 להעלות על הגרף.
  בגלל חוסר וודאות בכמות הבסיסית, ייתכן שנקבל שני קווים לינארים באותה הסטה,
  אבל באופן עקרוני עם אותו שיפוע.
- אני חושב שבתנאים האלה רגרסיה לינארית אמורה לתת שיפוע נכון.
+ אני חושב שבתנאים האלה רגרסיה לינארית אמורה לתת שיפוע נכון.***שני הישרים
+ אמורים לחתוך את ראשית הצירים.
+ יופי.
 \end_layout
 
 \begin_layout Standard
