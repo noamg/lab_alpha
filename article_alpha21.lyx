@@ -1692,7 +1692,7 @@ status open
 
 \begin_layout Enumerate
 מקור חלקיקי אלפא: נמצא במרחק קבוע 
-\begin_inset Formula $d=3.0[cm]$
+\begin_inset Formula $l=3.0[cm]$
 \end_inset
 
  מהגלאי.
@@ -1989,6 +1989,18 @@ status open
 ניסוי ראשון: מדידת ספקטרום אנרגיות של מקור ידוע, וכיול הגלאי
 \end_layout
 
+\begin_layout Standard
+מודדים את פעילות האלפא של שרשרת ההתפרקות של 
+\begin_inset Formula $Th228$
+\end_inset
+
+ במצב סקולרי )
+\begin_inset Formula $t_{\frac{1}{2}}$
+\end_inset
+
+ ארוך מאוד ביחס למשך הניסוי(
+\end_layout
+
 \begin_layout Subsubsection*
 סדר פעולות ליצירת וואקום ברמה של ***:
 \end_layout
@@ -2271,7 +2283,29 @@ status open
 \begin_inset Formula $PV=NK_{B}T$
 \end_inset
 
-(.ונקבל: ***דן, בבקשה לוודא נוסחא זאת***
+(.ונקבל:
+\end_layout
+
+\begin_layout Standard
+***דן, בבקשה לוודא נוסחא זאת***
+\end_layout
+
+\begin_layout Standard
+***ספציפית: מדוע אנחנו מחלקים בצפיפות המסה ולא בצפיפות החלקיקים? מה זה משנו
+ לחלקיק האלפא מה המסה של 
+\begin_inset Formula $N_{2}$
+\end_inset
+
+ ? מעניין אותו כמה אלקטרונים נוספים יש
+\end_layout
+
+\begin_layout Standard
+הייתי רוצה לחלק בצפיפות המספרית 
+\begin_inset Formula $\frac{N}{V}$
+\end_inset
+
+ וגם במספר האלקטרונים למולקולה.
+ איפה נכנסת פה מסה?***
 \end_layout
 
 \begin_layout Standard
@@ -2358,7 +2392,7 @@ status open
 \begin_inset Formula $N_{2}$
 \end_inset
 
-.
+, ונרמלנו כל ספקטרום בזמן המדידה נטו.
  )כזכור, צריך לשמור על לחץ מינימלי של ***(
 \end_layout
 
@@ -2468,42 +2502,44 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-ספקטרום פליטה - היסטוגרמה.
+ספקטרום אלפא של שרשרת התפרקות של 
+\begin_inset Formula $Th228$
+\end_inset
+
+ : ספירת התפרקויות לכל ערוץ אנרגיה.
  ליד כל פיק מצוינת ההתפרקות לה שייך.
- הערה לגבי רעשים מסוגים שונים רעש אנרגיות נמוכות
-\end_layout
-
+ בתחום האנרגיות 
+\begin_inset Formula $***-***[KeV]$
 \end_inset
 
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-אנרגיות נמוכות: רעש תרמי בגלאי, אלקטרונים שנפלטו בקרינת 
+רואים ספירות שכיחות שאינן נובעות מחלקיקי אלפא, אלא מרעש תרמי בגלאי ואלקטרונים
+ שנפלטו בקרינת 
 \begin_inset Formula $\beta^{-}$
 \end_inset
 
 .
 \end_layout
 
-\begin_layout Standard
-האם ההערות הללו צריכות להיות בדיון??
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-הערה: ההתפלגות ליד כל פיק היא לא סימטרית.
- יש ערך והסטה לנמוך.
- ברחנו שרירותית פונ' כזאת שהיא נפוצה....
- ורואים התאמה טובה *בעין *ערך שקרים
-\end_layout
-
-\begin_layout Standard
-הערה: רעשים מסוגים שונים שיש בספטקטרום.
+כדי לפשט את הספקטרום, למצוא את תחומי ערוצי האנרגיה של כל התפרקות ואת הכמות
+ שלה, ביצענו התאמה של כל מקבץ אנרגיות של פיק לפונקציה מייצגת.
+ בנתונים רואים שההתפלגות של כל פיק אינה סימטרית, דבר העולה בקנה אחד עם הצפי
+ התיאורטי: ההתפלגות הזו אינה מייצגת ערך מרכזי עם שגיאות זהות לשני הכיוונים.
+ לכל פיק יש אנרגיה מקסימלית עקרונית: והיא האנרגיה של חלקיק אלפא, וההפרעות
+ יכולות להקטין את האנרגיה של חלקיק האלפא עד הגעתו לגלאי )למשל, מעט הלחץ
+ שנותר במערכת(.
+ בחרנו להתאים לפונקצית גאוסיאן "לא סימטרי" מקובלת:***דן: איזו?***.
+ פונקציה זו מאפשרת "זנב" משמעותי יותר לכיוון הנמוך.
 \end_layout
 
 \begin_layout Standard
@@ -2516,8 +2552,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-ספקטרום פליטה: עם התאמה לגאוסיאנים לא סימטריים, מרכזי פיקים...
- 
+ספקטרום אלפא של שרשרת התפרקות של 
+\begin_inset Formula $Th228$
+\end_inset
+
+ : ספירת התפרקויות לכל ערוץ אנרגיה, עם התאמה לגאוסיאנים לא סימטריים
 \end_layout
 
 \end_inset
@@ -2531,6 +2570,21 @@ status open
 \end_layout
 
 \begin_layout Standard
+***, מרכזי פיקים...
+ ????***
+\end_layout
+
+\begin_layout Standard
+כיוון שערוצי האנרגיה לינאריים, באמצעות הידע המוקדם על האנרגיות של ההתפרקויות
+ בשרשרת של 
+\begin_inset Formula $Th228$
+\end_inset
+
+, כיילנו את הסקאלה של מערכת המדידה.
+ כלומר, מצאנו את ערך האנרגיה של כל ערוץ:
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -2540,7 +2594,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-התאמה ליניארית של אנרגיות לבינים - כיול סקאלת אנרגיה
+התאמה ליניארית של אנרגיות לערוצים - כיול סקאלת אנרגיה
 \end_layout
 
 \end_inset
@@ -2563,7 +2617,35 @@ status open
 \end_layout
 
 \begin_layout Subsubsection*
-דיון
+=========דיון
+\end_layout
+
+\begin_layout Standard
+בתחום האנרגיות 
+\begin_inset Formula $***-***[KeV]$
+\end_inset
+
+רואים ספירות שכיחות שאינן נובעות מחלקיקי אלפא, אלא מרעש תרמי בגלאי ואלקטרונים
+ שנפלטו בקרינת 
+\begin_inset Formula $\beta^{-}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+הערה: ההתפלגות ליד כל פיק היא לא סימטרית.
+ יש ערך והסטה לנמוך.
+ ברחנו שרירותית פונ' כזאת שהיא נפוצה....
+ ורואים התאמה טובה *בעין *ערך שקרים
+\end_layout
+
+\begin_layout Standard
+הערה: רעשים מסוגים שונים שיש בספטקטרום.
+\end_layout
+
+\begin_layout Standard
+============
 \end_layout
 
 \begin_layout Subsection*
@@ -2580,7 +2662,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-ספקטרומים בלחצים שונים בפיגר אחד עם סאבלפוט
+ספקטרומים בלחצים שונים, מנורמלים בזמן המדידה נטו )***בפיגר אחד עם סאבלפוט***(
 \end_layout
 
 \end_inset
@@ -2594,13 +2676,58 @@ status open
 \end_layout
 
 \begin_layout Standard
-כמו שניתן לראות: ירידה באנרגיה וכן ירידה בספירה (מנורמל ליח' זמן)...
+כמו שניתן לראות:
 \end_layout
 
 \begin_layout Standard
-הסבר על שימת הנקודות על הגרף: השינוי באנרגיה של אותו אינדקס פיק בין שני
- לחצים שונים, מול השינוי בלחצים הללו.
- אינדיקציה ל....
+עם העלייה בלחץ הפיקים יורדים באנרגיה, והרוחב שלהם גדל.
+\end_layout
+
+\begin_layout Standard
+***האם הם גם יורדים בספירה? הייתי מצפה שלא...***
+\end_layout
+
+\begin_layout Standard
+את מרכזי הפיקים ניתחנו כמו בניסוי הכיול, בעזרת התאמת גאוסיאנים לא סימטריים
+ להתפלגויות.
+\end_layout
+
+\begin_layout Subsubsection*
+אולי כותרת***
+\end_layout
+
+\begin_layout Standard
+מדידת כוח העצירה, היא למעשה שיערוך התלות 
+\begin_inset Formula $\frac{dE}{dP}(E)$
+\end_inset
+
+.
+ מהמדידות, יש לנו את האנרגיה הנמדדת של כל פיק עבור כל אחד מהלחצים, ולכן
+ ניתן לחשב את 
+\begin_inset Formula $\frac{\Delta E}{\Delta P}$
+\end_inset
+
+ בין שני לחצים 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ ו- 
+\begin_inset Formula $P_{2}$
+\end_inset
+
+.
+ שיפוע זה מייצג את כוח העצירה באנרגיה 
+\begin_inset Formula $\frac{1}{2}(E_{P_{1}}+E_{p_{2}})$
+\end_inset
+
+.
+ שיערוך כזה ביצענו עבור כל שני לחצים סמוכים, ועבור כל אחד מהפיקים.
+\end_layout
+
+\begin_layout Standard
+=====הסבר על שימת הנקודות על הגרף: השינוי באנרגיה של אותו אינדקס פיק בין
+ שני לחצים שונים, מול השינוי בלחצים הללו.
+ אינדיקציה ל....======
 \end_layout
 
 \begin_layout Standard
@@ -2613,7 +2740,25 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-כח עצירה כפונ' של אנרגיה יחד עם נתונים של אמריקאיים
+נתוני 
+\begin_inset Formula $\frac{\Delta E}{\Delta P}$
+\end_inset
+
+ לכל זוג לחצים סמוכים ולכל פיק, מאפשרים להעריך את כוח העצירה 
+\begin_inset Formula $\frac{dE}{dP}(E)$
+\end_inset
+
+.
+ כמו כן, בצבע *** מוצגים נתונים שנמדדו בניסוי דומה ב***)רפרנס***(.***בוא
+ נוסיף קו של 
+\begin_inset Formula $fit$
+\end_inset
+
+ או 
+\begin_inset Formula $spline$
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2624,6 +2769,10 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+*** כאן נועם הפסיק לעבור ביום חמישי בערב ***
 \end_layout
 
 \begin_layout Standard
