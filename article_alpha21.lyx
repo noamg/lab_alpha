@@ -133,50 +133,11 @@ stodo
 \end_layout
 
 \begin_layout Standard
-דגרפים: אסתטיקה ושגיאות )דן, שני צהריים(: גרף ספקטרום ניסוי
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
-\numeric off
-.
-\end_layout
-
-\begin_layout Standard
-עוד קצת כתיבה
-\end_layout
-
-\begin_layout Standard
 חישוב: טווח עצירה 
 \begin_inset Formula $BETHE$
 \end_inset
 
  ונתונים אמריקאיים.
-\end_layout
-
-\begin_layout Standard
-* זמן מחצית חיים מתואם
 \end_layout
 
 \begin_layout Standard
@@ -255,98 +216,6 @@ stodo
 \noun default
 \color inherit
 דקות )חלקי(
-\end_layout
-
-\begin_layout Standard
-לסלק פיגומים:
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-20
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-דקות )לעשות את זה על פני
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- קומיטים נפרדים!(
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1563,7 +1432,7 @@ status open
 \end_inset
 
 : שואבת אוויר בצורה מכנית, ומגיעה עד לחץ של 
-\begin_inset Formula $\sim1[mThorr]$
+\begin_inset Formula $\sim1[mTORR]$
 \end_inset
 
 
@@ -1623,7 +1492,7 @@ status open
 \noun default
 \color inherit
 באיזה סקאלה? 
-\begin_inset Formula $\mu Thor$
+\begin_inset Formula $\mu TORR$
 \end_inset
 
 ?***
@@ -3034,10 +2903,6 @@ Tl208\Rightarrow Pb208
 
 \begin_layout Standard
 ================
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
