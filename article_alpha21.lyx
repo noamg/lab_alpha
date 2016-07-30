@@ -218,128 +218,6 @@ stodo
 דקות )חלקי(
 \end_layout
 
-\begin_layout Subsubsection*
-אי וודאויות
-\end_layout
-
-\begin_layout Standard
-אי וודאויות: ספקטרומים: ציר אנרגיה: אי וודאות היא רוחב תא.
- אי וודאות בציר מנייה הוא 
-\begin_inset Formula $\sqrt{N(E)}$
-\end_inset
-
-.
- אם זה יותר מדי עמוס בגרף, לשאול את סתו על פונקציה של מטלב שיוצרת בצבע תחומי
- שגיאה
-\end_layout
-
-\begin_layout Standard
-ניסוי שלישי: חישוב הפליטות פר מקטע זמן נעשה ע"י חיסור שמגדיל את השגיאה ב-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-לכל היותר.
- הסיבה היא שיש תלות בין המדידות, ואנחנו יודעים אותה!! לא ב"ת.
- לאחר מכן שוב 
-\begin_inset Formula $\sqrt{N(E)}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-פיטים של גאוסיאנים לא סימטריים.
- אי וודאות במרכז מתוך הפיט.
- אי וודאות בספירה הכוללת )משתמשים בזה אח"כ בשביל יחסים בין זמנים אני חושב(.
-\end_layout
-
-\begin_layout Standard
-לרגרסיה הלינארית: בין של מרכז פיק + אי וודאות מול אנרגיה ידועה + אי וודאות.
- התאמה אופטימלית )ואי הוודאויות שלה(
-\end_layout
-
-\begin_layout Standard
-דעיכה תלוית זמן: אי וודאות בזמן לפי רוחב מקטע זמן.
- אי וודאות בספירה לפי ספירה כוללת של הפיק.
-\end_layout
-
-\begin_layout Standard
-ספקטרום של מקור לא ידוע: בעיקרון אנחנו צריכים לקחת את חוסר הוודאויות של
- הבינים, וגם את חוסר הוודאות של ההמרה בין בין לבין אנרגיה.
-\end_layout
-
-\begin_layout Standard
-כוח עצירה: המרה בין לחץ לבין מרחק: גרירת אי וודאויות קלאסית.
-\end_layout
-
-\begin_layout Standard
-בגרף של 
-\begin_inset Formula $\frac{dE}{dx}(E)$
-\end_inset
-
- נקודות אנרגיה לפי אמצע של שתי אנרגיות סמוכות, אי וודאויות לפי האנרגיות
- האלה, אי וודאות בלחץ, אי וודאות בשיפוע.
-\end_layout
-
-\begin_layout Standard
-אי וודאות בטווח: לוקחים את ההופכי של 
-\begin_inset Formula $\frac{dE}{dx}(E)$
-\end_inset
-
- כולל אי הוודאות, האינטרגציה תבוא מיד עם אי וודאות.
- רק שהסכימה של האי וודאויות היא בסכימה אוקלידית.
-\end_layout
-
-\begin_layout Standard
-נראה לי שזהו.
-\end_layout
-
 \begin_layout Part*
 רקע תיאורטי
 \end_layout
@@ -3233,66 +3111,6 @@ rve_-_common_isotopes.svg
 הפניות
 \end_layout
 
-\begin_layout Itemize
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-https://en.wikipedia.org/wiki/Quantum_vortex
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-INTRODUCTION TO SUPERCONDUCTIVITY - Second Edition, Michael Tinkham, McGraw-Hill
- Inc., 1996
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-Lecture Note on Solid State Physics - Ginzburg-Landau Theory for Superconductivi
-ty, Masatsugu Suzuki and Itsuko S.
- Suzuki, 2007 - p.11-12
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-Bismuth-Based High-Temperature Superconductors, Hiroshi Maeda, CRC Press,
- 1996 - p.68
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection*
 מקורות תמונות
 \end_layout
@@ -3624,6 +3442,128 @@ upload.wikimedia.org/wikipedia/en/5/57/Flux_lines_in_a_superconductor01
 
 \begin_layout Part*
 נספח
+\end_layout
+
+\begin_layout Subsubsection*
+אי וודאויות
+\end_layout
+
+\begin_layout Standard
+אי וודאויות: ספקטרומים: ציר אנרגיה: אי וודאות היא רוחב תא.
+ אי וודאות בציר מנייה הוא 
+\begin_inset Formula $\sqrt{N(E)}$
+\end_inset
+
+.
+ אם זה יותר מדי עמוס בגרף, לשאול את סתו על פונקציה של מטלב שיוצרת בצבע תחומי
+ שגיאה
+\end_layout
+
+\begin_layout Standard
+ניסוי שלישי: חישוב הפליטות פר מקטע זמן נעשה ע"י חיסור שמגדיל את השגיאה ב-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לכל היותר.
+ הסיבה היא שיש תלות בין המדידות, ואנחנו יודעים אותה!! לא ב"ת.
+ לאחר מכן שוב 
+\begin_inset Formula $\sqrt{N(E)}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+פיטים של גאוסיאנים לא סימטריים.
+ אי וודאות במרכז מתוך הפיט.
+ אי וודאות בספירה הכוללת )משתמשים בזה אח"כ בשביל יחסים בין זמנים אני חושב(.
+\end_layout
+
+\begin_layout Standard
+לרגרסיה הלינארית: בין של מרכז פיק + אי וודאות מול אנרגיה ידועה + אי וודאות.
+ התאמה אופטימלית )ואי הוודאויות שלה(
+\end_layout
+
+\begin_layout Standard
+דעיכה תלוית זמן: אי וודאות בזמן לפי רוחב מקטע זמן.
+ אי וודאות בספירה לפי ספירה כוללת של הפיק.
+\end_layout
+
+\begin_layout Standard
+ספקטרום של מקור לא ידוע: בעיקרון אנחנו צריכים לקחת את חוסר הוודאויות של
+ הבינים, וגם את חוסר הוודאות של ההמרה בין בין לבין אנרגיה.
+\end_layout
+
+\begin_layout Standard
+כוח עצירה: המרה בין לחץ לבין מרחק: גרירת אי וודאויות קלאסית.
+\end_layout
+
+\begin_layout Standard
+בגרף של 
+\begin_inset Formula $\frac{dE}{dx}(E)$
+\end_inset
+
+ נקודות אנרגיה לפי אמצע של שתי אנרגיות סמוכות, אי וודאויות לפי האנרגיות
+ האלה, אי וודאות בלחץ, אי וודאות בשיפוע.
+\end_layout
+
+\begin_layout Standard
+אי וודאות בטווח: לוקחים את ההופכי של 
+\begin_inset Formula $\frac{dE}{dx}(E)$
+\end_inset
+
+ כולל אי הוודאות, האינטרגציה תבוא מיד עם אי וודאות.
+ רק שהסכימה של האי וודאויות היא בסכימה אוקלידית.
+\end_layout
+
+\begin_layout Standard
+נראה לי שזהו.
 \end_layout
 
 \begin_layout Subsection*
