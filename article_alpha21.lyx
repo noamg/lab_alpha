@@ -1157,8 +1157,12 @@ t_{\frac{1}{2}}=\ln(2)\frac{a}{c}\sqrt{\frac{mc^{2}}{2(V_{0}+Q)}}\exp\{2\sqrt{\f
 .
  כתוצאה מכך, תנועת החלקיק היא תנועה בקו ישר, בערך באותה מהירות, עד שבתחום
  צר הוא מאבד את כל האנרגיה שלו.
- הניתוח הנ"ל הינו סטטיסטי, וחלקיקי אלפא שונים יעברו מסלולים שונים, ויעצרו
- בטווחים שונים, אך בתחום צר.
+ הניתוח הנ"ל הינו סטטיסטי: חלקיקי אלפא שונים יעברו מסלולים שונים, ירגישו
+ כוחות עצירה 
+\begin_inset Formula $\frac{dE}{dx}$
+\end_inset
+
+ שונים במקצת זה מזה, ויעצרו בטווחים שונים, אך בתחום צר.
  ברוב המוצקים חלקיקי אלפא חודרים לטווח של כ 
 \begin_inset Formula $100[\mu m]$
 \end_inset
@@ -2494,8 +2498,42 @@ status open
 \end_inset
 
 (, חלקיקי אלפא לא הואטו לאנרגיה בתחום זה.
+ בפרט, אפילו חלקיקי האלפא האיטיים ביותר, היו בעלי טווח גדול מ- 
+\begin_inset Formula $l=3.0[cm]$
+\end_inset
+
+.
  בעיה זו ניתן לפתור ע"י הגדלת המרחק בין המקור לגלאי, כך שחלקיקי האלפא יואטו
  על פני מסלול ארוך יותר.
+\end_layout
+
+\begin_layout Enumerate
+הערכת הטווח )הממוצע( חלקיקי אלפא באנרגיות השונות:
+\begin_inset Formula 
+\[
+Range(E_{\alpha})=x_{final}-x_{initial}=\int_{E_{in}}^{E_{final}}\frac{dx}{dE}dE=-\int_{E_{in}}^{E_{final}}|(\frac{dE}{dx})^{-1}|dE=\int_{0}^{E_{\alpha}}|(\frac{dE}{dx})^{-1}|dE
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+בהעדר מידע על כוח העצירה בתחום האנרגיות הנמוך, לא ניתן לחשב את הטווח על
+ סמך הנתונים שלנו.
+ בתור בדיקת שפיות לכך שאפילו חלקיק האלפא האיטי ביותר לא הגיע לטווח בין המקור
+ לגלאי בלחץ הגבוה ביותר, ביצענו את הניתוח על סמך המידע מ***.
+ בעזרת אינטגרציה נומרית, ואכן התקבל:
+\begin_inset Formula $Range(E=5340[KeV])\approx5[cm]>l$
+\end_inset
+
+)כדי לעבור ליחידות הנכונות: מרחק, קיזזנו מהתוצאה את צפיפות החנקן בלחץ הגבוה
+ ביותר לפי 
+\begin_inset Formula $\rho=\frac{m_{N_{2}}}{K_{B}T}P$
+\end_inset
+
+(
 \end_layout
 
 \begin_layout Enumerate
@@ -2533,9 +2571,64 @@ status open
 \end_layout
 
 \begin_layout Enumerate
-* ניתוח שגיא הציע: השינוי ברוחב ההתפלגות של הפיקים, אמור להיות קשור גם בהתפלגות
- הבסיס, וגם בהתרחבות כתוצאה מתנודות סטטיסטיות.
- שורש הלחץ.???
+מדידת הספקטרום בלחץ הנמוך ביותר נותנת רוחב מסוים 
+\begin_inset Formula $w_{system}$
+\end_inset
+
+ לכל פיק של חלקיקי אלפא, שנובע מתכונות מערכת המדידה.
+ כאשר יש חומר בתווך, חלקיקי אלפא שונים שנפלטו עם אותה אנרגיה יכולים להגיע
+ לגלאי עם אנרגיה שונה, כיוון שכל אחד מהם עבר נתיב אחר.
+ אנחנו מצפים, שרוחב ההתפלגות שהמרכיב הססטיסטי הזה מכניס 
+\begin_inset Formula $w_{matter}$
+\end_inset
+
+, יהיה לינארי למספר החלקיקים, כלומר, ללחץ.
+ רוחב ההתפלגות הכולל יהיה 
+\begin_inset Formula $w=\sqrt{w_{system}^{2}+w_{matter}^{2}}$
+\end_inset
+
+.
+ כפי שניתן לראות בגרף להלן: *** אישוש לתהליך הססטיסטי.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/E_STD_of_P.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+רוחב ההתפלגות של כל פיק בספקטרום הנובע מהלחץ בלבד.
+ הוא אכן לינארי בלחץ, כצפוי
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
