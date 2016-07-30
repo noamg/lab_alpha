@@ -500,7 +500,7 @@ stodo
 \end_layout
 
 \begin_layout Standard
-השפעת תנע זוויתי
+השפעת תנע זוויתי****!
 \end_layout
 
 \begin_layout Standard
@@ -583,12 +583,6 @@ m(Z,N)=Z\cdot m_{p}+N\cdot m_{n}+B(Z,N)
 \end_layout
 
 \begin_layout Standard
-***אנרגיית הקשר הגרעיני, היא האנרגיה שנוצרת מכך שהנוקליאונים מקובצים יחד
- ומרכיביה: האנרגיה הקולומבית והגרעינית החזקה )מה קרה לחלש, לספין??? ***(.
- ***
-\end_layout
-
-\begin_layout Standard
 אנרגיית הקשר נובעת מכמה מרכיבים ונתונה בקירוב ע"י הנוסחא הסמי אמפירית:
 \begin_inset Formula 
 \[
@@ -668,12 +662,18 @@ status open
 \begin_inset Formula $|\frac{B}{A}|$
 \end_inset
 
-:אנרגית קשר ממוצעת לנוקליאון עבור יסודות שונים )איזוטופים נפוצים ***(.
+:אנרגית קשר ממוצעת לנוקליאון עבור יסודות שונים.
  ניתן לראות שיא בברזל 
 \begin_inset Formula $A=60$
 \end_inset
 
+ ***מקור: 
+\begin_inset Flex URL
+status open
 
+\begin_layout Plain Layout
+
+https://en.wikipedia.org/wiki/Nuclear_binding_energy
 \end_layout
 
 \end_inset
@@ -681,7 +681,8 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
+\end_inset
+
 
 \end_layout
 
@@ -691,10 +692,8 @@ status open
 \end_layout
 
 \begin_layout Standard
-השאיפה של המערכת למינימום אנרגיה, מתבטא בשאיפה למסה מקסימלית לנוקליאון,
- היות ואנרגית הקשר היא שלילית.
- כלומר, לגרעין ישנו רווח אנרגתי להתפצל או להתחבר עם גרעינים אחרים ולהתקרב
- ל- 
+אנרגית הקשר היא שלילית, ומצורת התלות לגרעין ישנו רווח אנרגתי להתפצל או להתחבר
+ עם גרעינים אחרים ולהתקרב ל- 
 \begin_inset Formula $A=60$
 \end_inset
 
@@ -702,57 +701,8 @@ status open
 \end_layout
 
 \begin_layout Standard
-כוח הזיווג? שיקולי תנ"ז.
- זוגיות נוקליאונים?
-\end_layout
-
-\begin_layout Standard
-=======
-\end_layout
-
-\begin_layout Standard
-החומר הגרעיני.
-\end_layout
-
-\begin_layout Standard
-תיאור קוונטי.
- תיאור פשוט יותר.
-\end_layout
-
-\begin_layout Standard
-צפיפות
-\end_layout
-
-\begin_layout Standard
-התפלגות המטען
-\end_layout
-
-\begin_layout Standard
-רדיוס בערך.
- חשמלי, חומרי
-\end_layout
-
-\begin_layout Standard
-אנרגית קשר גרעינית.
- הכוח הגרעיני.
-\end_layout
-
-\begin_layout Standard
-מסה גרעינית.
- מסות מנוחה ואנרגית קשר.
-\end_layout
-
-\begin_layout Standard
-נוסחת מסה סמי-אמפירית ***
-\end_layout
-
-\begin_layout Standard
-גרף של אנרגית קשר ממוצעת לנוקליאון.
- מקסימום גלובלי.
-\end_layout
-
-\begin_layout Standard
-=================
+********* כוח הזיווג? שיקולי תנ"ז.
+ זוגיות נוקליאונים? *******
 \end_layout
 
 \begin_layout Subsubsection*
@@ -760,8 +710,8 @@ status open
 \end_layout
 
 \begin_layout Standard
-באופן אמפירי, אכן ישנם יסודות שמבצעים שינוי ספונטני של מבנה הגרעין: יסודות
- רדיואקטיביים.
+באופן אמפירי, ישנם יסודות שמבצעים שינוי ספונטני של מבנה הגרעין: יסודות רדיואקטיב
+יים.
  הגרעין לפני ההתפרקות מכונה גרעין אם, ואחרי ההתפרקות מכונה גרעין בת.
  סוגי ההתפרקויות הספונטניות: 
 \begin_inset Formula $\beta^{+}$
@@ -881,27 +831,6 @@ N=\frac{1}{\lambda}R
 \end_layout
 
 \begin_layout Standard
-פליטה ספנוטנית, יתרון אנרגתי
-\end_layout
-
-\begin_layout Standard
-אמפירי: קבוע דעיכה, סטטיסטי.
-\end_layout
-
-\begin_layout Standard
-אלפא, בתא, גאמא, ביקוע ספונטני
-\end_layout
-
-\begin_layout Standard
-שיווי משקל סקולרי
-\end_layout
-
-\begin_layout Standard
-שרשראות התפרקויות.
- 
-\end_layout
-
-\begin_layout Standard
 יצירה של יסודות רדיואקטיביים
 \end_layout
 
@@ -970,7 +899,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-טבלה לדוגמא אנרגיות עבור פליטת חלקיקים שונים מתוך הספר
+טבלה לדוגמא אנרגיות עבור פליטת חלקיקים שונים מתוך 
+\begin_inset Formula $Kenneth-page-247$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -985,7 +918,12 @@ status open
 
 \begin_layout Standard
 במהלך ההתפרקות נשמר תנע קווי, כך שחלקיק האלפא מקבל את רוב האנרגיה הקינטית
- )בהתאם ליחס המסות(
+ )בהתאם ליחס המסות(.
+ אנרגיה זו מסומנת 
+\begin_inset Formula $E_{\alpha}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1185,7 +1123,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-מודל *** בור פוטנציאל עבור חלקיק אלפא
+בור פוטנציאל )כוח חזק וכוח חשמלי( עבור חלקיק אלפא
 \end_layout
 
 \end_inset
@@ -1234,7 +1172,7 @@ status open
 \begin_layout Standard
 \begin_inset Formula 
 \[
-t_{\frac{1}{2}}=\ln(2)\frac{a}{c}\sqrt{\frac{mc^{2}}{2(V_{0}+Q)}}\exp\{2\sqrt{\frac{2mc^{2}}{(\hbar c)^{2}Q}}\frac{ZZ^{'}e^{2}}{4\pi\epsilon_{0}}(\frac{\pi}{2}-2\sqrt{\frac{Q}{B}})\}
+t_{\frac{1}{2}}=\ln(2)\frac{a}{c}\sqrt{\frac{mc^{2}}{2(V_{0}+Q)}}\exp\{2\sqrt{\frac{2mc^{2}}{(\hbar c)^{2}Q}}\frac{zZ^{'}e^{2}}{4\pi\epsilon_{0}}(\frac{\pi}{2}-2\sqrt{\frac{Q}{B}})\}
 \]
 
 \end_inset
@@ -1247,8 +1185,11 @@ t_{\frac{1}{2}}=\ln(2)\frac{a}{c}\sqrt{\frac{mc^{2}}{2(V_{0}+Q)}}\exp\{2\sqrt{\f
 \begin_inset Formula $a$
 \end_inset
 
- רדיוס הגרעין ....
- **** )מקור ספר
+ רדיוס הגרעין, 
+\begin_inset Formula $z,Z^{'}$
+\end_inset
+
+ מספר הפרוטונים בגרעין אחרי הפליטה ומספר הפרוטונים בחלקיק האלפא )שהוא
 \family roman
 \series medium
 \shape up
@@ -1273,9 +1214,17 @@ t_{\frac{1}{2}}=\ln(2)\frac{a}{c}\sqrt{\frac{mc^{2}}{2(V_{0}+Q)}}\exp\{2\sqrt{\f
 \uwave default
 \noun default
 \color inherit
-8.18
+2
 \numeric off
-(
+(, 
+\begin_inset Formula $B$
+\end_inset
+
+ אנרגיית השיא של מחסום הפוטנציאל )מקור: 
+\begin_inset Formula $Kenneth-page-255-formula-8.18$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1309,56 +1258,6 @@ t_{\frac{1}{2}}=\ln(2)\frac{a}{c}\sqrt{\frac{mc^{2}}{2(V_{0}+Q)}}\exp\{2\sqrt{\f
  התאמה לספקטרום מוכר.
 \end_layout
 
-\begin_layout Standard
-===================
-\end_layout
-
-\begin_layout Standard
-ניתוח אנרגתי.
- הסיבה לפליטת אלפא.
- קומפטי.
-\end_layout
-
-\begin_layout Standard
-חוקי שימור בהתפרקויות.
- אנרגיה + מסה, תנע, תנ"ז, זוגיות
-\end_layout
-
-\begin_layout Standard
-אנרגית רתע במערכת מרכז המסה, במערכת המעבדה.
-\end_layout
-
-\begin_layout Standard
-התנהגות שונה לזוגיות של Z,N.
-\end_layout
-
-\begin_layout Standard
-
-\numeric on
-8.4
-\numeric off
-: מודל שמן שמנסה לנתח את ההסתברות למנהר? זמן מחצית חיים.
- לפחות להזכיר אותו.
- המודל לא נותן תוצאות טובות כמותית, כן מבהיר משהו לגבי הסקאלות השונות במערכת.
- רגישות לאנרגיה.
-\end_layout
-
-\begin_layout Standard
-* ספקטרוסקופיה
-\end_layout
-
-\begin_layout Standard
-
-\numeric on
-4
-\numeric off
- שרשראות אלפא
-\end_layout
-
-\begin_layout Standard
-===================
-\end_layout
-
 \begin_layout Subsubsection*
 חלקיקי אלפא בחומר
 \end_layout
@@ -1368,7 +1267,12 @@ t_{\frac{1}{2}}=\ln(2)\frac{a}{c}\sqrt{\frac{mc^{2}}{2(V_{0}+Q)}}\exp\{2\sqrt{\f
  הנפח האפקטיבי של האלקטרונים בחומר רב משמעותית משל הגרעינים, כלומר, חלקיקי
  אלפא מקיימים אינטרקציה עם האלקטרונים.
  חלקיקי האלפא כבדים יחסית לאלקטרון, ולכן הדינמיקה היא שחלקיק האלפא ינוע
- בערך בקו ישר, ויבצע התנגשויות אלסטיות עם אלקטרונים.
+ בערך בקו ישר, ויבצע התנגשויות אלסטיות עם אלקטרונים, בהן הוא מאבד אנרגיה.
+ חלקיק האלפא מרגיש כוח עצירה של 
+\begin_inset Formula $\frac{dE}{dx}$
+\end_inset
+
+.
  האינטרקציה החשמלית היא ארוכת טווח, ולכן חלקיק האלפא מאבד את האנרגיה שלו
  בהדרגה, והיא עושה "דיפוזיה" דרך האלקטרונים שהוא משחרר מהאטומים.
  ככל שחלקיק האלפא אנרגתי מהר יותר, הוא נע מהר יותר, ומושפע פחות מכל אלקטרון
@@ -1393,6 +1297,16 @@ t_{\frac{1}{2}}=\ln(2)\frac{a}{c}\sqrt{\frac{mc^{2}}{2(V_{0}+Q)}}\exp\{2\sqrt{\f
 .
  האלקטרונים שניתזו מהאינרקציה עם חלקיק האלפא, לעיתים פוגעים באלקטרונים נוספים
  ומשחררים אותם מהאטומים שלהם.
+ מודל 
+\begin_inset Formula $bethe$
+\end_inset
+
+ נותן תיאור כמותי 
+\begin_inset Formula $\frac{dE}{dx}$
+\end_inset
+
+ עבור חלקיקי אלפא שאינם איטיים מדי )איטיים מספיק כך שהם יכולים למשוך אליהם
+ אלקטרונים ולהפוך להליום(.
 \end_layout
 
 \begin_layout Standard
@@ -1446,134 +1360,6 @@ http://www.ilocis.org/documents/chpt48e.htm
 מקור התמונה לעיל ***
 \end_layout
 
-\begin_layout Standard
-מודל 
-\begin_inset Formula $bethe$
-\end_inset
-
- נותן תיאור כמותי של התיאור הנ"ל, ומגיע לנוסחא עבור 
-\begin_inset Formula $\frac{dE}{dx}$
-\end_inset
-
- שהוא כוח העצירה הפועל על החלקיקים:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\frac{dE}{dx}=(\frac{e^{2}}{4\pi\epsilon_{0}})\frac{4\pi Z^{2}N_{0}}{}...
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-*** דן: לבדוק מאיפה הנוסחא הזאת מגיעה )מצאתי בסיכום שלך( זה לא מהספר, מה
- משמעות הקבועים, האם מתאים למה שיצא לנו???***
-\end_layout
-
-\begin_layout Standard
-כאשר: *** הסבר הקבועים ***
-\end_layout
-
-\begin_layout Standard
-המודל כולל הנחה *** שלא תקפה בתחום של מהירויות נמוכות *** מתחת ל???
-\end_layout
-
-\begin_layout Standard
-==========
-\end_layout
-
-\begin_layout Standard
-כבדים, טעונים.
- אינטרציה של פיזור אלסטי עם אלקטרונים.
- תנועה בערך בקו ישר.
- האלקטרונים שניתזו יכולים לגרור אלקטרונים נוספים.
- קרינה מיננת.
- מדידת האלקטרונים.
-\end_layout
-
-\begin_layout Standard
-ברוב המוצקים חודרים עד
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-100
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-מיקרון.
-\end_layout
-
-\begin_layout Standard
-אובדן אנרגיה רציף.
- דיפוזיה של אנרגיה.
- סטטיסטי.
- טווח~
-\end_layout
-
-\begin_layout Standard
-כוח עצירה.
-\end_layout
-
-\begin_layout Standard
-מודל 
-\begin_inset Formula $bethe$
-\end_inset
-
-.
- לא טוב לתחום של מהירויות נמוכות.
- *** האם אנחנו משווים למודל זה מתישהו???? *** השוואה בין חלקיקים באותו חומר.
-\end_layout
-
-\begin_layout Standard
-=====
-\end_layout
-
 \begin_layout Subsubsection*
 אופן פעולת גלאי מסוג מוליך למחצה
 \end_layout
@@ -1595,22 +1381,7 @@ http://www.ilocis.org/documents/chpt48e.htm
 \end_layout
 
 \begin_layout Standard
-=======
-\end_layout
 
-\begin_layout Standard
-במעבר בין מל"מ מסוג n לסוג p אפשר ליצור אזור נטול מטענים חופשיים (אלקטרונים
- או חורים) תחת שדה חשמלי חזק.
- חלקיק שיוצר אינטראקציה משחרר מטען שינוע תחת השדה וייספר כבמונה ממולא גז.
- 
-\end_layout
-
-\begin_layout Standard
-כלומר: אמפרמטר.
-\end_layout
-
-\begin_layout Standard
-=========
 \end_layout
 
 \begin_layout Part*
