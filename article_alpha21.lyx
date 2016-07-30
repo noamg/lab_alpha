@@ -129,17 +129,19 @@ stodo
 \end_layout
 
 \begin_layout Standard
-זיהוי מקור.
+זיהוי מקור: מציאת אבות קדמונים.
 \end_layout
 
 \begin_layout Standard
-אנחנו צריכים לשבת היום על זיהוי המקור.
- אם אנחנו לא מצליחים, צריך להתייעץ עם מיכאל או גיא., או דניאל, או דו"ח קודם.
- או להיות יצירתי יותר מזה.
+חישוב: טווח עצירה 
+\begin_inset Formula $BETHE$
+\end_inset
+
+ ונתונים אמריקאיים.
 \end_layout
 
 \begin_layout Standard
-דגרפים: אסתטיקה ושגיאות )דן, שני צהריים(
+* לחצים סטיות.
 \end_layout
 
 \begin_layout Standard
@@ -151,93 +153,11 @@ stodo
 \end_layout
 
 \begin_layout Standard
-רקע תאורטי )נועם שני בוקר(
-\end_layout
-
-\begin_layout Standard
-נועם: אולי מבנה של: רקע, מערכת ניסוי, מהלך-תוצאות
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-פעמים, דיון
-\end_layout
-
-\begin_layout Standard
-לסלק פיגומים מהניסוי הקודם.
-\end_layout
-
-\begin_layout Standard
-מערכת הניסוי: כל הפרטים מהמחברת.
- תרשים.
- )ראשון ערב ביחד, נועם שני צהריים(
-\end_layout
-
-\begin_layout Standard
-סגירה )נועם ודן, שני אחה"צ(
-\end_layout
-
-\begin_layout Standard
-לעבור על מחברת המעבדה ולהעביר לדוח מה שצריך.
-\end_layout
-
-\begin_layout Standard
 ===
 \end_layout
 
 \begin_layout Standard
 נועם: סופש:
-\end_layout
-
-\begin_layout Standard
-לעבור על מחברת המעבדה ולהעביר את הדרש - שעה.
- בגדול נגמר.
- יופי.
 \end_layout
 
 \begin_layout Standard
@@ -296,98 +216,6 @@ stodo
 \noun default
 \color inherit
 דקות )חלקי(
-\end_layout
-
-\begin_layout Standard
-לסלק פיגומים:
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-20
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-דקות )לעשות את זה על פני
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- קומיטים נפרדים!(
 \end_layout
 
 \begin_layout Subsubsection*
@@ -541,7 +369,7 @@ stodo
 \end_layout
 
 \begin_layout Standard
-השפעת תנע זוויתי
+השפעת תנע זוויתי****!
 \end_layout
 
 \begin_layout Standard
@@ -624,12 +452,6 @@ m(Z,N)=Z\cdot m_{p}+N\cdot m_{n}+B(Z,N)
 \end_layout
 
 \begin_layout Standard
-***אנרגיית הקשר הגרעיני, היא האנרגיה שנוצרת מכך שהנוקליאונים מקובצים יחד
- ומרכיביה: האנרגיה הקולומבית והגרעינית החזקה )מה קרה לחלש, לספין??? ***(.
- ***
-\end_layout
-
-\begin_layout Standard
 אנרגיית הקשר נובעת מכמה מרכיבים ונתונה בקירוב ע"י הנוסחא הסמי אמפירית:
 \begin_inset Formula 
 \[
@@ -709,12 +531,18 @@ status open
 \begin_inset Formula $|\frac{B}{A}|$
 \end_inset
 
-:אנרגית קשר ממוצעת לנוקליאון עבור יסודות שונים )איזוטופים נפוצים ***(.
+:אנרגית קשר ממוצעת לנוקליאון עבור יסודות שונים.
  ניתן לראות שיא בברזל 
 \begin_inset Formula $A=60$
 \end_inset
 
+ ***מקור: 
+\begin_inset Flex URL
+status open
 
+\begin_layout Plain Layout
+
+https://en.wikipedia.org/wiki/Nuclear_binding_energy
 \end_layout
 
 \end_inset
@@ -722,7 +550,8 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
+\end_inset
+
 
 \end_layout
 
@@ -732,10 +561,8 @@ status open
 \end_layout
 
 \begin_layout Standard
-השאיפה של המערכת למינימום אנרגיה, מתבטא בשאיפה למסה מקסימלית לנוקליאון,
- היות ואנרגית הקשר היא שלילית.
- כלומר, לגרעין ישנו רווח אנרגתי להתפצל או להתחבר עם גרעינים אחרים ולהתקרב
- ל- 
+אנרגית הקשר היא שלילית, ומצורת התלות לגרעין ישנו רווח אנרגתי להתפצל או להתחבר
+ עם גרעינים אחרים ולהתקרב ל- 
 \begin_inset Formula $A=60$
 \end_inset
 
@@ -743,57 +570,8 @@ status open
 \end_layout
 
 \begin_layout Standard
-כוח הזיווג? שיקולי תנ"ז.
- זוגיות נוקליאונים?
-\end_layout
-
-\begin_layout Standard
-=======
-\end_layout
-
-\begin_layout Standard
-החומר הגרעיני.
-\end_layout
-
-\begin_layout Standard
-תיאור קוונטי.
- תיאור פשוט יותר.
-\end_layout
-
-\begin_layout Standard
-צפיפות
-\end_layout
-
-\begin_layout Standard
-התפלגות המטען
-\end_layout
-
-\begin_layout Standard
-רדיוס בערך.
- חשמלי, חומרי
-\end_layout
-
-\begin_layout Standard
-אנרגית קשר גרעינית.
- הכוח הגרעיני.
-\end_layout
-
-\begin_layout Standard
-מסה גרעינית.
- מסות מנוחה ואנרגית קשר.
-\end_layout
-
-\begin_layout Standard
-נוסחת מסה סמי-אמפירית ***
-\end_layout
-
-\begin_layout Standard
-גרף של אנרגית קשר ממוצעת לנוקליאון.
- מקסימום גלובלי.
-\end_layout
-
-\begin_layout Standard
-=================
+********* כוח הזיווג? שיקולי תנ"ז.
+ זוגיות נוקליאונים? *******
 \end_layout
 
 \begin_layout Subsubsection*
@@ -801,8 +579,8 @@ status open
 \end_layout
 
 \begin_layout Standard
-באופן אמפירי, אכן ישנם יסודות שמבצעים שינוי ספונטני של מבנה הגרעין: יסודות
- רדיואקטיביים.
+באופן אמפירי, ישנם יסודות שמבצעים שינוי ספונטני של מבנה הגרעין: יסודות רדיואקטיב
+יים.
  הגרעין לפני ההתפרקות מכונה גרעין אם, ואחרי ההתפרקות מכונה גרעין בת.
  סוגי ההתפרקויות הספונטניות: 
 \begin_inset Formula $\beta^{+}$
@@ -922,27 +700,6 @@ N=\frac{1}{\lambda}R
 \end_layout
 
 \begin_layout Standard
-פליטה ספנוטנית, יתרון אנרגתי
-\end_layout
-
-\begin_layout Standard
-אמפירי: קבוע דעיכה, סטטיסטי.
-\end_layout
-
-\begin_layout Standard
-אלפא, בתא, גאמא, ביקוע ספונטני
-\end_layout
-
-\begin_layout Standard
-שיווי משקל סקולרי
-\end_layout
-
-\begin_layout Standard
-שרשראות התפרקויות.
- 
-\end_layout
-
-\begin_layout Standard
 יצירה של יסודות רדיואקטיביים
 \end_layout
 
@@ -1011,7 +768,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-טבלה לדוגמא אנרגיות עבור פליטת חלקיקים שונים מתוך הספר
+טבלה לדוגמא אנרגיות עבור פליטת חלקיקים שונים מתוך 
+\begin_inset Formula $Kenneth-page-247$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1026,7 +787,12 @@ status open
 
 \begin_layout Standard
 במהלך ההתפרקות נשמר תנע קווי, כך שחלקיק האלפא מקבל את רוב האנרגיה הקינטית
- )בהתאם ליחס המסות(
+ )בהתאם ליחס המסות(.
+ אנרגיה זו מסומנת 
+\begin_inset Formula $E_{\alpha}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1226,7 +992,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-מודל *** בור פוטנציאל עבור חלקיק אלפא
+בור פוטנציאל )כוח חזק וכוח חשמלי( עבור חלקיק אלפא
 \end_layout
 
 \end_inset
@@ -1275,7 +1041,7 @@ status open
 \begin_layout Standard
 \begin_inset Formula 
 \[
-t_{\frac{1}{2}}=\ln(2)\frac{a}{c}\sqrt{\frac{mc^{2}}{2(V_{0}+Q)}}\exp\{2\sqrt{\frac{2mc^{2}}{(\hbar c)^{2}Q}}\frac{ZZ^{'}e^{2}}{4\pi\epsilon_{0}}(\frac{\pi}{2}-2\sqrt{\frac{Q}{B}})\}
+t_{\frac{1}{2}}=\ln(2)\frac{a}{c}\sqrt{\frac{mc^{2}}{2(V_{0}+Q)}}\exp\{2\sqrt{\frac{2mc^{2}}{(\hbar c)^{2}Q}}\frac{zZ^{'}e^{2}}{4\pi\epsilon_{0}}(\frac{\pi}{2}-2\sqrt{\frac{Q}{B}})\}
 \]
 
 \end_inset
@@ -1288,8 +1054,11 @@ t_{\frac{1}{2}}=\ln(2)\frac{a}{c}\sqrt{\frac{mc^{2}}{2(V_{0}+Q)}}\exp\{2\sqrt{\f
 \begin_inset Formula $a$
 \end_inset
 
- רדיוס הגרעין ....
- **** )מקור ספר
+ רדיוס הגרעין, 
+\begin_inset Formula $z,Z^{'}$
+\end_inset
+
+ מספר הפרוטונים בגרעין אחרי הפליטה ומספר הפרוטונים בחלקיק האלפא )שהוא
 \family roman
 \series medium
 \shape up
@@ -1314,9 +1083,17 @@ t_{\frac{1}{2}}=\ln(2)\frac{a}{c}\sqrt{\frac{mc^{2}}{2(V_{0}+Q)}}\exp\{2\sqrt{\f
 \uwave default
 \noun default
 \color inherit
-8.18
+2
 \numeric off
-(
+(, 
+\begin_inset Formula $B$
+\end_inset
+
+ אנרגיית השיא של מחסום הפוטנציאל )מקור: 
+\begin_inset Formula $Kenneth-page-255-formula-8.18$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1350,56 +1127,6 @@ t_{\frac{1}{2}}=\ln(2)\frac{a}{c}\sqrt{\frac{mc^{2}}{2(V_{0}+Q)}}\exp\{2\sqrt{\f
  התאמה לספקטרום מוכר.
 \end_layout
 
-\begin_layout Standard
-===================
-\end_layout
-
-\begin_layout Standard
-ניתוח אנרגתי.
- הסיבה לפליטת אלפא.
- קומפטי.
-\end_layout
-
-\begin_layout Standard
-חוקי שימור בהתפרקויות.
- אנרגיה + מסה, תנע, תנ"ז, זוגיות
-\end_layout
-
-\begin_layout Standard
-אנרגית רתע במערכת מרכז המסה, במערכת המעבדה.
-\end_layout
-
-\begin_layout Standard
-התנהגות שונה לזוגיות של Z,N.
-\end_layout
-
-\begin_layout Standard
-
-\numeric on
-8.4
-\numeric off
-: מודל שמן שמנסה לנתח את ההסתברות למנהר? זמן מחצית חיים.
- לפחות להזכיר אותו.
- המודל לא נותן תוצאות טובות כמותית, כן מבהיר משהו לגבי הסקאלות השונות במערכת.
- רגישות לאנרגיה.
-\end_layout
-
-\begin_layout Standard
-* ספקטרוסקופיה
-\end_layout
-
-\begin_layout Standard
-
-\numeric on
-4
-\numeric off
- שרשראות אלפא
-\end_layout
-
-\begin_layout Standard
-===================
-\end_layout
-
 \begin_layout Subsubsection*
 חלקיקי אלפא בחומר
 \end_layout
@@ -1409,7 +1136,12 @@ t_{\frac{1}{2}}=\ln(2)\frac{a}{c}\sqrt{\frac{mc^{2}}{2(V_{0}+Q)}}\exp\{2\sqrt{\f
  הנפח האפקטיבי של האלקטרונים בחומר רב משמעותית משל הגרעינים, כלומר, חלקיקי
  אלפא מקיימים אינטרקציה עם האלקטרונים.
  חלקיקי האלפא כבדים יחסית לאלקטרון, ולכן הדינמיקה היא שחלקיק האלפא ינוע
- בערך בקו ישר, ויבצע התנגשויות אלסטיות עם אלקטרונים.
+ בערך בקו ישר, ויבצע התנגשויות אלסטיות עם אלקטרונים, בהן הוא מאבד אנרגיה.
+ חלקיק האלפא מרגיש כוח עצירה של 
+\begin_inset Formula $\frac{dE}{dx}$
+\end_inset
+
+.
  האינטרקציה החשמלית היא ארוכת טווח, ולכן חלקיק האלפא מאבד את האנרגיה שלו
  בהדרגה, והיא עושה "דיפוזיה" דרך האלקטרונים שהוא משחרר מהאטומים.
  ככל שחלקיק האלפא אנרגתי מהר יותר, הוא נע מהר יותר, ומושפע פחות מכל אלקטרון
@@ -1434,6 +1166,16 @@ t_{\frac{1}{2}}=\ln(2)\frac{a}{c}\sqrt{\frac{mc^{2}}{2(V_{0}+Q)}}\exp\{2\sqrt{\f
 .
  האלקטרונים שניתזו מהאינרקציה עם חלקיק האלפא, לעיתים פוגעים באלקטרונים נוספים
  ומשחררים אותם מהאטומים שלהם.
+ מודל 
+\begin_inset Formula $bethe$
+\end_inset
+
+ נותן תיאור כמותי 
+\begin_inset Formula $\frac{dE}{dx}$
+\end_inset
+
+ עבור חלקיקי אלפא שאינם איטיים מדי )איטיים מספיק כך שהם יכולים למשוך אליהם
+ אלקטרונים ולהפוך להליום(.
 \end_layout
 
 \begin_layout Standard
@@ -1487,134 +1229,6 @@ http://www.ilocis.org/documents/chpt48e.htm
 מקור התמונה לעיל ***
 \end_layout
 
-\begin_layout Standard
-מודל 
-\begin_inset Formula $bethe$
-\end_inset
-
- נותן תיאור כמותי של התיאור הנ"ל, ומגיע לנוסחא עבור 
-\begin_inset Formula $\frac{dE}{dx}$
-\end_inset
-
- שהוא כוח העצירה הפועל על החלקיקים:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\frac{dE}{dx}=(\frac{e^{2}}{4\pi\epsilon_{0}})\frac{4\pi Z^{2}N_{0}}{}...
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-*** דן: לבדוק מאיפה הנוסחא הזאת מגיעה )מצאתי בסיכום שלך( זה לא מהספר, מה
- משמעות הקבועים, האם מתאים למה שיצא לנו???***
-\end_layout
-
-\begin_layout Standard
-כאשר: *** הסבר הקבועים ***
-\end_layout
-
-\begin_layout Standard
-המודל כולל הנחה *** שלא תקפה בתחום של מהירויות נמוכות *** מתחת ל???
-\end_layout
-
-\begin_layout Standard
-==========
-\end_layout
-
-\begin_layout Standard
-כבדים, טעונים.
- אינטרציה של פיזור אלסטי עם אלקטרונים.
- תנועה בערך בקו ישר.
- האלקטרונים שניתזו יכולים לגרור אלקטרונים נוספים.
- קרינה מיננת.
- מדידת האלקטרונים.
-\end_layout
-
-\begin_layout Standard
-ברוב המוצקים חודרים עד
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-100
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-מיקרון.
-\end_layout
-
-\begin_layout Standard
-אובדן אנרגיה רציף.
- דיפוזיה של אנרגיה.
- סטטיסטי.
- טווח~
-\end_layout
-
-\begin_layout Standard
-כוח עצירה.
-\end_layout
-
-\begin_layout Standard
-מודל 
-\begin_inset Formula $bethe$
-\end_inset
-
-.
- לא טוב לתחום של מהירויות נמוכות.
- *** האם אנחנו משווים למודל זה מתישהו???? *** השוואה בין חלקיקים באותו חומר.
-\end_layout
-
-\begin_layout Standard
-=====
-\end_layout
-
 \begin_layout Subsubsection*
 אופן פעולת גלאי מסוג מוליך למחצה
 \end_layout
@@ -1635,25 +1249,6 @@ http://www.ilocis.org/documents/chpt48e.htm
  שהם יוצרים במתח על ההתקן )בהשוואה למתח המקורי(.
 \end_layout
 
-\begin_layout Standard
-=======
-\end_layout
-
-\begin_layout Standard
-במעבר בין מל"מ מסוג n לסוג p אפשר ליצור אזור נטול מטענים חופשיים (אלקטרונים
- או חורים) תחת שדה חשמלי חזק.
- חלקיק שיוצר אינטראקציה משחרר מטען שינוע תחת השדה וייספר כבמונה ממולא גז.
- 
-\end_layout
-
-\begin_layout Standard
-כלומר: אמפרמטר.
-\end_layout
-
-\begin_layout Standard
-=========
-\end_layout
-
 \begin_layout Part*
 מערכת הניסוי
 \end_layout
@@ -1669,6 +1264,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/setup_scheme.jpeg
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -1829,7 +1432,7 @@ status open
 \end_inset
 
 : שואבת אוויר בצורה מכנית, ומגיעה עד לחץ של 
-\begin_inset Formula $\sim1[mThorr]$
+\begin_inset Formula $\sim1[mTORR]$
 \end_inset
 
 
@@ -1889,7 +1492,7 @@ status open
 \noun default
 \color inherit
 באיזה סקאלה? 
-\begin_inset Formula $\mu Thor$
+\begin_inset Formula $\mu TORR$
 \end_inset
 
 ?***
@@ -2462,28 +2065,6 @@ status open
  ההתחלה, מנורמל בזמן נטו )כלומר, ללא הזמן המת( מדידה של המקטע.
 \end_layout
 
-\begin_layout Standard
-===========
-\end_layout
-
-\begin_layout Standard
-מדידת ספקטרומים בזמנים שונים.
- דעיכה.
- זיהוי הפיקים.
-\end_layout
-
-\begin_layout Standard
-זיהוי המקור.
-\end_layout
-
-\begin_layout Standard
-===========
-\end_layout
-
-\begin_layout Subsection*
-מגבלות מערכת המדידה *** להסיר, אין לי רעיון מה לשים פה.
-\end_layout
-
 \begin_layout Section*
 תוצאות
 \end_layout
@@ -2662,7 +2243,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-ספקטרומים בלחצים שונים, מנורמלים בזמן המדידה נטו )***בפיגר אחד עם סאבלפוט***(
+ספקטרומי אלפא שנמדדו בלחצים שונים של 
+\begin_inset Formula $N_{2}$
+\end_inset
+
+, מנורמלים בזמן המדידה נטו
 \end_layout
 
 \end_inset
@@ -2725,12 +2310,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-=====הסבר על שימת הנקודות על הגרף: השינוי באנרגיה של אותו אינדקס פיק בין
- שני לחצים שונים, מול השינוי בלחצים הללו.
- אינדיקציה ל....======
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -2772,15 +2351,29 @@ status open
 \end_layout
 
 \begin_layout Standard
-*** כאן נועם הפסיק לעבור ביום חמישי בערב ***
+הערות:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
+אין לנו מדידות של כוח העצירה בתחום 
+\begin_inset Formula $0-2450[KeV]$
+\end_inset
+
+, וזאת כיוון שאפילו בלחץ המקסימלי שמותר לשימוש במערכת זאת )
+\begin_inset Formula $1[atm]$
+\end_inset
+
+(, חלקיקי אלפא לא הואטו לאנרגיה בתחום זה.
+ בעיה זו ניתן לפתור ע"י הגדלת המרחק בין המקור לגלאי, כך שחלקיקי האלפא יואטו
+ על פני מסלול ארוך יותר.
+\end_layout
+
+\begin_layout Enumerate
 * אולי הסבר למשהו בעייתי בגרף: ריווח לא מספיק טוב של לחצים.
  רחוק מדי מהנגזרת.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 * הטווח של כל פיק ראשוני: ע"י אינטרגציה ואובדן האנרגיה.
  צריך להוסיף ניתוח של חלקיק שמאבד אנרגיה באופן הדרגתי ולקבל את הטווח.
  האם מצליחים להרוג את הפיק הנמוך? אנחנו קיבלנו שלא.
@@ -2793,7 +2386,7 @@ status open
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 * האם להכניס השוואה למודל 
 \begin_inset Formula $bethe$
 \end_inset
@@ -2801,7 +2394,7 @@ status open
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 * האם בעקבות חישוב כוח העצירה בחנקן, אנחנו יכולים להגיד משהו בנוגע לכוח
  העצירה באוויר רגיל בלחץ נמוך, כדי לתת תיקוף שירדנו מספיק נמוך בניסוי הראשוני.
  הערכה גסה בטוח אפשר לקבל בגלל שרוב האוויר חנקן.
@@ -2809,24 +2402,24 @@ status open
  די קצרה כי יש לחץ נמוך(.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 * ניתוח שגיא הציע: השינוי ברוחב ההתפלגות של הפיקים, אמור להיות קשור גם בהתפלגות
  הבסיס, וגם בהתרחבות כתוצאה מתנודות סטטיסטיות.
  שורש הלחץ.???
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 * ההתפלגויות בהינתן לחץ, אמורות לתת יותר מקום לזנב למעלה לעומת ההתפלגויות
  ללא לחץ.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 * יחסים של ביסמוט לפולוניום וטליום.
  קבועי דעיכה חלקיים.
  לראות אותם.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 * בדיקת השתנות הספירות בכל פיק.
  כמה אבדו? מה מחלצים מזה?
 \end_layout
@@ -2845,7 +2438,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-ספקטרומים מייצגים אחד על גבי השני
+ספקטרום האלפא שנמדד בזמנים שונים
 \end_layout
 
 \end_inset
@@ -2856,68 +2449,33 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-ספקטרום מייצג עם התאמה לגאוסיאנים לא סימטריים.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-דעיכות פעילות בזמן
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection*
-נתונים עיקריים לצורך זיהוי המקור
 \end_layout
 
 \begin_layout Standard
 אנרגיות מדודות: 
-\begin_inset Formula $6050\pm...$
+\begin_inset Formula $E_{1}=6049\pm14[KeV],E_{2}=6276\pm14[KeV],E_{3}=6621\pm14[KeV],E_{4}=8782\pm14[KeV]$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-סקאלות דעיכה שרואים במערכת:
+את מרכזי הפיקים ניתחנו כמו בניסוי הכיול, בעזרת התאמת גאוסיאנים לא סימטריים
+ להתפלגויות.
+ כך לכל פיק ניתן לראות את דעיכת הפעילות שלו בזמן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+דעיכת הפעילות של כל אחד מ-
 \family roman
 \series medium
 \shape up
@@ -2942,7 +2500,7 @@ status open
 \uwave default
 \noun default
 \color inherit
-30
+4
 \family roman
 \series medium
 \shape up
@@ -2967,7 +2525,90 @@ status open
 \uwave default
 \noun default
 \color inherit
-דקות, אינסוף עד כדי ???.
+האנרגיות בספקטרום הנמדד
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הפעילות באנרגיה 
+\begin_inset Formula $E_{2},E_{3}$
+\end_inset
+
+ דועכות אקספוננציאלית יחד )היחס 
+\begin_inset Formula $\frac{\#E_{3}}{\#E_{2}}$
+\end_inset
+
+ נמצא בתחום ערכים קטן 
+\begin_inset Formula $5.4\pm1.4$
+\end_inset
+
+ במהלך כל הניסוי(.
+ באמצעות התאמת עקומה אקספוננציאלית חושב זמן מחצית חיים של 
+\begin_inset Formula $t_{\frac{1}{2}}=T=27.9-36.1[min]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+דעיכה אקספוננציאלית משותפת של 
+\begin_inset Formula $\frac{\#E_{3}(t)}{\#E_{3}(t=0)},\frac{\#E_{2}(t)}{\#E_{2}(t=0)}$
+\end_inset
+
+ עם 
+\begin_inset Formula $t_{\frac{1}{2}}=T=27.9-36.1[min]$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הפעילות באנרגיה 
+\begin_inset Formula $E_{1},E_{4}$
+\end_inset
+
+ לא דועכות באופן מובחן בסקאלת הזמן של הניסוי.
+ כלומר, ההתפרקויות שלהן נמצאות בשיווי משקל סקולרי עם יסוד שלו 
+\begin_inset Formula $t_{\frac{1}{2}}\gg T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+באמצעות פרמטרים אילו ננסה לזהות את החומר העובר התפרקות:
 \end_layout
 
 \begin_layout Subsubsection*
@@ -3087,7 +2728,11 @@ status open
 \uwave default
 \noun default
 \color inherit
-3
+
+\begin_inset Formula $E_{3}$
+\end_inset
+
+
 \family roman
 \series medium
 \shape up
@@ -3112,7 +2757,11 @@ status open
 \uwave default
 \noun default
 \color inherit
-בזמן קצר )כדי להגיע אחרי בתא(:
+בזמן קצר )כדי להגיע אחרי התפררות 
+\begin_inset Formula $\beta$
+\end_inset
+
+(:
 \end_layout
 
 \begin_layout Standard
@@ -3120,73 +2769,35 @@ status open
 \begin_inset Formula $Ra213,Ra209,At212,Fr220$
 \end_inset
 
- יש התפרקות אלפא באנרגיה מתאימה וזמן מחצית חיים קצר מ-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-10
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-דקות, אבל אין התפרקות בתא שיוצרת אותם עם זמן מחצית חיים מתאים.
+ יש התפרקות אלפא באנרגיה מתאימה ו- 
+\begin_inset Formula $t_{\frac{1}{2}}<10[min]$
+\end_inset
+
+, אבל אין התפרקות 
+\begin_inset Formula $\beta$
+\end_inset
+
+ שיוצרת אותם עם זמן מחצית חיים מתאים.
 \end_layout
 
 \begin_layout Standard
 האופציה שנראית סבירה יותר היא:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsubsection*
 התהליך הבא יכול להסביר את האנרגיות 
-\begin_inset Formula $e1,e2***$
+\begin_inset Formula $E_{3},E_{2}$
 \end_inset
 
-: 
+:
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula $Bi211\Rightarrow Tl207\Rightarrow Pb207$
 \end_inset
 
- וגם את יחסי המופעים הנמדדים: 
+.
+ הוא מתאים גם ליחסי המופעים הנמדדים: 
 \begin_inset Formula $\frac{\#(E_{3})}{\#(E_{2})}=5.4\pm1.4$
 \end_inset
 
@@ -3198,42 +2809,24 @@ status open
 \end_layout
 
 \begin_layout Standard
-עם יצירת של ראש השרשרת ע"י 
+יצירת הביסמוט ע"י 
 \begin_inset Formula $Pb211\Rightarrow Bi211$
 \end_inset
 
- עם זמן מחצית חיים של ***
-\numeric on
-30
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-דקות כמה שמדדנו.
+ עם 
+\begin_inset Formula $t_{\frac{1}{2}}=**data-shit$
+\end_inset
+
+המתאים לזמן 
+\begin_inset Formula $T$
+\end_inset
+
+ שמדדנו.
 \end_layout
 
 \begin_layout Standard
-מה שעדיין לא כ"כ ברור: לא מצאנו שרשרת של התפרקויות מהירות שמובילה ל 
+***אב קדמוןמה שעדיין לא כ"כ ברור: לא מצאנו שרשרת של התפרקויות מהירות שמובילה
+ ל 
 \begin_inset Formula $Pb211$
 \end_inset
 
@@ -3244,8 +2837,12 @@ status open
 ****
 \end_layout
 
-\begin_layout Standard
-האנרגיות ***,*** מוכרות לנו מניסוי הכיול, ומוסברות ע"י תהליך ההתפרקות הבא:
+\begin_layout Subsubsection*
+האנרגיות 
+\begin_inset Formula $E_{1},E_{4}$
+\end_inset
+
+ מוכרות לנו מניסוי הכיול, ומוסברות ע"י תהליך ההתפרקות הבא:
 \end_layout
 
 \begin_layout Standard
@@ -3255,7 +2852,8 @@ Tl208\Rightarrow Pb208
 \end{cases}$
 \end_inset
 
- וגם את יחסי המופעים הנמדדים בין 
+ .
+ הוא מתאים גם ליחסי המופעים הנמדדים בין 
 \begin_inset Formula $\frac{\#(E_{4})}{\#(E_{1})}=2.45\pm0.35$
 \end_inset
 
@@ -3263,23 +2861,27 @@ Tl208\Rightarrow Pb208
 \begin_inset Formula $2.6$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
-יצירת ראש השרשרת אפשרית ע"י 
+יצירת 
+\begin_inset Formula $Bi212$
+\end_inset
+
+ אפשרית ע"י 
 \begin_inset Formula $Pb212\Rightarrow Bi212$
 \end_inset
 
- עם זמן מחצית חיים של 
-\begin_inset Formula $10.64[hour]$
+ עם 
+\begin_inset Formula $t_{\frac{1}{2}}=10.64[hour]$
 \end_inset
 
  מספיק כך שלא תימדד דעיכה במהלך הניסוי.
 \end_layout
 
 \begin_layout Standard
-ייתכן כי 
+*** אב קדמון: ייתכן כי 
 \begin_inset Formula $Pb212$
 \end_inset
 
@@ -3296,1051 +2898,15 @@ Tl208\Rightarrow Pb208
 \end_layout
 
 \begin_layout Standard
+מקורות: מאגרי מידע שבהם השתמשנו***
+\end_layout
+
+\begin_layout Standard
 ================
 \end_layout
 
 \begin_layout Standard
-מה אנחנו יכולים להגיד על הסדר של ההתפרקויות.
- אילו דעכו, יותר.
- אילו ללא שינוי.
- האם ש"מ סקולרי? מאיפה לאיפה עברנו.
-\end_layout
-
-\begin_layout Standard
-זיהוי המקור.
-\end_layout
-
-\begin_layout Standard
-* הרחבת תחומים.
-\end_layout
-
-\begin_layout Standard
-* NNDC
-\end_layout
-
-\begin_layout Standard
-מה יש? יש פלוטוניום
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-232
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-שהופך לאורניום עם
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-33
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-דקות,
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-6600
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-קא"ו.
- אולי יש אחרים בזמן טוב.
- ולהמשיך לפתח את זה.
-\end_layout
-
-\begin_layout Standard
-נזרום עם זה: האנרגיה הגבוהה
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-אפשרויות: פול
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-212
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-- עופ
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-208
-\numeric off
-, מוכר או פרנ
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-216
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\begin_inset Formula $AT212$
-\end_inset
-
-הוא יודע לרדת לביסמוט 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-208
-\numeric off
-.
- אפילו עם אנרגיה
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-6621
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- אבל בשכיחות נמוכה.
- ומדוע אין אלפות אחרות?
-\end_layout
-
-\begin_layout Standard
-ד"א: ייתכן שההתפרקות הקובעת את הדעיכה היא בכלל בטא?
-\end_layout
-
-\begin_layout Standard
-חיפוש על האנרגיה הגבוהה עם הזמן: אין תוצאות
-\end_layout
-
-\begin_layout Standard
-אנרגיה
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\numeric off
-: תור
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-226
-\numeric off
-, רנ
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-212
-\numeric off
-, ניס
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-212
-\numeric off
-.
- להסביר מיעוט פיקים? לא רוצה עם הנמוכים, עשויים לא להיגמר איפה שצריך.
- התוריום: השרשרת שלו לא כ"כ מסתדרת
-\end_layout
-
-\begin_layout Standard
-אנרגיה
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1
-\numeric off
-:לנסות רניום
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-221
-\numeric off
-,
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-209
-\numeric off
-.
-\end_layout
-
-\begin_layout Standard
-יש לנו שני יסודות שבהם רואים דעיכה
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-30
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-דק, שני יסודות יציבים.
- את כל המערכת הוציאו מש"מ סקולרי קודם עם איזה אבא.
- אפשרות ראשונה: היסודות הקבועים מתפרקים מאוד לאט והם ראשונים.
- לא ייתכן, אז היינו נשארים עם ש"מ סקולרי.
- אפשרות שנייה: היסודות הקבועים מתפרקים מהר והם ראשונים: הם היו נעלמים לנו.
- שלישית: מתפרקים מהר והם אחרונים: גם לא הגיוני, הם היו דועכים ביחד עם ההורים
- שלהם.
- אפשרות רביעית: מתפרקים לאט ונמצאים בסוף.
- בהתחלה היה שיווי משקל סקולרי עם אבא איטי מאוד.
- עכשיו הוא איננו, והיסודות הראשונים בשרשרת מתחילים להתדלדל.
- האחרונים לא מצטברים, אלא נאבדים אבל לאט הרבה יותר.
- אם כך, ההתפרקות של מחצית השעה בסביבות ראש השרשרת.
- ייתכן שרק ההתפרקות השלישית איטית, והיא מגנה על הרביעית מדעיכה.
- אם כך, יודעים מהו הזוג הראשון ומהו הזוג השני.
- לא יודעים סדר בתוך הזוגות.
- ראשון
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-30
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-ד' שני מהיר, שלישי איטי, רביעי לא יודעים
-\end_layout
-
-\begin_layout Standard
-מוסר השבל: לוודא מוקדם את תחומי הפרמטרים.
- זמן מחצית חיים, אנרגיות.
- להבין במה יכולות להיות שגיאות גדולות יותר.
- להבין איך לקרוא את תחומי השגיאה בדף המידע.
-\end_layout
-
-\begin_layout Standard
-ניסיתי לשלוף על כל אחת מהאנרגיות )תחום מורחב
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-50
-\numeric off
- 
-\begin_inset Formula $KEV$
-\end_inset
-
- לכל כיוון( עם זמן מחצית חיים
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-25
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-עד
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-35
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-דקות.
- התקדמתי על כל אחד מקצות החוט האלה בהתפרקויות שלו, ואני חושב שבכל פעם היו
- שם אנרגיות שלא התאימו, או שהיו אנרגיות משמעותיות יותר שהיו צריכות להופיע.
- חרא.
-\end_layout
-
-\begin_layout Standard
-*** אפשרויות שונות: תרחישים
-\end_layout
-
-\begin_layout Standard
-יש שרשרת אחת שמכילה את כל האלפות
-\end_layout
-
-\begin_layout Standard
-יש אבא ארוך טווח שעובר גם אלפא וגם בתא.
- מייצר שני ראשי שרשרת.
- כ"א מהם מתפתח לבד.
- יכולים לסיים באותו מקום אבל לא חייבים.
-\end_layout
-
-\begin_layout Standard
-יש שני אבות ארוכי טווח.
- למשל, יכול להיווצר ע"י ערבוב של המקורות.
-\end_layout
-
-\begin_layout Standard
-אבא ארוך ורחוק.
- דברים מהירים.
-\end_layout
-
-\begin_layout Standard
 ==
-\end_layout
-
-\begin_layout Standard
-ייתכנו דעיכות מהירות בדרך מהמחסן למעבדה.
- .
-\end_layout
-
-\begin_layout Standard
-יש בקופסא אב ארוך חיים.
- הבנות שלו נאספות על אלקטרודה.
- אחריו צריכים להיות דברים מהירים, בכל מיני התפצלויות, ואז להגיע ליסוד עם
- זמן מחצית חיים
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-30
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-)ואחריו מהירים בלבד, עד המון( ד' או המון ואחריו אין אילוץ.
- התדיר יותר לא יכול להיות שני ברצף
-\end_layout
-
-\begin_layout Standard
-==
-\end_layout
-
-\begin_layout Standard
-*** שופוני אפשרי: להראות את הקורלציה בין הערכים של שני אלה שדועכים בקבוע
- כ-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-30
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-דקות.
- למשל ע"י מנה ביניהם, או ע"י התפלגות 
-\begin_inset Formula $XY$
-\end_inset
-
- )אני בדקתי בעין בגרף ובברור יש קורלציה כזאת(.
- זה אומר שאחד מהם באמת עוקב אחרי השני.
- אם הקורלציה מספיק טובה, ניתן אולי להיעזר במידע הנוסף כדי לטייב את זמן מחצית
- החיים.
- אה: בעצם זה בנאלי.
- שתי הסדרות נותנות ערכים נוספים של 
-\begin_inset Formula $\ln(\frac{N}{N_{0}})$
-\end_inset
-
-להעלות על הגרף.
- בגלל חוסר וודאות בכמות הבסיסית, ייתכן שנקבל שני קווים לינארים באותה הסטה,
- אבל באופן עקרוני עם אותו שיפוע.
- אני חושב שבתנאים האלה רגרסיה לינארית אמורה לתת שיפוע נכון.***שני הישרים
- אמורים לחתוך את ראשית הצירים.
- יופי.
 \end_layout
 
 \begin_layout Standard
