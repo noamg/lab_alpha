@@ -2082,6 +2082,8 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/exp1_spectrumRAW.png
+	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -2129,12 +2131,19 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/exp1_spectrum.png
+	lyxscale 50
+	scale 50
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/exp1_spectrumZoom1.png
+	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -2181,6 +2190,8 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/exp1_spectrumZoom.png
+	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -2229,6 +2240,8 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/exp1_bin2energy.png
+	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -2268,6 +2281,8 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/exp1_decayFrequency.png
+	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -2341,6 +2356,8 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/exp2_spectra.png
+	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -2423,6 +2440,8 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/stopping power.png
+	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -2548,6 +2567,8 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/exp3_spectrumAtTimes.png
+	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -2591,6 +2612,8 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/exp3_activityAtTimes.png
+	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -2695,6 +2718,8 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/exp3_fit.png
+	lyxscale 50
+	scale 50
 
 \end_inset
 
