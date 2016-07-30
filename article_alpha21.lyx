@@ -2080,6 +2080,12 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/exp1_spectrumRAW.png
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2088,7 +2094,6 @@ status open
 \end_inset
 
  : ספירת התפרקויות לכל ערוץ אנרגיה.
- ליד כל פיק מצוינת ההתפרקות לה שייך.
  בתחום האנרגיות 
 \begin_inset Formula $***-***[KeV]$
 \end_inset
@@ -2099,6 +2104,50 @@ status open
 \end_inset
 
 .
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/exp1_spectrum.png
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/exp1_spectrumZoom1.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+ספקטרום אלפא של שרשרת התפרקות של 
+\begin_inset Formula $Th228$
+\end_inset
+
+ : ספירת התפרקויות לכל ערוץ אנרגיה.
+ ליד כל פיק מצוינת ההתפרקות לה שייך
 \end_layout
 
 \end_inset
@@ -2130,6 +2179,12 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/exp1_spectrumZoom.png
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2172,6 +2227,12 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/exp1_bin2energy.png
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2191,6 +2252,44 @@ status open
 \begin_layout Standard
 ** האם אנחנו רוצים לנסות לנתח את גובה הפיקים, לוודא יחסים בין קבועי דעיכה
  בהתפרקויות השונות? יחס הססטיסטיקות הפוך לקבוע הדעיכה.
+ משהו להגיד על הססטיסטיקות מי הופך למי
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/exp1_decayFrequency.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2240,6 +2339,12 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/exp2_spectra.png
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2316,6 +2421,12 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/stopping power.png
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2435,10 +2546,16 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/exp3_spectrumAtTimes.png
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-ספקטרום האלפא שנמדד בזמנים שונים
+ספקטרום האלפא שנמדד במקטעי זמן שונים )מנורמל בזמן המדידה נטו(
 \end_layout
 
 \end_inset
@@ -2472,6 +2589,12 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/exp3_activityAtTimes.png
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2570,6 +2693,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/exp3_fit.png
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
