@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
@@ -9,16 +11,16 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -590,7 +592,7 @@ N=\frac{1}{\lambda}R
 \end_layout
 
 \begin_layout Subsection*
-קריאת אלפא
+קרינת אלפא
 \end_layout
 
 \begin_layout Subsubsection*
@@ -604,8 +606,11 @@ N=\frac{1}{\lambda}R
 
 .
  דרך אחת סבירה היא ע"י פליטת נוקליאון או כמה נוקליאונים.
- במקרה זה, האנרגיה הסופית נתונה ע"י מסת גרעין הבת, מסת החלקיק הנפלט, ואנרגיה
- קינטית.
+ במקרה זה, האנרגיה המשתחררת 
+\begin_inset Formula $Q$
+\end_inset
+
+ נתונה ע"י מסת גרעין הבת, מסת החלקיק הנפלט, ואנרגיה קינטית.
  משימור אנרגיה מתקיים:
 \end_layout
 
@@ -1131,6 +1136,10 @@ http://www.ilocis.org/documents/chpt48e.htm
  שהם יוצרים במתח על ההתקן )בהשוואה למתח המקורי(.
 \end_layout
 
+\begin_layout Standard
+*** תמונה *** 
+\end_layout
+
 \begin_layout Part*
 מערכת הניסוי
 \end_layout
@@ -1157,8 +1166,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-סכימה של מערכת הניסוי: רכיבים במלבנים כחולים, צינורות בכתום, שסתומים בסגול.
- ניתן לראות .....
+סכימה של מערכת הניסוי: רכיבים במלבנים כחולים, צינורות בכתום, שסתומים בסגול,
+ אלקטרוניקה בירוק
 \end_layout
 
 \end_inset
@@ -1261,6 +1270,10 @@ status open
 \end_inset
 
 :
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -1323,61 +1336,11 @@ status open
 \begin_layout Enumerate
 משאבת דיפוזיה: אדי שמן חמים פוגעים במולקולות האוויר ומכוונים אותן לכיוון
  היציאה של המשאבה.
- מגיעה עד לחץ של ***דן: הלחץ הסופי שלנו היה
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-0
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-באיזה סקאלה? 
-\begin_inset Formula $\mu TORR$
+ מגיעה עד לחץ קטן מ-
+\begin_inset Formula $0.1\left[mTORR\right]$
 \end_inset
 
-?***
+
 \end_layout
 
 \begin_layout Enumerate
@@ -1390,7 +1353,11 @@ status open
 \end_layout
 
 \begin_layout Enumerate
-מד לחץ: ברגישות של ***
+מד לחץ: ברגישות של 
+\begin_inset Formula $0.1\left[mTORR\right]$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
@@ -1410,13 +1377,11 @@ status open
 \end_layout
 
 \begin_layout Enumerate
-חשוב להפעיל את משאבת הדיפוזיה רק כאשר מגיעים ללחץ של *** ולא לפני, כדי שהשמן
- לא ישרף.
- *** אולי גם שלא ייכנס שמן לתוך משהו?
-\end_layout
+חשוב לחמם את משאבת הדיפוזיה רק מתחת ללחץ של 
+\begin_inset Formula $\sim10\left[mTORR\right]$
+\end_inset
 
-\begin_layout Enumerate
-מיעוט חמצן במערכת מדוע?? ***
+ ולא לפני, כדי שהשמן לא ישרף.
 \end_layout
 
 \begin_layout Enumerate
@@ -1454,20 +1419,20 @@ status open
 \end_layout
 
 \begin_layout Enumerate
-אסור לבנות את המתח על הספק בתחום הביניים של הלחצים )בפועל, להפעיל רק אחרי
- הגעה ללחץ של 
-\begin_inset Formula $10[mThor]$
+אסור לבנות את המתח על הספק בתחום הביניים של הלחצים )בפועל, להפעיל רק מתחת
+ ללחץ של 
+\begin_inset Formula $10[mTORR]$
+\end_inset
+
+ או מעל 
+\begin_inset Formula $50\left[TORR\right]$
 \end_inset
 
 (.
  בעיקרון, חלקיקי האלפא משחררים אלקטרונים גם מהחומר שנותר בצינור בדרך לגלאי.
- בוואקום של *** יש מספיק חומר לשחרור כמות משמעותית של אלקטרונים, אבל לא
- מספיק חומר כדי לפזר את האנרגיה שלהם על פני אלקטרונים אחרים, וכך פוגעים
+ בלחצים בתחום הביניים יש מספיק חומר לשחרור כמות משמעותית של אלקטרונים, אבל
+ לא מספיק חומר כדי לפזר את האנרגיה שלהם על פני אלקטרונים אחרים, וכך פוגעים
  בגלאי אלקטרונים מהירים ומזיקים לו.
-\end_layout
-
-\begin_layout Enumerate
-*** ספק ראשון לא יציב...
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1487,7 +1452,11 @@ status open
 \end_layout
 
 \begin_layout Subsubsection*
-סדר פעולות ליצירת וואקום ברמה של ***:
+סדר פעולות ליצירת וואקום ברמה של 
+\begin_inset Formula $0.1\left[mTORR\right]$
+\end_inset
+
+:
 \end_layout
 
 \begin_layout Enumerate
@@ -1517,7 +1486,7 @@ status open
 \uwave default
 \noun default
 \color inherit
-2,3,4,5
+3,4,5
 \family roman
 \series medium
 \shape up
@@ -1542,69 +1511,15 @@ status open
 \uwave default
 \noun default
 \color inherit
-***דן, האם יש בעיה עם
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\numeric off
-?***ולהפעיל את המשאבה המכנית עד הגעה ללחץ של 
+ולהפעיל את המשאבה המכנית עד הגעה ללחץ של 
 \begin_inset Formula $\sim1[mThor]$
 \end_inset
 
-.*** האם בעצם ב-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-10
-\numeric off
-?
+.
 \end_layout
 
 \begin_layout Enumerate
-תוך כדי לחמם את השמן של משאבת הדיפוזיה.
+להתחיל לחמם את השמן של משאבת הדיפוזיה.
 \end_layout
 
 \begin_layout Enumerate
@@ -1658,13 +1573,7 @@ status open
 \uwave default
 \noun default
 \color inherit
-ולהפעיל את משאבת הדיפוזיה.
- למזוג חנקן נוזלי לתא המתאים.
- עד הגעה ללחץ של ***
-\end_layout
-
-\begin_layout Enumerate
-לסגור את שסתום
+ולהפעיל את משאבת הדיפוזיה ולפתוח שסתום
 \family roman
 \series medium
 \shape up
@@ -1690,31 +1599,13 @@ status open
 \noun default
 \color inherit
 2
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
 \numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-ואחריו את כל האחרים, להפסיק את השאיבה.
+.
+ למזוג חנקן נוזלי לתא המתאים.
+\end_layout
+
+\begin_layout Enumerate
+להמשיך שאיבה ולבצע מהלך הניסוי.
 \end_layout
 
 \begin_layout Standard
@@ -1886,12 +1777,12 @@ status open
 \end_layout
 
 \begin_layout Standard
-בניסוי זה, מדדנו את ספטקטרום האלפא שנפלט ע"י מקור לא ידוע, בזמנים שונים.
+בניסוי זה, מדדנו את ספקטרום האלפא שנפלט ע"י מקור לא ידוע, בזמנים שונים.
  המקור הלא ידוע הוא תוצרי ההתפרקות של איזוטופ ארוך חיים, הנאספים על אלקטרודה.
 \end_layout
 
 \begin_layout Standard
-לצורך נוחות, במרווחים קבועים של
+לצורך נוחות, במרווחים של
 \family roman
 \series medium
 \shape up
@@ -1943,8 +1834,8 @@ status open
 \color inherit
 דקות, שמרנו ע"י תוכנת איסוף הספקטרומים את הספקטרום הכולל מתחילת הניסוי ועד
  אותו הזמן.
- הספקטרומים לכל מקטע זמן נתונים ע"י ההפרש בין המנייה בזמן הסוף שלו לזמן
- ההתחלה, מנורמל בזמן נטו )כלומר, ללא הזמן המת( מדידה של המקטע.
+ חישוב קצב פעילות לכל זמן: חיסור בין ספקטרומים עוקבים ונרמול בזמן נטו )כלומר,
+ ללא הזמן המת(.
 \end_layout
 
 \begin_layout Section*
@@ -2059,7 +1950,11 @@ status open
  לכל פיק יש אנרגיה מקסימלית עקרונית: והיא האנרגיה של חלקיק אלפא, וההפרעות
  יכולות להקטין את האנרגיה של חלקיק האלפא עד הגעתו לגלאי )למשל, מעט הלחץ
  שנותר במערכת(.
- בחרנו להתאים לפונקצית גאוסיאן "לא סימטרי" מקובלת:***דן: איזו?***.
+ בחרנו להתאים לפונקצית גאוסיאן "לא סימטרי" מקובלת: 
+\begin_inset Formula $skew\,normal\,distribution$
+\end_inset
+
+.
  פונקציה זו מאפשרת "זנב" משמעותי יותר לכיוון הנמוך.
 \end_layout
 
@@ -2096,11 +1991,6 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-***, מרכזי פיקים...
- ????***
 \end_layout
 
 \begin_layout Standard
@@ -2145,9 +2035,11 @@ status open
 \end_layout
 
 \begin_layout Standard
-** האם אנחנו רוצים לנסות לנתח את גובה הפיקים, לוודא יחסים בין קבועי דעיכה
- בהתפרקויות השונות? יחס הססטיסטיקות הפוך לקבוע הדעיכה.
- משהו להגיד על הססטיסטיקות מי הופך למי
+בנוסף, קיים צפי ליחס הספירות בין ההתפרקויות השונות בשרשרת של 
+\begin_inset Formula $Th228$
+\end_inset
+
+ במצב סקולרי אותו השווינו למידע שאספנו 
 \end_layout
 
 \begin_layout Standard
@@ -2155,10 +2047,6 @@ status open
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -2172,15 +2060,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
+השוואת כמות ההתפרקויות לצפי מהספרות ***
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2340,13 +2224,12 @@ status open
 \end_inset
 
 .
- כמו כן, בצבע *** מוצגים נתונים שנמדדו בניסוי דומה ב***)רפרנס***(.***בוא
- נוסיף קו של 
-\begin_inset Formula $fit$
+ כמו כן, בצבע אדום נתונים של תכנית 
+\begin_inset Formula $ASTAR$
 \end_inset
 
- או 
-\begin_inset Formula $spline$
+ של 
+\begin_inset Formula $NIST$
 \end_inset
 
 .
@@ -3092,7 +2975,25 @@ rve_-_common_isotopes.svg
 \end_layout
 
 \begin_layout Standard
--------
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://physics.nist.gov/PhysRefData/Star/Text/ASTAR.html
+\end_layout
+
+\end_inset
+
+מידע 
+\begin_inset Formula $ASTAR$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+——-
 \end_layout
 
 \begin_layout Standard
@@ -3100,7 +3001,7 @@ rve_-_common_isotopes.svg
 \end_layout
 
 \begin_layout Standard
--------
+——-
 \end_layout
 
 \begin_layout Standard
@@ -3570,7 +3471,7 @@ upload.wikimedia.org/wikipedia/en/5/57/Flux_lines_in_a_superconductor01
 קוד מטלב מערכת הניסוי
 \begin_inset CommandInset label
 LatexCommand label
-name "sub:matlab_control"
+name "subsec:matlab_control"
 
 \end_inset
 
