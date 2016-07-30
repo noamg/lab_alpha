@@ -226,6 +226,170 @@ stodo
 לעבור על מחברת המעבדה ולהעביר לדוח מה שצריך.
 \end_layout
 
+\begin_layout Standard
+===
+\end_layout
+
+\begin_layout Standard
+נועם: סופש:
+\end_layout
+
+\begin_layout Standard
+לעבור על מחברת המעבדה ולהעביר את הדרש - שעה.
+ בגדול נגמר.
+ יופי.
+\end_layout
+
+\begin_layout Standard
+לעבור פעם אחרונה ולגמור עם כל הכוכביות - שעתיים
+\end_layout
+
+\begin_layout Standard
+לכתוב רקע -
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+20
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דקות )חלקי(
+\end_layout
+
+\begin_layout Standard
+לסלק פיגומים:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+20
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דקות )לעשות את זה על פני
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ קומיטים נפרדים!(
+\end_layout
+
 \begin_layout Subsubsection*
 אי וודאויות
 \end_layout
@@ -1528,7 +1692,7 @@ status open
 
 \begin_layout Enumerate
 מקור חלקיקי אלפא: נמצא במרחק קבוע 
-\begin_inset Formula $****d=3.0[cm]$
+\begin_inset Formula $l=3.0[cm]$
 \end_inset
 
  מהגלאי.
@@ -1585,7 +1749,7 @@ status open
 \uwave default
 \noun default
 \color inherit
-כניסות, אחת מכל צד של הממשק בין אזורי 
+כניסות מוליכות, אחת מכל צד של הממשק בין אזורי 
 \begin_inset Formula $n$
 \end_inset
 
@@ -1604,42 +1768,59 @@ status open
 
 .
  פגיעה של חלקיקי אלפא יוצרת פרצי זרם שמשנים את המתח הנמדד.
- מעגל 
+\end_layout
+
+\begin_layout Enumerate
+עיבוד ע"י רכיבי אלקטרוניקה לסיגנל המתח 
+\begin_inset Formula $V$
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+מעגל 
 \begin_inset Formula $high-pass-filter$
 \end_inset
 
- משאיר סיגנל מתח שמייצג רק את פרצי האלקטרונים )המעגל מתקבל ע"י מדידת המתח
- על הנגד במעגל 
+ משאיר סיגנל מתח שמסנן את המתח האחורי הקבוע, מייצג רק את פרצי האלקטרונים
+ )המעגל מתקבל ע"י מדידת המתח על הנגד במעגל 
 \begin_inset Formula $RC$
 \end_inset
 
-( ***.
- אז: הופך כל פולס לפולס מרובע ****
+(.
 \end_layout
 
+\begin_layout Itemize
+קדם מגבר: מגביר את הסיגנל והופך כל פולס לפולס מרובע שגובהו לינארי לעצמת
+ פרץ הזרם של האלקטרונים.
+ )לקדם המגבר התנגדות 
+\begin_inset Formula $R$
+\end_inset
+
+ גדולה, ולכן למרות הקיבול הפרזיטי, הוא מוסיף מעט רעש(.
+\end_layout
+
+\begin_layout Itemize
+מגבר: מגביר את עצמת הסיגנל והופך את הפולסים הריבועיים לפולסים גאוסיאניים.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
-מחשב: המחשב מקבל את הסיגנל המסונן מהגלאי ורושם )בעזרת התוכנה 
+מחשב: המחשב מקבל את הסיגנל המעובד מהמגבר ורושם היסטוגרמה של כמות חלקיקי
+ אלפא לערוץ אנרגיה )בעזרת התוכנה 
 \begin_inset Formula $Maestro$
 \end_inset
 
-( היסטוגרמה של כמות חלקיקי אלפא לערוץ אנרגיה.
-\end_layout
-
-\begin_layout Enumerate
-.
- *** תוספות גלאי *** מודדים מתח.
- 
-\begin_inset Formula $HPF$
+(.
+ אנרגית הפולס נקבעת לפי העצמה המקסימלית בפולס הגאוסיאני.
+ בזמן העיבוד לא פנוי לקליטות נוספות - נוצר זמן מת של כמה עשרות 
+\begin_inset Formula $\mu sec$
 \end_inset
 
- נותן את התפרצויות הזעם האלקטרוניות.
- מגבר.
- מחשב.
- .
- הגלאי מחובר למחשב, ספירת תאים.
- תוכנה *** בזמן העיבוד לא פנוי לקליטות נוספות.
- זמן ברוטו.
- זמן אפקטיבי.
+.
+ התוכנה מאפשרת ייצוא של הנתונים לקובץ טקסט.
 \end_layout
 
 \begin_layout Enumerate
@@ -1657,7 +1838,61 @@ status open
 \begin_layout Enumerate
 משאבת דיפוזיה: אדי שמן חמים פוגעים במולקולות האוויר ומכוונים אותן לכיוון
  היציאה של המשאבה.
- מגיעה עד לחץ של ***
+ מגיעה עד לחץ של ***דן: הלחץ הסופי שלנו היה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+באיזה סקאלה? 
+\begin_inset Formula $\mu Thor$
+\end_inset
+
+?***
 \end_layout
 
 \begin_layout Enumerate
@@ -1702,10 +1937,44 @@ status open
 \begin_layout Enumerate
 את המתח בספק יש להעלות הדרגתית כדי להימנע מתופעות קפיצת מתח בעקבות השראות
  פרזיטית.
+ אנחנו העלנו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $10V$
+\end_inset
+
+ כל כמה שניות.
 \end_layout
 
 \begin_layout Enumerate
-אסור לבנות את המתח על הספק בתחום הביניים של הלחצים.
+אסור לבנות את המתח על הספק בתחום הביניים של הלחצים )בפועל, להפעיל רק אחרי
+ הגעה ללחץ של 
+\begin_inset Formula $10[mThor]$
+\end_inset
+
+(.
  בעיקרון, חלקיקי האלפא משחררים אלקטרונים גם מהחומר שנותר בצינור בדרך לגלאי.
  בוואקום של *** יש מספיק חומר לשחרור כמות משמעותית של אלקטרונים, אבל לא
  מספיק חומר כדי לפזר את האנרגיה שלהם על פני אלקטרונים אחרים, וכך פוגעים
@@ -1718,6 +1987,18 @@ status open
 
 \begin_layout Subsubsection*
 ניסוי ראשון: מדידת ספקטרום אנרגיות של מקור ידוע, וכיול הגלאי
+\end_layout
+
+\begin_layout Standard
+מודדים את פעילות האלפא של שרשרת ההתפרקות של 
+\begin_inset Formula $Th228$
+\end_inset
+
+ במצב סקולרי )
+\begin_inset Formula $t_{\frac{1}{2}}$
+\end_inset
+
+ ארוך מאוד ביחס למשך הניסוי(
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1803,7 +2084,38 @@ status open
 \color inherit
 2
 \numeric off
-?***ולהפעיל את המשאבה המכנית עד הגעה ללחץ של ***.
+?***ולהפעיל את המשאבה המכנית עד הגעה ללחץ של 
+\begin_inset Formula $\sim1[mThor]$
+\end_inset
+
+.*** האם בעצם ב-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\numeric off
+?
 \end_layout
 
 \begin_layout Enumerate
@@ -1920,83 +2232,35 @@ status open
 ואחריו את כל האחרים, להפסיק את השאיבה.
 \end_layout
 
-\begin_layout Enumerate
-======
-\end_layout
-
-\begin_layout Enumerate
-לפתוח את שסתומים הפעיל משאבה רגילה על כל המערכת
-\end_layout
-
-\begin_layout Enumerate
-הגענו ל-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-10
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-מילי תור
-\end_layout
-
-\begin_layout Enumerate
-חימום השמן הפעלת משאבת דיפוזיה, פתיחת שסתום שמעל טנק דיפוזיה, סגירת שסתום
- צינור מטרה צינור משאבה רגילה.
-\end_layout
-
-\begin_layout Enumerate
-=========
-\end_layout
-
 \begin_layout Standard
 אחרי בניית הוואקום, מעלים בהדרגה את המתח האחורי על הגלאי עד 
 \begin_inset Formula $V=50[VDC]$
 \end_inset
 
-, ואז אוספים את הספקטרום של חלקיקי האלפא.
+.
+ בהרצה הראשונה חיברנו את מד המתח לאוסילוסקופ וראינו שעצמת הסיגנל היא 
+\begin_inset Formula $4V$
+\end_inset
+
+ והרעש התרמי הוא 
+\begin_inset Formula $100mV$
+\end_inset
+
+.
+ אז אוספים את הספקטרום של חלקיקי האלפא.
+\end_layout
+
+\begin_layout Standard
+בתום ניסוי זה, התאמנו את ערוצי האנרגיה לספקטרום הידוע של שרשרת ההתפרקות
+ של 
+\begin_inset Formula $228Th$
+\end_inset
+
+ , והכנסנו נתונים אלה לתוכנת ה- 
+\begin_inset Formula $Maestro$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -2004,19 +2268,60 @@ status open
 \end_layout
 
 \begin_layout Standard
-חלקיקי האלפא למעשה מאבדים אנרגיה לכל אינטרקציה שלהם עם אלקטרון, ולכן ניתן
- להמיר בין האנרגיה שחלקיק אלפא מאבד בלחץ קבוע ליחידת מרחק, לאנרגיה שהוא
- מאבד על מרחק קבוע ליחידת לחץ לפי:
+חלקיקי האלפא למעשה מאבדים אנרגיה לכל אינטרקציה שלהם עם אלקטרון, ולכן אובדן
+ האנרגיה 
+\begin_inset Formula $\frac{dE}{dx}$
+\end_inset
+
+ תלוי בצפיפות החומר.
+ כלומר, הגודל המשמעותי הוא למעשה 
+\begin_inset Formula $\frac{1}{\rho}\frac{dE}{dx}=\frac{dE}{d(\rho x)}$
+\end_inset
+
+.
+ גודל זה נוח למדוד בעזרת שליטה בצפיפות באמצעות הלחץ )
+\begin_inset Formula $PV=NK_{B}T$
+\end_inset
+
+(.ונקבל:
+\end_layout
+
+\begin_layout Standard
+***דן, בבקשה לוודא נוסחא זאת***
+\end_layout
+
+\begin_layout Standard
+***ספציפית: מדוע אנחנו מחלקים בצפיפות המסה ולא בצפיפות החלקיקים? מה זה משנו
+ לחלקיק האלפא מה המסה של 
+\begin_inset Formula $N_{2}$
+\end_inset
+
+ ? מעניין אותו כמה אלקטרונים נוספים יש
+\end_layout
+
+\begin_layout Standard
+הייתי רוצה לחלק בצפיפות המספרית 
+\begin_inset Formula $\frac{N}{V}$
+\end_inset
+
+ וגם במספר האלקטרונים למולקולה.
+ איפה נכנסת פה מסה?***
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
+\frac{dE}{d(\rho x)}=\frac{1}{l}\frac{K_{B}T}{m_{N_{2}}}\frac{dE}{dP}
 \]
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+===== ניתן להמיר בין האנרגיה שחלקיק אלפא מאבד בלחץ קבוע ליחידת מרחק, לאנרגיה
+ שהוא מאבד על מרחק קבוע ליחידת לחץ לפי:=====
 \end_layout
 
 \begin_layout Standard
@@ -2087,7 +2392,8 @@ status open
 \begin_inset Formula $N_{2}$
 \end_inset
 
-.
+, ונרמלנו כל ספקטרום בזמן המדידה נטו.
+ )כזכור, צריך לשמור על לחץ מינימלי של ***(
 \end_layout
 
 \begin_layout Subsubsection*
@@ -2096,6 +2402,7 @@ status open
 
 \begin_layout Standard
 בניסוי זה, מדדנו את ספטקטרום האלפא שנפלט ע"י מקור לא ידוע, בזמנים שונים.
+ המקור הלא ידוע הוא תוצרי ההתפרקות של איזוטופ ארוך חיים, הנאספים על אלקטרודה.
 \end_layout
 
 \begin_layout Standard
@@ -2152,7 +2459,7 @@ status open
 דקות, שמרנו ע"י תוכנת איסוף הספקטרומים את הספקטרום הכולל מתחילת הניסוי ועד
  אותו הזמן.
  הספקטרומים לכל מקטע זמן נתונים ע"י ההפרש בין המנייה בזמן הסוף שלו לזמן
- ההתחלה.
+ ההתחלה, מנורמל בזמן נטו )כלומר, ללא הזמן המת( מדידה של המקטע.
 \end_layout
 
 \begin_layout Standard
@@ -2195,9 +2502,22 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-ספקטרום פליטה - היסטוגרמה.
+ספקטרום אלפא של שרשרת התפרקות של 
+\begin_inset Formula $Th228$
+\end_inset
+
+ : ספירת התפרקויות לכל ערוץ אנרגיה.
  ליד כל פיק מצוינת ההתפרקות לה שייך.
- הערה לגבי רעשים מסוגים שונים רעש אנרגיות נמוכות
+ בתחום האנרגיות 
+\begin_inset Formula $***-***[KeV]$
+\end_inset
+
+רואים ספירות שכיחות שאינן נובעות מחלקיקי אלפא, אלא מרעש תרמי בגלאי ואלקטרונים
+ שנפלטו בקרינת 
+\begin_inset Formula $\beta^{-}$
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2211,18 +2531,15 @@ status open
 \end_layout
 
 \begin_layout Standard
-האם ההערות הללו צריכות להיות בדיון??
-\end_layout
-
-\begin_layout Standard
-הערה: ההתפלגות ליד כל פיק היא לא סימטרית.
- יש ערך והסטה לנמוך.
- ברחנו שרירותית פונ' כזאת שהיא נפוצה....
- ורואים התאמה טובה *בעין *ערך שקרים
-\end_layout
-
-\begin_layout Standard
-הערה: רעשים מסוגים שונים שיש בספטקטרום.
+כדי לפשט את הספקטרום, למצוא את תחומי ערוצי האנרגיה של כל התפרקות ואת הכמות
+ שלה, ביצענו התאמה של כל מקבץ אנרגיות של פיק לפונקציה מייצגת.
+ בנתונים רואים שההתפלגות של כל פיק אינה סימטרית, דבר העולה בקנה אחד עם הצפי
+ התיאורטי: ההתפלגות הזו אינה מייצגת ערך מרכזי עם שגיאות זהות לשני הכיוונים.
+ לכל פיק יש אנרגיה מקסימלית עקרונית: והיא האנרגיה של חלקיק אלפא, וההפרעות
+ יכולות להקטין את האנרגיה של חלקיק האלפא עד הגעתו לגלאי )למשל, מעט הלחץ
+ שנותר במערכת(.
+ בחרנו להתאים לפונקצית גאוסיאן "לא סימטרי" מקובלת:***דן: איזו?***.
+ פונקציה זו מאפשרת "זנב" משמעותי יותר לכיוון הנמוך.
 \end_layout
 
 \begin_layout Standard
@@ -2235,8 +2552,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-ספקטרום פליטה: עם התאמה לגאוסיאנים לא סימטריים, מרכזי פיקים...
- 
+ספקטרום אלפא של שרשרת התפרקות של 
+\begin_inset Formula $Th228$
+\end_inset
+
+ : ספירת התפרקויות לכל ערוץ אנרגיה, עם התאמה לגאוסיאנים לא סימטריים
 \end_layout
 
 \end_inset
@@ -2250,6 +2570,21 @@ status open
 \end_layout
 
 \begin_layout Standard
+***, מרכזי פיקים...
+ ????***
+\end_layout
+
+\begin_layout Standard
+כיוון שערוצי האנרגיה לינאריים, באמצעות הידע המוקדם על האנרגיות של ההתפרקויות
+ בשרשרת של 
+\begin_inset Formula $Th228$
+\end_inset
+
+, כיילנו את הסקאלה של מערכת המדידה.
+ כלומר, מצאנו את ערך האנרגיה של כל ערוץ:
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -2259,7 +2594,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-התאמה ליניארית של אנרגיות לבינים - כיול סקאלת אנרגיה
+התאמה ליניארית של אנרגיות לערוצים - כיול סקאלת אנרגיה
 \end_layout
 
 \end_inset
@@ -2274,11 +2609,43 @@ status open
 
 \begin_layout Standard
 ** האם אנחנו רוצים לנסות לנתח את גובה הפיקים, לוודא יחסים בין קבועי דעיכה
- בהתפרקויות השונות?
+ בהתפרקויות השונות? יחס הססטיסטיקות הפוך לקבוע הדעיכה.
+\end_layout
+
+\begin_layout Standard
+** האנרגיה הגבוהה המוזרה, מה היה לנו להגיד עליה?
 \end_layout
 
 \begin_layout Subsubsection*
-דיון
+=========דיון
+\end_layout
+
+\begin_layout Standard
+בתחום האנרגיות 
+\begin_inset Formula $***-***[KeV]$
+\end_inset
+
+רואים ספירות שכיחות שאינן נובעות מחלקיקי אלפא, אלא מרעש תרמי בגלאי ואלקטרונים
+ שנפלטו בקרינת 
+\begin_inset Formula $\beta^{-}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+הערה: ההתפלגות ליד כל פיק היא לא סימטרית.
+ יש ערך והסטה לנמוך.
+ ברחנו שרירותית פונ' כזאת שהיא נפוצה....
+ ורואים התאמה טובה *בעין *ערך שקרים
+\end_layout
+
+\begin_layout Standard
+הערה: רעשים מסוגים שונים שיש בספטקטרום.
+\end_layout
+
+\begin_layout Standard
+============
 \end_layout
 
 \begin_layout Subsection*
@@ -2295,7 +2662,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-ספקטרומים בלחצים שונים בפיגר אחד עם סאבלפוט
+ספקטרומים בלחצים שונים, מנורמלים בזמן המדידה נטו )***בפיגר אחד עם סאבלפוט***(
 \end_layout
 
 \end_inset
@@ -2309,13 +2676,58 @@ status open
 \end_layout
 
 \begin_layout Standard
-כמו שניתן לראות: ירידה באנרגיה וכן ירידה בספירה (מנורמל ליח' זמן)...
+כמו שניתן לראות:
 \end_layout
 
 \begin_layout Standard
-הסבר על שימת הנקודות על הגרף: השינוי באנרגיה של אותו אינדקס פיק בין שני
- לחצים שונים, מול השינוי בלחצים הללו.
- אינדיקציה ל....
+עם העלייה בלחץ הפיקים יורדים באנרגיה, והרוחב שלהם גדל.
+\end_layout
+
+\begin_layout Standard
+***האם הם גם יורדים בספירה? הייתי מצפה שלא...***
+\end_layout
+
+\begin_layout Standard
+את מרכזי הפיקים ניתחנו כמו בניסוי הכיול, בעזרת התאמת גאוסיאנים לא סימטריים
+ להתפלגויות.
+\end_layout
+
+\begin_layout Subsubsection*
+אולי כותרת***
+\end_layout
+
+\begin_layout Standard
+מדידת כוח העצירה, היא למעשה שיערוך התלות 
+\begin_inset Formula $\frac{dE}{dP}(E)$
+\end_inset
+
+.
+ מהמדידות, יש לנו את האנרגיה הנמדדת של כל פיק עבור כל אחד מהלחצים, ולכן
+ ניתן לחשב את 
+\begin_inset Formula $\frac{\Delta E}{\Delta P}$
+\end_inset
+
+ בין שני לחצים 
+\begin_inset Formula $P_{1}$
+\end_inset
+
+ ו- 
+\begin_inset Formula $P_{2}$
+\end_inset
+
+.
+ שיפוע זה מייצג את כוח העצירה באנרגיה 
+\begin_inset Formula $\frac{1}{2}(E_{P_{1}}+E_{p_{2}})$
+\end_inset
+
+.
+ שיערוך כזה ביצענו עבור כל שני לחצים סמוכים, ועבור כל אחד מהפיקים.
+\end_layout
+
+\begin_layout Standard
+=====הסבר על שימת הנקודות על הגרף: השינוי באנרגיה של אותו אינדקס פיק בין
+ שני לחצים שונים, מול השינוי בלחצים הללו.
+ אינדיקציה ל....======
 \end_layout
 
 \begin_layout Standard
@@ -2328,7 +2740,25 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-כח עצירה כפונ' של אנרגיה יחד עם נתונים של אמריקאיים
+נתוני 
+\begin_inset Formula $\frac{\Delta E}{\Delta P}$
+\end_inset
+
+ לכל זוג לחצים סמוכים ולכל פיק, מאפשרים להעריך את כוח העצירה 
+\begin_inset Formula $\frac{dE}{dP}(E)$
+\end_inset
+
+.
+ כמו כן, בצבע *** מוצגים נתונים שנמדדו בניסוי דומה ב***)רפרנס***(.***בוא
+ נוסיף קו של 
+\begin_inset Formula $fit$
+\end_inset
+
+ או 
+\begin_inset Formula $spline$
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -2342,9 +2772,25 @@ status open
 \end_layout
 
 \begin_layout Standard
+*** כאן נועם הפסיק לעבור ביום חמישי בערב ***
+\end_layout
+
+\begin_layout Standard
+* אולי הסבר למשהו בעייתי בגרף: ריווח לא מספיק טוב של לחצים.
+ רחוק מדי מהנגזרת.
+\end_layout
+
+\begin_layout Standard
 * הטווח של כל פיק ראשוני: ע"י אינטרגציה ואובדן האנרגיה.
  צריך להוסיף ניתוח של חלקיק שמאבד אנרגיה באופן הדרגתי ולקבל את הטווח.
  האם מצליחים להרוג את הפיק הנמוך? אנחנו קיבלנו שלא.
+ כלומר, צריך להגדיל את המרחק לגלאי כדי לראות אובדן מלא של הפיק.
+ לעשות פיט כלשהו.
+ אולי 
+\begin_inset Formula $spline$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -2367,6 +2813,22 @@ status open
 * ניתוח שגיא הציע: השינוי ברוחב ההתפלגות של הפיקים, אמור להיות קשור גם בהתפלגות
  הבסיס, וגם בהתרחבות כתוצאה מתנודות סטטיסטיות.
  שורש הלחץ.???
+\end_layout
+
+\begin_layout Standard
+* ההתפלגויות בהינתן לחץ, אמורות לתת יותר מקום לזנב למעלה לעומת ההתפלגויות
+ ללא לחץ.
+\end_layout
+
+\begin_layout Standard
+* יחסים של ביסמוט לפולוניום וטליום.
+ קבועי דעיכה חלקיים.
+ לראות אותם.
+\end_layout
+
+\begin_layout Standard
+* בדיקת השתנות הספירות בכל פיק.
+ כמה אבדו? מה מחלצים מזה?
 \end_layout
 
 \begin_layout Subsection*
@@ -3936,6 +4398,22 @@ rve_-_common_isotopes.svg
 \end_inset
 
 אנרגיית קשר לחלקיק
+\end_layout
+
+\begin_layout Standard
+-------
+\end_layout
+
+\begin_layout Standard
+הערות
+\end_layout
+
+\begin_layout Standard
+-------
+\end_layout
+
+\begin_layout Standard
+*שכבה מתה בגלאי.
 \end_layout
 
 \begin_layout Part*
