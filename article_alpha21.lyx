@@ -1380,10 +1380,6 @@ http://www.ilocis.org/documents/chpt48e.htm
  שהם יוצרים במתח על ההתקן )בהשוואה למתח המקורי(.
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Part*
 מערכת הניסוי
 \end_layout
@@ -1399,6 +1395,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/setup_scheme.jpeg
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2190,28 +2194,6 @@ status open
  אותו הזמן.
  הספקטרומים לכל מקטע זמן נתונים ע"י ההפרש בין המנייה בזמן הסוף שלו לזמן
  ההתחלה, מנורמל בזמן נטו )כלומר, ללא הזמן המת( מדידה של המקטע.
-\end_layout
-
-\begin_layout Standard
-===========
-\end_layout
-
-\begin_layout Standard
-מדידת ספקטרומים בזמנים שונים.
- דעיכה.
- זיהוי הפיקים.
-\end_layout
-
-\begin_layout Standard
-זיהוי המקור.
-\end_layout
-
-\begin_layout Standard
-===========
-\end_layout
-
-\begin_layout Subsection*
-מגבלות מערכת המדידה *** להסיר, אין לי רעיון מה לשים פה.
 \end_layout
 
 \begin_layout Section*
