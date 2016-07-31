@@ -121,77 +121,23 @@
  תוצאה זו הייתה קונסיסטנטית עם המדידות.
  כמו כן, זיהינו מקור רדיואקטיבי לא ידוע באמצעות ספקטרום האלפא שלו, שנמדד
  בזמנים שונים.
- המקור זוהה בתור ****
-\end_layout
+ המקור זוהה בתור תערובת של 
+\begin_inset Formula $U235$
+\end_inset
 
-\begin_layout Abstract
-שימוש בגלאי מוליך למחצה.
-\end_layout
+ או 
+\begin_inset Formula $Pa231$
+\end_inset
 
-\begin_layout Subsection*
-stodo
-\end_layout
+ ושל 
+\begin_inset Formula $Th232$
+\end_inset
 
-\begin_layout Standard
-ניתוחים:
-\end_layout
+ או 
+\begin_inset Formula $Th228$
+\end_inset
 
-\begin_layout Standard
-זיהוי מקור: מציאת אבות קדמונים.
-\end_layout
-
-\begin_layout Standard
-לכתוב רקע -
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-20
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-דקות )חלקי(
+.
 \end_layout
 
 \begin_layout Part*
@@ -990,6 +936,8 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/alpha_absorption_by_distance.gif
+	lyxscale 60
+	scale 60
 
 \end_inset
 
@@ -1085,6 +1033,13 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part*
 מערכת הניסוי
 \end_layout
@@ -1102,8 +1057,10 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/setup_scheme.jpeg
-	lyxscale 30
-	scale 30
+	lyxscale 50
+	scale 60
+	BoundingBox 0bp 300bp 816bp 800bp
+	clip
 
 \end_inset
 
@@ -1765,6 +1722,14 @@ status open
 תוצאות
 \end_layout
 
+\begin_layout Standard
+במרבית הגרפים אי הוודאות היחסית 
+\begin_inset Formula $\frac{1}{\sqrt{N(E)}}$
+\end_inset
+
+ כ"כ קטנה, עד שלא רואים את תחום אי הוודאות.
+\end_layout
+
 \begin_layout Subsection*
 תוצאות ניסוי כיול המערכת
 \end_layout
@@ -1792,7 +1757,7 @@ status open
 \end_inset
 
  : ספירת התפרקויות לכל ערוץ אנרגיה.
- בתחום הבינים 
+ בתחום ערוצים 
 \begin_inset Formula $0-100$
 \end_inset
 
@@ -2746,7 +2711,9 @@ status open
 \begin_inset Formula $Th228$
 \end_inset
 
- במצב סקולרי אותו השווינו למידע שאספנו 
+ במצב סקולרי אותו השווינו למידע שאספנו.
+ קיבלנו התאמה טובה עבור חלק מהפיקים, ובסטייה מסוימת עבור פיקים אחרים.
+ איננו יודעים מדוע.
 \end_layout
 
 \begin_layout Standard
@@ -2767,7 +2734,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-השוואת כמות ההתפרקויות לצפי מהספרות ***
+השוואת כמות ההתפרקויות לצפי מהספרות
 \end_layout
 
 \end_inset
@@ -2831,6 +2798,918 @@ status open
 \begin_layout Standard
 את מרכזי הפיקים ניתחנו כמו בניסוי הכיול, בעזרת התאמת גאוסיאנים לא סימטריים
  להתפלגויות.
+\end_layout
+
+\begin_layout Standard
+בנספח מצורפת טבלת תוצאות ביניים: לכל פיק ולחץ, מהי האנרגיה שלו.
+\end_layout
+
+\begin_layout Standard
+מדידת כוח העצירה היא למעשה שיערוך התלות 
+\begin_inset Formula $\frac{dE}{dx}(E)$
+\end_inset
+
+.
+ מהמדידות, יש לנו את האנרגיה הנמדדת של כל פיק עבור כל אחד מהלחצים, ולכן
+ ניתן לחשב את 
+\begin_inset Formula $\frac{\Delta E}{\Delta x}$
+\end_inset
+
+ בין שני לחצים 
+\begin_inset Formula $x(P_{1})$
+\end_inset
+
+ ו- 
+\begin_inset Formula $x(P_{2})$
+\end_inset
+
+.
+ שיפוע זה מייצג את כוח העצירה באנרגיה 
+\begin_inset Formula $\frac{1}{2}(E_{P_{1}}+E_{p_{2}})$
+\end_inset
+
+.
+ שיערוך כזה ביצענו עבור כל שני לחצים סמוכים, ועבור כל אחד מהפיקים.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/stopping power.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+נתוני 
+\begin_inset Formula $\frac{\Delta E}{\Delta x}$
+\end_inset
+
+ לכל זוג לחצים סמוכים ולכל פיק, מאפשרים להעריך את כוח העצירה 
+\begin_inset Formula $\frac{dE}{dx}(E)$
+\end_inset
+
+.
+ כמו כן, בצבע אדום נתונים של תכנית 
+\begin_inset Formula $ASTAR$
+\end_inset
+
+ של 
+\begin_inset Formula $NIST$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+טווח
+\end_layout
+
+\begin_layout Standard
+אין לנו מדידות של כוח העצירה בתחום 
+\begin_inset Formula $0-2450[KeV]$
+\end_inset
+
+, וזאת כיוון שאפילו בלחץ המקסימלי שמותר לשימוש במערכת זאת )
+\begin_inset Formula $1[atm]$
+\end_inset
+
+(, חלקיקי אלפא לא הואטו לאנרגיה בתחום זה.
+ בפרט, אפילו חלקיקי האלפא האיטיים ביותר, היו בעלי טווח גדול מ- 
+\begin_inset Formula $l=3.0[cm]$
+\end_inset
+
+.
+ בעיה זו ניתן לפתור ע"י הגדלת המרחק בין המקור לגלאי, כך שחלקיקי האלפא יואטו
+ על פני מסלול ארוך יותר.
+\end_layout
+
+\begin_layout Standard
+הערכת הטווח )הממוצע( חלקיקי אלפא באנרגיות השונות:
+\begin_inset Formula 
+\[
+Range(E_{\alpha})=x_{final}-x_{initial}=\int_{E_{in}}^{E_{final}}\frac{dx}{dE}dE=-\int_{E_{in}}^{E_{final}}|(\frac{dE}{dx})^{-1}|dE=\int_{0}^{E_{\alpha}}|(\frac{dE}{dx})^{-1}|dE
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בהעדר מידע על כוח העצירה בתחום האנרגיות הנמוך, לא ניתן לחשב את הטווח על
+ סמך הנתונים שלנו.
+ בתור בדיקת שפיות לכך שאפילו חלקיק האלפא האיטי ביותר לא הגיע לטווח בין המקור
+ לגלאי בלחץ הגבוה ביותר, ביצענו את הניתוח על סמך המידע מ- 
+\begin_inset Formula $ASTAR$
+\end_inset
+
+.
+ בעזרת אינטגרציה נומרית, ואכן התקבל:
+\begin_inset Formula $Range(E=5340[KeV])\approx5[cm]>l$
+\end_inset
+
+ )כדי לעבור ליחידות הנכונות: מרחק, קיזזנו מהתוצאה את צפיפות החנקן בלחץ הגבוה
+ ביותר, אטמוספרי, לפי 
+\begin_inset Formula $\rho=\frac{m_{N_{2}}}{K_{B}T}P$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Subsubsection*
+רוחב התפלגות הנובע מהלחץ
+\end_layout
+
+\begin_layout Standard
+מדידת הספקטרום בלחץ הנמוך ביותר נותנת רוחב מסוים 
+\begin_inset Formula $w_{system}$
+\end_inset
+
+ לכל פיק של חלקיקי אלפא, שנובע מתכונות מערכת המדידה.
+ כאשר יש חומר בתווך, חלקיקי אלפא שונים שנפלטו עם אותה אנרגיה יכולים להגיע
+ לגלאי עם אנרגיה שונה, כיוון שכל אחד מהם עבר נתיב אחר.
+ אנחנו מצפים, שרוחב ההתפלגות שהמרכיב הססטיסטי הזה מכניס 
+\begin_inset Formula $w_{matter}$
+\end_inset
+
+, יהיה לינארי למספר החלקיקים, כלומר, ללחץ.
+ רוחב ההתפלגות הכולל יהיה 
+\begin_inset Formula $w=\sqrt{w_{system}^{2}+w_{matter}^{2}}$
+\end_inset
+
+.
+ התוצאות מתאימות למודל התהליך הססטיסטי הזה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/E_STD_of_P.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+רוחב ההתפלגות של כל פיק בספקטרום הנובע מהלחץ בלבד.
+ הוא אכן לינארי בלחץ, כצפוי
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+זיהוי מקור לא ידוע ומציאת זמן מחצית חיים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/exp3_spectrumAtTimes.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+ספקטרום האלפא שנמדד במקטעי זמן שונים )מנורמל בזמן המדידה נטו(
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אנרגיות מדודות: 
+\begin_inset Formula $E_{1}=6049\pm14[KeV],E_{2}=6276\pm14[KeV],E_{3}=6621\pm14[KeV],E_{4}=8782\pm14[KeV]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+את מרכזי הפיקים ניתחנו כמו בניסוי הכיול, בעזרת התאמת גאוסיאנים לא סימטריים
+ להתפלגויות.
+ כך לכל פיק ניתן לראות את דעיכת הפעילות שלו בזמן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/exp3_activityAtTimes.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+דעיכת הפעילות של כל אחד מ-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+האנרגיות בספקטרום הנמדד
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הפעילות באנרגיה 
+\begin_inset Formula $E_{2},E_{3}$
+\end_inset
+
+ דועכות אקספוננציאלית יחד )היחס 
+\begin_inset Formula $\frac{\#E_{3}}{\#E_{2}}$
+\end_inset
+
+ נמצא בתחום ערכים קטן 
+\begin_inset Formula $5.4\pm1.4$
+\end_inset
+
+ במהלך כל הניסוי(.
+ באמצעות התאמת עקומה אקספוננציאלית חושב זמן מחצית חיים של 
+\begin_inset Formula $t_{\frac{1}{2}}=T=27.9-36.1[min]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/exp3_fit.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+דעיכה אקספוננציאלית משותפת של 
+\begin_inset Formula $\frac{\#E_{3}(t)}{\#E_{3}(t=0)},\frac{\#E_{2}(t)}{\#E_{2}(t=0)}$
+\end_inset
+
+ עם 
+\begin_inset Formula $t_{\frac{1}{2}}=T=27.9-36.1[min]$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הפעילות באנרגיה 
+\begin_inset Formula $E_{1},E_{4}$
+\end_inset
+
+ לא דועכות באופן מובחן בסקאלת הזמן של הניסוי.
+ כלומר, ההתפרקויות שלהן נמצאות בשיווי משקל סקולרי עם יסוד שלו 
+\begin_inset Formula $\tilde{t}_{\frac{1}{2}}\gg T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+באמצעות פרמטרים אילו ננסה לזהות את החומר העובר התפרקות:
+\end_layout
+
+\begin_layout Subsubsection*
+ניתוח
+\end_layout
+
+\begin_layout Enumerate
+כאשר לגרעין אם זמן חיים ארוך משמעותית מזה של גרעין הבת, הכמות )וגם הפעילות(
+ של גרעין הבת "עוקב" אחרי האם.
+\end_layout
+
+\begin_layout Enumerate
+כאשר ישנו גרעין עם זמן חיים ארוך ביחס לזמן המדידה, לא מודדים שינויים בכל
+ הכמויות של הצאצאים שלו לדורותיהם )שיווי משקל סקולרי(.
+\end_layout
+
+\begin_layout Enumerate
+במחסן ישנו גרעין אם ארוך חיים )סקאלה של שנים(, וגרעיני הבת נאספים על אלקטרודה,
+ שעליה נערכת המדידה.
+\end_layout
+
+\begin_layout Enumerate
+מסקנה: אנחנו מחפשים גרעין אם ארוך שנים, שמתחיל שרשרת התפרקויות )אולי עם
+ פיצולים(.
+ אחריו יש רצף של גרעינים עם 
+\begin_inset Formula $t_{\frac{1}{2}}\ll T$
+\end_inset
+
+ )והם מתפרקים עוד לפני תחילת הניסוי(.
+ אחריהם שתי אפשרויות: גרעין עם 
+\begin_inset Formula $\tilde{t}_{\frac{1}{2}}\gg T$
+\end_inset
+
+ שאחריו רצף התפרקויות עד יסוד יציב )שלא משתנה בזמן המדידה(, או גרעין עם
+ 
+\begin_inset Formula $\tilde{t}_{\frac{1}{2}}=T$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Enumerate
+כמו כן 
+\begin_inset Formula $\#E_{3}>\#E_{2}$
+\end_inset
+
+ולכן לא ייתכן שהתפרקות 
+\begin_inset Formula $E_{3}$
+\end_inset
+
+ מתרחשת מאוחר יותר בשרשרת.
+\end_layout
+
+\begin_layout Enumerate
+כלומר, יש למצוא התפרקות אלפא עם 
+\begin_inset Formula $E_{3}$
+\end_inset
+
+ ו- 
+\begin_inset Formula $t_{\frac{1}{2}}=T$
+\end_inset
+
+, או התפרקות אלפא עם 
+\begin_inset Formula $t_{\frac{1}{2}}\ll T$
+\end_inset
+
+ שנוצרת ע"י התפרקות אחרת עם 
+\begin_inset Formula $t_{\frac{1}{2}}=T$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+פסילת אפשרויות
+\end_layout
+
+\begin_layout Standard
+אנרגיה 
+\begin_inset Formula $E_{3}$
+\end_inset
+
+ עם 
+\begin_inset Formula $t_{\frac{1}{2}}=T$
+\end_inset
+
+ אפשרי רק 
+\begin_inset Formula $Po232$
+\end_inset
+
+ והוא יוצר שרשרת לא מתאימה לשאר האנרגיות.
+\end_layout
+
+\begin_layout Standard
+אנרגיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $E_{3}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בזמן קצר )כדי להגיע אחרי התפררות 
+\begin_inset Formula $\beta$
+\end_inset
+
+(:
+\end_layout
+
+\begin_layout Standard
+ל: 
+\begin_inset Formula $Ra213,Ra209,At212,Fr220$
+\end_inset
+
+ יש התפרקות אלפא באנרגיה מתאימה ו- 
+\begin_inset Formula $t_{\frac{1}{2}}<10[min]$
+\end_inset
+
+, אבל אין התפרקות 
+\begin_inset Formula $\beta$
+\end_inset
+
+ שיוצרת אותם עם זמן מחצית חיים מתאים.
+\end_layout
+
+\begin_layout Standard
+האופציה שנראית סבירה יותר היא:
+\end_layout
+
+\begin_layout Subsubsection*
+התהליך הבא יכול להסביר את האנרגיות 
+\begin_inset Formula $E_{3},E_{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Bi211\Rightarrow Tl207\Rightarrow Pb207$
+\end_inset
+
+.
+ הוא מתאים גם ליחסי המופעים הנמדדים: 
+\begin_inset Formula $\frac{\#(E_{3})}{\#(E_{2})}=5.4\pm1.4$
+\end_inset
+
+ כאשר לפי הנתונים צפוי 
+\begin_inset Formula $6$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+יצירת הביסמוט ע"י 
+\begin_inset Formula $Pb211\Rightarrow Bi211$
+\end_inset
+
+ עם 
+\begin_inset Formula $t_{\frac{1}{2}}=36.1[min]$
+\end_inset
+
+המתאים לזמן 
+\begin_inset Formula $T$
+\end_inset
+
+ שמדדנו.
+\end_layout
+
+\begin_layout Standard
+אב קדמון: יסוד ארוך חיים שיוצר את ה 
+\begin_inset Formula $Pb211$
+\end_inset
+
+ הוא 
+\begin_inset Formula $U235$
+\end_inset
+
+ עם 
+\begin_inset Formula $t_{\frac{1}{2}}\approx7E8[year]$
+\end_inset
+
+ או אחד הצאצאים שלו 
+\begin_inset Formula $Pa231$
+\end_inset
+
+ עם 
+\begin_inset Formula $t_{\frac{1}{2}}\approx3.2E4[year]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+האנרגיות 
+\begin_inset Formula $E_{1},E_{4}$
+\end_inset
+
+ מוכרות לנו מניסוי הכיול, ומוסברות ע"י תהליך ההתפרקות הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Bi212\Rightarrow\begin{cases}
+PO212\Rightarrow Pb208\\
+Tl208\Rightarrow Pb208
+\end{cases}$
+\end_inset
+
+ .
+ הוא מתאים גם ליחסי המופעים הנמדדים בין 
+\begin_inset Formula $\frac{\#(E_{4})}{\#(E_{1})}=2.45\pm0.35$
+\end_inset
+
+ כאשר לפי הנתונים צפוי 
+\begin_inset Formula $2.6$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+יצירת 
+\begin_inset Formula $Bi212$
+\end_inset
+
+ אפשרית ע"י 
+\begin_inset Formula $Pb212\Rightarrow Bi212$
+\end_inset
+
+ עם 
+\begin_inset Formula $t_{\frac{1}{2}}=10.64[hour]$
+\end_inset
+
+ מספיק כך שלא תימדד דעיכה במהלך הניסוי.
+\end_layout
+
+\begin_layout Standard
+אב קדמון: יסוד ארוך חיים שיוצר את ה 
+\begin_inset Formula $Pb212$
+\end_inset
+
+ הוא 
+\begin_inset Formula $Th232$
+\end_inset
+
+ עם 
+\begin_inset Formula $t_{\frac{1}{2}}\approx1.4E10[year]$
+\end_inset
+
+ או אחד הצאצאים שלו 
+\begin_inset Formula $Th228$
+\end_inset
+
+ עם 
+\begin_inset Formula $t_{\frac{1}{2}}\approx1.9[year]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הערה
+\end_layout
+
+\begin_layout Standard
+בשרשרת ההתפרקות של האבות הקדמונים שהצענו ישנם צאצאים שלהם זמן מחצית חיים
+ ארוך דיו כך שישרדו את המעבר מתא האיכסון למערכת המדידה ואת הניסוי.
+ חלר מצאצאים אלה מתפרקים אלפא )או שצאצאיהם מתפרקים אלפא( אך לא זיהינו בספקטרום
+ שמדדנו את כל האנרגיות הנ"ל.
+ אין לנו הסבר מדוע איננו רואים את כל האנרגיות עד אב ארוך חיים, אולם, זוהי
+ האפשרות הסבירה ביותר כיוון שהיא כן כוללת את כל האנרגיות שנצפו.
+\end_layout
+
+\begin_layout Part*
+הפניות
+\end_layout
+
+\begin_layout Section*
+מקורות
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+Kenneth, Introductory nuclear physics
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+אנרגית קשר לנוקליאון: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://en.wikipedia.org/wiki/Nuclear_binding_energy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+כמות חלקיקי אלפא כתלות במרחק: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.ilocis.org/documents/chpt48e.htm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+גלאי מוליך למחצה: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.globalspec.com/learnmore/sensors_transducers_detectors/environmental_se
+nsors/radiation_detectors
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+מאגר חיפוש התפרקויות: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.nndc.bnl.gov/nudat2/indx_dec.jsp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+טבלת נוקלאידים: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+מידע 
+\begin_inset Formula $ASTAR$
+\end_inset
+
+: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://physics.nist.gov/PhysRefData/Star/Text/ASTAR.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+מידע על שרשרת ההתפרקות של 
+\begin_inset Formula $Th232$
+\end_inset
+
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://hepwww.rl.ac.uk/ukdmc/Radioactivity/Th_chain/Th_chain.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+תמונות
+\end_layout
+
+\begin_layout Enumerate
+תמונת מנהור אלפא: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://202.141.40.218/wiki/index.php/File:Akjain25.png
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+אנרגיית קשר לחלקיק: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://en.wikipedia.org/wiki/Nuclear_binding_energy#/media/File:Binding_energy_cu
+rve_-_common_isotopes.svg
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+נספח
+\end_layout
+
+\begin_layout Standard
+טבלת תוצאות ביניים )מדידת כוח עצירה(: לכל פיק ולחץ, מהי האנרגיה שלו:
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Standard
@@ -5372,841 +6251,9 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-מדידת כוח העצירה היא למעשה שיערוך התלות 
-\begin_inset Formula $\frac{dE}{dP}(E)$
-\end_inset
-
-.
- מהמדידות, יש לנו את האנרגיה הנמדדת של כל פיק עבור כל אחד מהלחצים, ולכן
- ניתן לחשב את 
-\begin_inset Formula $\frac{\Delta E}{\Delta P}$
-\end_inset
-
- בין שני לחצים 
-\begin_inset Formula $P_{1}$
-\end_inset
-
- ו- 
-\begin_inset Formula $P_{2}$
-\end_inset
-
-.
- שיפוע זה מייצג את כוח העצירה באנרגיה 
-\begin_inset Formula $\frac{1}{2}(E_{P_{1}}+E_{p_{2}})$
-\end_inset
-
-.
- שיערוך כזה ביצענו עבור כל שני לחצים סמוכים, ועבור כל אחד מהפיקים.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename figs/stopping power.png
-	lyxscale 50
-	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-נתוני 
-\begin_inset Formula $\frac{\Delta E}{\Delta P}$
-\end_inset
-
- לכל זוג לחצים סמוכים ולכל פיק, מאפשרים להעריך את כוח העצירה 
-\begin_inset Formula $\frac{dE}{dP}(E)$
-\end_inset
-
-.
- כמו כן, בצבע אדום נתונים של תכנית 
-\begin_inset Formula $ASTAR$
-\end_inset
-
- של 
-\begin_inset Formula $NIST$
-\end_inset
-
-.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-הערות:
-\end_layout
-
-\begin_layout Enumerate
-אין לנו מדידות של כוח העצירה בתחום 
-\begin_inset Formula $0-2450[KeV]$
-\end_inset
-
-, וזאת כיוון שאפילו בלחץ המקסימלי שמותר לשימוש במערכת זאת )
-\begin_inset Formula $1[atm]$
-\end_inset
-
-(, חלקיקי אלפא לא הואטו לאנרגיה בתחום זה.
- בפרט, אפילו חלקיקי האלפא האיטיים ביותר, היו בעלי טווח גדול מ- 
-\begin_inset Formula $l=3.0[cm]$
-\end_inset
-
-.
- בעיה זו ניתן לפתור ע"י הגדלת המרחק בין המקור לגלאי, כך שחלקיקי האלפא יואטו
- על פני מסלול ארוך יותר.
-\end_layout
-
-\begin_layout Enumerate
-הערכת הטווח )הממוצע( חלקיקי אלפא באנרגיות השונות:
-\begin_inset Formula 
-\[
-Range(E_{\alpha})=x_{final}-x_{initial}=\int_{E_{in}}^{E_{final}}\frac{dx}{dE}dE=-\int_{E_{in}}^{E_{final}}|(\frac{dE}{dx})^{-1}|dE=\int_{0}^{E_{\alpha}}|(\frac{dE}{dx})^{-1}|dE
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-בהעדר מידע על כוח העצירה בתחום האנרגיות הנמוך, לא ניתן לחשב את הטווח על
- סמך הנתונים שלנו.
- בתור בדיקת שפיות לכך שאפילו חלקיק האלפא האיטי ביותר לא הגיע לטווח בין המקור
- לגלאי בלחץ הגבוה ביותר, ביצענו את הניתוח על סמך המידע מ***.
- בעזרת אינטגרציה נומרית, ואכן התקבל:
-\begin_inset Formula $Range(E=5340[KeV])\approx5[cm]>l$
-\end_inset
-
- )כדי לעבור ליחידות הנכונות: מרחק, קיזזנו מהתוצאה את צפיפות החנקן בלחץ הגבוה
- ביותר, אטמוספרי, לפי 
-\begin_inset Formula $\rho=\frac{m_{N_{2}}}{K_{B}T}P$
-\end_inset
-
-(
-\end_layout
-
-\begin_layout Enumerate
-מדידת הספקטרום בלחץ הנמוך ביותר נותנת רוחב מסוים 
-\begin_inset Formula $w_{system}$
-\end_inset
-
- לכל פיק של חלקיקי אלפא, שנובע מתכונות מערכת המדידה.
- כאשר יש חומר בתווך, חלקיקי אלפא שונים שנפלטו עם אותה אנרגיה יכולים להגיע
- לגלאי עם אנרגיה שונה, כיוון שכל אחד מהם עבר נתיב אחר.
- אנחנו מצפים, שרוחב ההתפלגות שהמרכיב הססטיסטי הזה מכניס 
-\begin_inset Formula $w_{matter}$
-\end_inset
-
-, יהיה לינארי למספר החלקיקים, כלומר, ללחץ.
- רוחב ההתפלגות הכולל יהיה 
-\begin_inset Formula $w=\sqrt{w_{system}^{2}+w_{matter}^{2}}$
-\end_inset
-
-.
- כפי שניתן לראות בגרף להלן: *** אישוש לתהליך הססטיסטי.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename figs/E_STD_of_P.png
-	lyxscale 50
-	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-רוחב ההתפלגות של כל פיק בספקטרום הנובע מהלחץ בלבד.
- הוא אכן לינארי בלחץ, כצפוי
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-זיהוי מקור לא ידוע ומציאת זמן מחצית חיים
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename figs/exp3_spectrumAtTimes.png
-	lyxscale 50
-	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-ספקטרום האלפא שנמדד במקטעי זמן שונים )מנורמל בזמן המדידה נטו(
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-אנרגיות מדודות: 
-\begin_inset Formula $E_{1}=6049\pm14[KeV],E_{2}=6276\pm14[KeV],E_{3}=6621\pm14[KeV],E_{4}=8782\pm14[KeV]$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-את מרכזי הפיקים ניתחנו כמו בניסוי הכיול, בעזרת התאמת גאוסיאנים לא סימטריים
- להתפלגויות.
- כך לכל פיק ניתן לראות את דעיכת הפעילות שלו בזמן:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename figs/exp3_activityAtTimes.png
-	lyxscale 50
-	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-דעיכת הפעילות של כל אחד מ-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-4
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-האנרגיות בספקטרום הנמדד
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-הפעילות באנרגיה 
-\begin_inset Formula $E_{2},E_{3}$
-\end_inset
-
- דועכות אקספוננציאלית יחד )היחס 
-\begin_inset Formula $\frac{\#E_{3}}{\#E_{2}}$
-\end_inset
-
- נמצא בתחום ערכים קטן 
-\begin_inset Formula $5.4\pm1.4$
-\end_inset
-
- במהלך כל הניסוי(.
- באמצעות התאמת עקומה אקספוננציאלית חושב זמן מחצית חיים של 
-\begin_inset Formula $t_{\frac{1}{2}}=T=27.9-36.1[min]$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename figs/exp3_fit.png
-	lyxscale 50
-	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-דעיכה אקספוננציאלית משותפת של 
-\begin_inset Formula $\frac{\#E_{3}(t)}{\#E_{3}(t=0)},\frac{\#E_{2}(t)}{\#E_{2}(t=0)}$
-\end_inset
-
- עם 
-\begin_inset Formula $t_{\frac{1}{2}}=T=27.9-36.1[min]$
-\end_inset
-
- 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-הפעילות באנרגיה 
-\begin_inset Formula $E_{1},E_{4}$
-\end_inset
-
- לא דועכות באופן מובחן בסקאלת הזמן של הניסוי.
- כלומר, ההתפרקויות שלהן נמצאות בשיווי משקל סקולרי עם יסוד שלו 
-\begin_inset Formula $\tilde{t}_{\frac{1}{2}}\gg T$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-באמצעות פרמטרים אילו ננסה לזהות את החומר העובר התפרקות:
-\end_layout
-
-\begin_layout Subsubsection*
-ניתוח
-\end_layout
-
-\begin_layout Enumerate
-כאשר לגרעין אם זמן חיים ארוך משמעותית מזה של גרעין הבת, הכמות )וגם הפעילות(
- של גרעין הבת "עוקב" אחרי האם.
-\end_layout
-
-\begin_layout Enumerate
-כאשר ישנו גרעין עם זמן חיים ארוך ביחס לזמן המדידה, לא מודדים שינויים בכל
- הכמויות של הצאצאים שלו לדורותיהם )שיווי משקל סקולרי(.
-\end_layout
-
-\begin_layout Enumerate
-במחסן ישנו גרעין אם ארוך חיים )סקאלה של שנים(, וגרעיני הבת נאספים על אלקטרודה,
- שעליה נערכת המדידה.
-\end_layout
-
-\begin_layout Enumerate
-מסקנה: אנחנו מחפשים גרעין אם ארוך שנים, שמתחיל שרשרת התפרקויות )אולי עם
- פיצולים(.
- אחריו יש רצף של גרעינים עם 
-\begin_inset Formula $t_{\frac{1}{2}}\ll T$
-\end_inset
-
- )והם מתפרקים עוד לפני תחילת הניסוי(.
- אחריהם שתי אפשרויות: גרעין עם 
-\begin_inset Formula $\tilde{t}_{\frac{1}{2}}\gg T$
-\end_inset
-
- שאחריו רצף התפרקויות עד יסוד יציב )שלא משתנה בזמן המדידה(, או גרעין עם
- 
-\begin_inset Formula $\tilde{t}_{\frac{1}{2}}=T$
-\end_inset
-
- .
-\end_layout
-
-\begin_layout Enumerate
-כמו כן 
-\begin_inset Formula $\#E_{3}>\#E_{2}$
-\end_inset
-
-ולכן לא ייתכן שהתפרקות 
-\begin_inset Formula $E_{3}$
-\end_inset
-
- מתרחשת מאוחר יותר בשרשרת.
-\end_layout
-
-\begin_layout Enumerate
-כלומר, יש למצוא התפרקות אלפא עם 
-\begin_inset Formula $E_{3}$
-\end_inset
-
- ו- 
-\begin_inset Formula $t_{\frac{1}{2}}=T$
-\end_inset
-
-, או התפרקות אלפא עם 
-\begin_inset Formula $t_{\frac{1}{2}}\ll T$
-\end_inset
-
- שנוצרת ע"י התפרקות אחרת עם 
-\begin_inset Formula $t_{\frac{1}{2}}=T$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsubsection*
-פסילת אפשרויות
-\end_layout
-
-\begin_layout Standard
-אנרגיה 
-\begin_inset Formula $E_{3}$
-\end_inset
-
- עם 
-\begin_inset Formula $t_{\frac{1}{2}}=T$
-\end_inset
-
- אפשרי רק 
-\begin_inset Formula $Po232$
-\end_inset
-
- והוא יוצר שרשרת לא מתאימה לשאר האנרגיות.
-\end_layout
-
-\begin_layout Standard
-אנרגיה
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
-\begin_inset Formula $E_{3}$
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-בזמן קצר )כדי להגיע אחרי התפררות 
-\begin_inset Formula $\beta$
-\end_inset
-
-(:
-\end_layout
-
-\begin_layout Standard
-ל: 
-\begin_inset Formula $Ra213,Ra209,At212,Fr220$
-\end_inset
-
- יש התפרקות אלפא באנרגיה מתאימה ו- 
-\begin_inset Formula $t_{\frac{1}{2}}<10[min]$
-\end_inset
-
-, אבל אין התפרקות 
-\begin_inset Formula $\beta$
-\end_inset
-
- שיוצרת אותם עם זמן מחצית חיים מתאים.
-\end_layout
-
-\begin_layout Standard
-האופציה שנראית סבירה יותר היא:
-\end_layout
-
-\begin_layout Subsubsection*
-התהליך הבא יכול להסביר את האנרגיות 
-\begin_inset Formula $E_{3},E_{2}$
-\end_inset
-
-:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $Bi211\Rightarrow Tl207\Rightarrow Pb207$
-\end_inset
-
-.
- הוא מתאים גם ליחסי המופעים הנמדדים: 
-\begin_inset Formula $\frac{\#(E_{3})}{\#(E_{2})}=5.4\pm1.4$
-\end_inset
-
- כאשר לפי הנתונים צפוי 
-\begin_inset Formula $6$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-יצירת הביסמוט ע"י 
-\begin_inset Formula $Pb211\Rightarrow Bi211$
-\end_inset
-
- עם 
-\begin_inset Formula $t_{\frac{1}{2}}=**data-shit$
-\end_inset
-
-המתאים לזמן 
-\begin_inset Formula $T$
-\end_inset
-
- שמדדנו.
-\end_layout
-
-\begin_layout Standard
-***אב קדמוןמה שעדיין לא כ"כ ברור: לא מצאנו שרשרת של התפרקויות מהירות שמובילה
- ל 
-\begin_inset Formula $Pb211$
-\end_inset
-
- ומקורה ביסוד עם זמן חיים של שנים.
-\end_layout
-
-\begin_layout Standard
-****
-\end_layout
-
-\begin_layout Subsubsection*
-האנרגיות 
-\begin_inset Formula $E_{1},E_{4}$
-\end_inset
-
- מוכרות לנו מניסוי הכיול, ומוסברות ע"י תהליך ההתפרקות הבא:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $Bi212\Rightarrow\begin{cases}
-PO212\Rightarrow Pb208\\
-Tl208\Rightarrow Pb208
-\end{cases}$
-\end_inset
-
- .
- הוא מתאים גם ליחסי המופעים הנמדדים בין 
-\begin_inset Formula $\frac{\#(E_{4})}{\#(E_{1})}=2.45\pm0.35$
-\end_inset
-
- כאשר לפי הנתונים צפוי 
-\begin_inset Formula $2.6$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-יצירת 
-\begin_inset Formula $Bi212$
-\end_inset
-
- אפשרית ע"י 
-\begin_inset Formula $Pb212\Rightarrow Bi212$
-\end_inset
-
- עם 
-\begin_inset Formula $t_{\frac{1}{2}}=10.64[hour]$
-\end_inset
-
- מספיק כך שלא תימדד דעיכה במהלך הניסוי.
-\end_layout
-
-\begin_layout Standard
-*** אב קדמון: ייתכן כי 
-\begin_inset Formula $Pb212$
-\end_inset
-
- וכן 
-\begin_inset Formula $Po216,Rn220$
-\end_inset
-
- הצטברו על האלקטרודה שאספה ****, עד תחילת המדידה, הפולוניום והרניום התפרקו
- לעופרת.
-\end_layout
-
-\begin_layout Standard
-*****************
-\end_layout
-
-\begin_layout Part*
-הפניות
-\end_layout
-
-\begin_layout Section*
-מקורות
-\end_layout
-
-\begin_layout Enumerate
-אנרגית קשר לנוקליאון: 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-https://en.wikipedia.org/wiki/Nuclear_binding_energy
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-כמות חלקיקי אלפא כתלות במרחק: 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://www.ilocis.org/documents/chpt48e.htm
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-גלאי מוליך למחצה: 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://www.globalspec.com/learnmore/sensors_transducers_detectors/environmental_se
-nsors/radiation_detectors
-\end_layout
-
 \end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-מאגר חיפוש התפרקויות: 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://www.nndc.bnl.gov/nudat2/indx_dec.jsp
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-טבלת נוקלאידים: 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-מידע 
-\begin_inset Formula $ASTAR$
-\end_inset
-
-: 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://physics.nist.gov/PhysRefData/Star/Text/ASTAR.html
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section*
-תמונות
-\end_layout
-
-\begin_layout Enumerate
-תמונת מנהור אלפא: 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://202.141.40.218/wiki/index.php/File:Akjain25.png
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-אנרגיית קשר לחלקיק: 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-https://en.wikipedia.org/wiki/Nuclear_binding_energy#/media/File:Binding_energy_cu
-rve_-_common_isotopes.svg
-\end_layout
-
-\end_inset
-
 
-\end_layout
 
-\begin_layout Part*
-נספח
 \end_layout
 
 \begin_layout Subsubsection*
@@ -6220,7 +6267,11 @@ rve_-_common_isotopes.svg
 \end_inset
 
 .
- 
+ במרבית הגרפים אי הוודאות היחסית 
+\begin_inset Formula $\frac{1}{\sqrt{N(E)}}$
+\end_inset
+
+ כ"כ קטנה, עד שלא רואים את תחום אי הוודאות.
 \end_layout
 
 \begin_layout Standard
