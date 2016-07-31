@@ -83,37 +83,45 @@
 \end_layout
 
 \begin_layout Abstract
-תקציר.
- משחר ההיסטוריה רדיואקטיביות.
- טוסטר.
- תחרות בהרמת משקולות.
- צ'רנוביל.
-\end_layout
-
-\begin_layout Abstract
-מדידת כוח עצירה של חלקיקי אלפא בגז מימן.
- 
-\end_layout
-
-\begin_layout Abstract
-*** השוואה למידע אמריקאים
-\end_layout
-
-\begin_layout Abstract
-*** השוואה למודל 
-\begin_inset Formula $bethe$
+בתהליך קרינת אלפא, גרעין יורד באנרגיה ע"י פליטה של גרעין הליום.
+ בשלב הראשון בניסוי זה כיילנו מערכת למדידת ספקטרום אנרגיה של חלקיקי אלפא
+ בעזרת שרשרת ההתפרקות המוכרת של 
+\begin_inset Formula $Th228$
 \end_inset
 
+.
+ בעזרת המערכת המכוילת מדדנו את כוח העצירה 
+\begin_inset Formula $\frac{dE}{dx}$
+\end_inset
 
-\end_layout
+ ב- 
+\begin_inset Formula $N_{2}$
+\end_inset
 
-\begin_layout Abstract
-ניתוח הטווח בעזרת אינטרציה *** השוואה לטווחים ידועים מהספרות.
- 
-\end_layout
+ הפועל על חלקיקי אלפא באנרגיות שונות בתחום 
+\begin_inset Formula $2400-8700[KeV]$
+\end_inset
 
-\begin_layout Abstract
-זיהוי מקור לא ידוע בעזרת ספקטרוסקופיה
+.
+ מדידה זאת נעשתה באמצעות ניתוח הספקטרום הנקלט כאשר חלקיקי האלפא עוברים דרך
+ תווך של 
+\begin_inset Formula $N_{2}$
+\end_inset
+
+ בלחצים שונים.
+ המדידות שלנו התאימו למדידות מקובלות של 
+\begin_inset Formula $NIST$
+\end_inset
+
+, באמצעותן גם הערכנו את הטווח של חלקיקים באנרגיה של 
+\begin_inset Formula $5340[KeV]$
+\end_inset
+
+, והוא התברר כגדול יותר מהמרחק בין המקור לגלאי.
+ תוצאה זו הייתה קונסיסטנטית עם המדידות.
+ כמו כן, זיהינו מקור רדיואקטיבי לא ידוע באמצעות ספקטרום האלפא שלו, שנמדד
+ בזמנים שונים.
+ המקור זוהה בתור ****
 \end_layout
 
 \begin_layout Abstract
@@ -130,22 +138,6 @@ stodo
 
 \begin_layout Standard
 זיהוי מקור: מציאת אבות קדמונים.
-\end_layout
-
-\begin_layout Standard
-להיסגר על כוח הזיווג
-\end_layout
-
-\begin_layout Standard
-===
-\end_layout
-
-\begin_layout Standard
-נועם: סופש:
-\end_layout
-
-\begin_layout Standard
-לעבור פעם אחרונה ולגמור עם כל הכוכביות - שעתיים
 \end_layout
 
 \begin_layout Standard
