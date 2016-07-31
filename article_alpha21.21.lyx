@@ -1,4 +1,4 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
 \lyxformat 474
 \begin_document
 \begin_header
@@ -133,22 +133,6 @@ stodo
 \end_layout
 
 \begin_layout Standard
-חישוב: טווח עצירה 
-\begin_inset Formula $BETHE$
-\end_inset
-
- ונתונים אמריקאיים.
-\end_layout
-
-\begin_layout Standard
-* לחצים סטיות.
-\end_layout
-
-\begin_layout Standard
-דו"ח:
-\end_layout
-
-\begin_layout Standard
 להיסגר על כוח הזיווג
 \end_layout
 
@@ -220,44 +204,6 @@ stodo
 
 \begin_layout Part*
 רקע תיאורטי
-\end_layout
-
-\begin_layout Subsubsection*
-מושגים לוודא שישנם
-\end_layout
-
-\begin_layout Standard
-חלקיק אלפא
-\end_layout
-
-\begin_layout Standard
-מינהור דרך מחסום פוטנציאל קולומבי
-\end_layout
-
-\begin_layout Standard
-קבוע הדעיכה + קשר לאנרגית מעבר
-\end_layout
-
-\begin_layout Standard
-זמן חיים
-\end_layout
-
-\begin_layout Standard
-? כלל הזהב של פרמי, פליטה לרצף
-\end_layout
-
-\begin_layout Standard
-השפעת תנע זוויתי****!
-\end_layout
-
-\begin_layout Standard
-אינטרקצית חלקיק טעון עם חומר, כוח העצירה
-\end_layout
-
-\begin_layout Standard
-גלאים שרשרת טבעית ספקטרוסקופיה.
- כוח עצירה, תיאורית Beth.
- 
 \end_layout
 
 \begin_layout Subsection*
@@ -382,7 +328,11 @@ N,Z-odd & -1
 \begin_inset Formula $Z$
 \end_inset
 
- זוגיים.
+ זוגיים )זהו ה- 
+\begin_inset Formula $pairing-force$
+\end_inset
+
+(.
 \end_layout
 
 \begin_layout Standard
@@ -414,17 +364,6 @@ status open
 \begin_inset Formula $A=60$
 \end_inset
 
- ***מקור: 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-https://en.wikipedia.org/wiki/Nuclear_binding_energy
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
@@ -445,11 +384,6 @@ https://en.wikipedia.org/wiki/Nuclear_binding_energy
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-********* כוח הזיווג? שיקולי תנ"ז.
- זוגיות נוקליאונים? *******
 \end_layout
 
 \begin_layout Subsubsection*
@@ -549,8 +483,12 @@ N=\frac{1}{\lambda}R
 \begin_inset Formula $\lambda=\frac{2\pi}{\hbar}|<i|V|f>|^{2}\rho(E_{f})$
 \end_inset
 
-כאשר הצפיפות היא צפיפות המצבים הסופיים באנרגיה הסופית.
- *** מה פה ההפרעה??? ***
+ כאשר הצפיפות היא צפיפות המצבים הסופיים באנרגיה הסופית.
+ במקרה זה בוחרים את ההמילטוניאן להיות לפי ה- 
+\begin_inset Formula $shell-structure$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -571,22 +509,6 @@ N=\frac{1}{\lambda}R
 \end_inset
 
  ולכן כמותו יציבה, וכן הלאה לבנות שלו.
-\end_layout
-
-\begin_layout Standard
-=============
-\end_layout
-
-\begin_layout Standard
-יצירה של יסודות רדיואקטיביים
-\end_layout
-
-\begin_layout Standard
-ניתוח קוונטי: כלל הזהב של פרמי.
-\end_layout
-
-\begin_layout Standard
-==============
 \end_layout
 
 \begin_layout Subsection*
@@ -1100,20 +1022,6 @@ status open
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://www.ilocis.org/documents/chpt48e.htm
-\end_layout
-
-\end_inset
-
-מקור התמונה לעיל ***
-\end_layout
-
 \begin_layout Subsubsection*
 אופן פעולת גלאי מסוג מוליך למחצה
 \end_layout
@@ -1135,7 +1043,54 @@ http://www.ilocis.org/documents/chpt48e.htm
 \end_layout
 
 \begin_layout Standard
-*** תמונה *** 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/solid_state_detector.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+סכימה של גלאי חלקיקי אלפא מסוג מוליך למחצה.
+ חלקיקי אלפא מיננים אטומים שנמצאים בממשק בין אזור מסוג 
+\begin_inset Formula $n$
+\end_inset
+
+ לאזור מסוג 
+\begin_inset Formula $p$
+\end_inset
+
+.
+ היינון הזה הוא יצירת זוג אלקטרון-חור, שזורמים בכיוונים מנוגדים בהתאם לשדה
+ החשמלי.
+ את פרצי הזרם הללו ניתן למדוד.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part*
@@ -1269,7 +1224,6 @@ status open
 
 :
 \end_layout
-
 
 \begin_deeper
 \begin_layout Itemize
@@ -1658,28 +1612,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-***דן, בבקשה לוודא נוסחא זאת***
-\end_layout
-
-\begin_layout Standard
-***ספציפית: מדוע אנחנו מחלקים בצפיפות המסה ולא בצפיפות החלקיקים? מה זה משנו
- לחלקיק האלפא מה המסה של 
-\begin_inset Formula $N_{2}$
-\end_inset
-
- ? מעניין אותו כמה אלקטרונים נוספים יש
-\end_layout
-
-\begin_layout Standard
-הייתי רוצה לחלק בצפיפות המספרית 
-\begin_inset Formula $\frac{N}{V}$
-\end_inset
-
- וגם במספר האלקטרונים למולקולה.
- איפה נכנסת פה מסה?***
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula 
 \[
 \frac{dE}{d(\rho x)}=\frac{1}{l}\frac{K_{B}T}{m_{N_{2}}}\frac{dE}{dP}
@@ -1691,8 +1623,8 @@ status open
 \end_layout
 
 \begin_layout Standard
-===== ניתן להמיר בין האנרגיה שחלקיק אלפא מאבד בלחץ קבוע ליחידת מרחק, לאנרגיה
- שהוא מאבד על מרחק קבוע ליחידת לחץ לפי:=====
+בעזרת ניתוח זה ממירים בין האנרגיה שחלקיק אלפא מאבד בלחץ קבוע ליחידת מרחק,
+ לאנרגיה שהוא מאבד על מרחק קבוע ליחידת לחץ.
 \end_layout
 
 \begin_layout Standard
@@ -1764,7 +1696,11 @@ status open
 \end_inset
 
 , ונרמלנו כל ספקטרום בזמן המדידה נטו.
- )כזכור, צריך לשמור על לחץ מינימלי של ***(
+ )כזכור, צריך לשמור על לחץ מינימלי של 
+\begin_inset Formula $50[TORR]$
+\end_inset
+
+ לפני שמפעילים את המתח האחורי(
 \end_layout
 
 \begin_layout Subsubsection*
@@ -3007,68 +2943,14 @@ http://physics.nist.gov/PhysRefData/Star/Text/ASTAR.html
 הפניות
 \end_layout
 
-\begin_layout Subsubsection*
-מקורות תמונות
-\end_layout
-
-\begin_layout Itemize
-איור
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-- 
+\begin_layout Enumerate
+אנרגית קשר לנוקליאון: 
 \begin_inset Flex URL
 status open
 
 \begin_layout Plain Layout
 
-figure.boundless-cdn.com/11749/large/figure-21-03-02a
+https://en.wikipedia.org/wiki/Nuclear_binding_energy
 \end_layout
 
 \end_inset
@@ -3076,64 +2958,14 @@ figure.boundless-cdn.com/11749/large/figure-21-03-02a
 
 \end_layout
 
-\begin_layout Itemize
-איור
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-- 
+\begin_layout Enumerate
+כמות חלקיקי אלפא כתלות במרחק: 
 \begin_inset Flex URL
 status open
 
 \begin_layout Plain Layout
 
-Tinkham p.12
+http://www.ilocis.org/documents/chpt48e.htm
 \end_layout
 
 \end_inset
@@ -3141,194 +2973,15 @@ Tinkham p.12
 
 \end_layout
 
-\begin_layout Itemize
-איור
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-- 
+\begin_layout Enumerate
+גלאי מוליך למחצה 
 \begin_inset Flex URL
 status open
 
 \begin_layout Plain Layout
 
-img.tfd.com/ggse/6a/gsed_0001_0023_0_img6948
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-איור
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-4
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-- 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-Tinkham p.121
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-איור
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-5
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-- 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-upload.wikimedia.org/wikipedia/en/5/57/Flux_lines_in_a_superconductor01
+http://www.globalspec.com/learnmore/sensors_transducers_detectors/environmental_se
+nsors/radiation_detectors
 \end_layout
 
 \end_inset
@@ -3351,12 +3004,12 @@ upload.wikimedia.org/wikipedia/en/5/57/Flux_lines_in_a_superconductor01
 \end_inset
 
 .
- אם זה יותר מדי עמוס בגרף, לשאול את סתו על פונקציה של מטלב שיוצרת בצבע תחומי
- שגיאה
+ 
 \end_layout
 
 \begin_layout Standard
-ניסוי שלישי: חישוב הפליטות פר מקטע זמן נעשה ע"י חיסור שמגדיל את השגיאה ב-
+ניסוי של זיהוי מקור לא ידוע: חישוב הפליטות פר מקטע זמן נעשה ע"י חיסור שמגדיל
+ את השגיאה ב-
 \family roman
 \series medium
 \shape up
@@ -3407,7 +3060,7 @@ upload.wikimedia.org/wikipedia/en/5/57/Flux_lines_in_a_superconductor01
 \noun default
 \color inherit
 לכל היותר.
- הסיבה היא שיש תלות בין המדידות, ואנחנו יודעים אותה!! לא ב"ת.
+ הסיבה היא שיש תלות בין המדידות, ואנחנו יודעים אותה.
  לאחר מכן שוב 
 \begin_inset Formula $\sqrt{N(E)}$
 \end_inset
@@ -3416,61 +3069,17 @@ upload.wikimedia.org/wikipedia/en/5/57/Flux_lines_in_a_superconductor01
 \end_layout
 
 \begin_layout Standard
-פיטים של גאוסיאנים לא סימטריים.
- אי וודאות במרכז מתוך הפיט.
- אי וודאות בספירה הכוללת )משתמשים בזה אח"כ בשביל יחסים בין זמנים אני חושב(.
-\end_layout
-
-\begin_layout Standard
-לרגרסיה הלינארית: בין של מרכז פיק + אי וודאות מול אנרגיה ידועה + אי וודאות.
- התאמה אופטימלית )ואי הוודאויות שלה(
-\end_layout
-
-\begin_layout Standard
 דעיכה תלוית זמן: אי וודאות בזמן לפי רוחב מקטע זמן.
  אי וודאות בספירה לפי ספירה כוללת של הפיק.
 \end_layout
 
 \begin_layout Standard
-ספקטרום של מקור לא ידוע: בעיקרון אנחנו צריכים לקחת את חוסר הוודאויות של
- הבינים, וגם את חוסר הוודאות של ההמרה בין בין לבין אנרגיה.
-\end_layout
-
-\begin_layout Standard
-כוח עצירה: המרה בין לחץ לבין מרחק: גרירת אי וודאויות קלאסית.
-\end_layout
-
-\begin_layout Standard
-בגרף של 
-\begin_inset Formula $\frac{dE}{dx}(E)$
-\end_inset
-
- נקודות אנרגיה לפי אמצע של שתי אנרגיות סמוכות, אי וודאויות לפי האנרגיות
- האלה, אי וודאות בלחץ, אי וודאות בשיפוע.
-\end_layout
-
-\begin_layout Standard
-אי וודאות בטווח: לוקחים את ההופכי של 
-\begin_inset Formula $\frac{dE}{dx}(E)$
-\end_inset
-
- כולל אי הוודאות, האינטרגציה תבוא מיד עם אי וודאות.
- רק שהסכימה של האי וודאויות היא בסכימה אוקלידית.
-\end_layout
-
-\begin_layout Standard
-נראה לי שזהו.
+מציאת אנרגיות של המקור הלא ידוע: התחשבנו בחוסר הוודאויות של של ערוצי האנרגיה,
+ וגם בחוסר הוודאות של ההמרה בין ערוץ אנרגיה לאנרגיה.
 \end_layout
 
 \begin_layout Subsection*
-קוד מטלב מערכת הניסוי
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:matlab_control"
-
-\end_inset
-
-
+קוד מטלב ניתוח נתונים
 \end_layout
 
 \begin_layout Standard
@@ -3479,25 +3088,7 @@ status open
 
 \begin_layout Plain Layout
 
-https://github.com/noamg/sc/tree/master/matlabio
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-קוד מטלב ופייתון ניתוח נתונים
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-https://github.com/noamg/sc/tree/master/analysis
+https://github.com/noamg/alpha/tree/master/analysis
 \end_layout
 
 \end_inset
