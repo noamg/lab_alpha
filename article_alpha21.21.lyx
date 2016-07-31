@@ -5510,45 +5510,11 @@ Range(E_{\alpha})=x_{final}-x_{initial}=\int_{E_{in}}^{E_{final}}\frac{dx}{dE}dE
 \end_inset
 
  )כדי לעבור ליחידות הנכונות: מרחק, קיזזנו מהתוצאה את צפיפות החנקן בלחץ הגבוה
- ביותר לפי 
+ ביותר, אטמוספרי, לפי 
 \begin_inset Formula $\rho=\frac{m_{N_{2}}}{K_{B}T}P$
 \end_inset
 
 (
-\end_layout
-
-\begin_layout Enumerate
-* אולי הסבר למשהו בעייתי בגרף: ריווח לא מספיק טוב של לחצים.
- רחוק מדי מהנגזרת.
-\end_layout
-
-\begin_layout Enumerate
-* הטווח של כל פיק ראשוני: ע"י אינטרגציה ואובדן האנרגיה.
- צריך להוסיף ניתוח של חלקיק שמאבד אנרגיה באופן הדרגתי ולקבל את הטווח.
- האם מצליחים להרוג את הפיק הנמוך? אנחנו קיבלנו שלא.
- כלומר, צריך להגדיל את המרחק לגלאי כדי לראות אובדן מלא של הפיק.
- לעשות פיט כלשהו.
- אולי 
-\begin_inset Formula $spline$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Enumerate
-* האם להכניס השוואה למודל 
-\begin_inset Formula $bethe$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Enumerate
-* האם בעקבות חישוב כוח העצירה בחנקן, אנחנו יכולים להגיד משהו בנוגע לכוח
- העצירה באוויר רגיל בלחץ נמוך, כדי לתת תיקוף שירדנו מספיק נמוך בניסוי הראשוני.
- הערכה גסה בטוח אפשר לקבל בגלל שרוב האוויר חנקן.
- ואז אפשר לעשות אינטגרציה ולקבל הערכה של כמה אנרגיה הלכה לאיבוד בדרך )שהיא
- די קצרה כי יש לחץ נמוך(.
 \end_layout
 
 \begin_layout Enumerate
@@ -5610,22 +5576,6 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Enumerate
-* ההתפלגויות בהינתן לחץ, אמורות לתת יותר מקום לזנב למעלה לעומת ההתפלגויות
- ללא לחץ.
-\end_layout
-
-\begin_layout Enumerate
-* יחסים של ביסמוט לפולוניום וטליום.
- קבועי דעיכה חלקיים.
- לראות אותם.
-\end_layout
-
-\begin_layout Enumerate
-* בדיקת השתנות הספירות בכל פיק.
- כמה אבדו? מה מחלצים מזה?
 \end_layout
 
 \begin_layout Subsection*
@@ -5829,7 +5779,7 @@ status open
 
  לא דועכות באופן מובחן בסקאלת הזמן של הניסוי.
  כלומר, ההתפרקויות שלהן נמצאות בשיווי משקל סקולרי עם יסוד שלו 
-\begin_inset Formula $t_{\frac{1}{2}}\gg T$
+\begin_inset Formula $\tilde{t}_{\frac{1}{2}}\gg T$
 \end_inset
 
 .
@@ -5867,12 +5817,12 @@ status open
 
  )והם מתפרקים עוד לפני תחילת הניסוי(.
  אחריהם שתי אפשרויות: גרעין עם 
-\begin_inset Formula $t_{\frac{1}{2}}\gg T$
+\begin_inset Formula $\tilde{t}_{\frac{1}{2}}\gg T$
 \end_inset
 
  שאחריו רצף התפרקויות עד יסוד יציב )שלא משתנה בזמן המדידה(, או גרעין עם
  
-\begin_inset Formula $t_{\frac{1}{2}}=T$
+\begin_inset Formula $\tilde{t}_{\frac{1}{2}}=T$
 \end_inset
 
  .
@@ -6125,111 +6075,12 @@ Tl208\Rightarrow Pb208
 *****************
 \end_layout
 
-\begin_layout Standard
-מקורות: מאגרי מידע שבהם השתמשנו***
-\end_layout
-
-\begin_layout Standard
-================
-\end_layout
-
-\begin_layout Standard
-==
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://www.nndc.bnl.gov/nudat2/indx_dec.jsp
-\end_layout
-
-\end_inset
-
-מאגר חיפוש התפק'ויות
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html
-\end_layout
-
-\end_inset
-
- טבלת נוקלאידים
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://202.141.40.218/wiki/index.php/File:Akjain25.png
-\end_layout
-
-\end_inset
-
-תמונת מנהור אלפא
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-https://en.wikipedia.org/wiki/Nuclear_binding_energy#/media/File:Binding_energy_cu
-rve_-_common_isotopes.svg
-\end_layout
-
-\end_inset
-
-אנרגיית קשר לחלקיק
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://physics.nist.gov/PhysRefData/Star/Text/ASTAR.html
-\end_layout
-
-\end_inset
-
-מידע 
-\begin_inset Formula $ASTAR$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-——-
-\end_layout
-
-\begin_layout Standard
-הערות
-\end_layout
-
-\begin_layout Standard
-——-
-\end_layout
-
-\begin_layout Standard
-*שכבה מתה בגלאי.
-\end_layout
-
 \begin_layout Part*
 הפניות
+\end_layout
+
+\begin_layout Section*
+מקורות
 \end_layout
 
 \begin_layout Enumerate
@@ -6263,7 +6114,7 @@ http://www.ilocis.org/documents/chpt48e.htm
 \end_layout
 
 \begin_layout Enumerate
-גלאי מוליך למחצה 
+גלאי מוליך למחצה: 
 \begin_inset Flex URL
 status open
 
@@ -6271,6 +6122,90 @@ status open
 
 http://www.globalspec.com/learnmore/sensors_transducers_detectors/environmental_se
 nsors/radiation_detectors
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+מאגר חיפוש התפרקויות: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.nndc.bnl.gov/nudat2/indx_dec.jsp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+טבלת נוקלאידים: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+מידע 
+\begin_inset Formula $ASTAR$
+\end_inset
+
+: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://physics.nist.gov/PhysRefData/Star/Text/ASTAR.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+תמונות
+\end_layout
+
+\begin_layout Enumerate
+תמונת מנהור אלפא: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://202.141.40.218/wiki/index.php/File:Akjain25.png
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+אנרגיית קשר לחלקיק: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://en.wikipedia.org/wiki/Nuclear_binding_energy#/media/File:Binding_energy_cu
+rve_-_common_isotopes.svg
 \end_layout
 
 \end_inset
